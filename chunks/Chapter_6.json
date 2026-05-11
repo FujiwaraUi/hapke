@@ -1,6 +1,6 @@
 [
   {
-    "chunk_id": "ch06_sec06_01_p00",
+    "chunk_id": "ch06_0000",
     "chapter": 6,
     "section": "6.1",
     "section_title": "Introduction",
@@ -10,7 +10,7 @@
     "token_count": 394
   },
   {
-    "chunk_id": "ch06_sec06_01_p01",
+    "chunk_id": "ch06_0001",
     "chapter": 6,
     "section": "6.1",
     "section_title": "Introduction",
@@ -20,7 +20,7 @@
     "token_count": 215
   },
   {
-    "chunk_id": "ch06_sec06_02_p00",
+    "chunk_id": "ch06_0002",
     "chapter": 6,
     "section": "6.2",
     "section_title": "Extension of definitions to nonspherical particles",
@@ -36,7 +36,7 @@
     "token_count": 352
   },
   {
-    "chunk_id": "ch06_sec06_02_p01",
+    "chunk_id": "ch06_0003",
     "chapter": 6,
     "section": "6.2",
     "section_title": "Extension of definitions to nonspherical particles",
@@ -46,7 +46,7 @@
     "token_count": 217
   },
   {
-    "chunk_id": "ch06_sec06_03_p00",
+    "chunk_id": "ch06_0004",
     "chapter": 6,
     "section": "6.3",
     "section_title": "Empirical scattering functions 6.3.1 The Allen approximation for Fraunhofer diffraction",
@@ -60,7 +60,7 @@
     "token_count": 351
   },
   {
-    "chunk_id": "ch06_sec06_03_p01",
+    "chunk_id": "ch06_0005",
     "chapter": 6,
     "section": "6.3",
     "section_title": "Empirical scattering functions 6.3.1 The Allen approximation for Fraunhofer diffraction",
@@ -74,7 +74,7 @@
     "token_count": 105
   },
   {
-    "chunk_id": "ch06_sec06_03_02_p00",
+    "chunk_id": "ch06_0006",
     "chapter": 6,
     "section": "6.3.2",
     "section_title": "Legendre polynomial representation of $\\Pi(g)$",
@@ -90,7 +90,7 @@
     "token_count": 405
   },
   {
-    "chunk_id": "ch06_sec06_03_02_p01",
+    "chunk_id": "ch06_0007",
     "chapter": 6,
     "section": "6.3.2",
     "section_title": "Legendre polynomial representation of $\\Pi(g)$",
@@ -106,7 +106,7 @@
     "token_count": 140
   },
   {
-    "chunk_id": "ch06_sec06_03_03_p00",
+    "chunk_id": "ch06_0008",
     "chapter": 6,
     "section": "6.3.3",
     "section_title": "Henyey-Greenstein function representation of $\\Pi(g)$",
@@ -124,7 +124,7 @@
     "token_count": 404
   },
   {
-    "chunk_id": "ch06_sec06_03_03_p01",
+    "chunk_id": "ch06_0009",
     "chapter": 6,
     "section": "6.3.3",
     "section_title": "Henyey-Greenstein function representation of $\\Pi(g)$",
@@ -146,7 +146,7 @@
     "token_count": 383
   },
   {
-    "chunk_id": "ch06_sec06_03_03_p02",
+    "chunk_id": "ch06_0010",
     "chapter": 6,
     "section": "6.3.3",
     "section_title": "Henyey-Greenstein function representation of $\\Pi(g)$",
@@ -156,7 +156,7 @@
     "token_count": 139
   },
   {
-    "chunk_id": "ch06_sec06_03_04_p00",
+    "chunk_id": "ch06_0011",
     "chapter": 6,
     "section": "6.3.4",
     "section_title": "Lambert and Lommel–Seeliger sphere phase functions for nondiffractive scattering",
@@ -166,7 +166,7 @@
     "token_count": 381
   },
   {
-    "chunk_id": "ch06_sec06_03_04_p01",
+    "chunk_id": "ch06_0012",
     "chapter": 6,
     "section": "6.3.4",
     "section_title": "Lambert and Lommel–Seeliger sphere phase functions for nondiffractive scattering",
@@ -192,7 +192,7 @@
     "token_count": 408
   },
   {
-    "chunk_id": "ch06_sec06_03_04_p02",
+    "chunk_id": "ch06_0013",
     "chapter": 6,
     "section": "6.3.4",
     "section_title": "Lambert and Lommel–Seeliger sphere phase functions for nondiffractive scattering",
@@ -216,7 +216,7 @@
     "token_count": 397
   },
   {
-    "chunk_id": "ch06_sec06_03_04_p03",
+    "chunk_id": "ch06_0014",
     "chapter": 6,
     "section": "6.3.4",
     "section_title": "Lambert and Lommel–Seeliger sphere phase functions for nondiffractive scattering",
@@ -236,7 +236,7 @@
     "token_count": 241
   },
   {
-    "chunk_id": "ch06_sec06_03_05_p00",
+    "chunk_id": "ch06_0015",
     "chapter": 6,
     "section": "6.3.5",
     "section_title": "Other functions",
@@ -250,7 +250,7 @@
     "token_count": 232
   },
   {
-    "chunk_id": "ch06_sec06_04_p00",
+    "chunk_id": "ch06_0016",
     "chapter": 6,
     "section": "6.4",
     "section_title": "Theoretical and experimental studies of nonspherical particles 6.4.1 Theory for particles small compared with the wavelength",
@@ -264,7 +264,7 @@
     "token_count": 390
   },
   {
-    "chunk_id": "ch06_sec06_04_p01",
+    "chunk_id": "ch06_0017",
     "chapter": 6,
     "section": "6.4",
     "section_title": "Theoretical and experimental studies of nonspherical particles 6.4.1 Theory for particles small compared with the wavelength",
@@ -280,7 +280,7 @@
     "token_count": 377
   },
   {
-    "chunk_id": "ch06_sec06_04_p02",
+    "chunk_id": "ch06_0018",
     "chapter": 6,
     "section": "6.4",
     "section_title": "Theoretical and experimental studies of nonspherical particles 6.4.1 Theory for particles small compared with the wavelength",
@@ -290,7 +290,7 @@
     "token_count": 284
   },
   {
-    "chunk_id": "ch06_sec06_04_02_p00",
+    "chunk_id": "ch06_0019",
     "chapter": 6,
     "section": "6.4.2",
     "section_title": "General theoretical methods",
@@ -300,7 +300,7 @@
     "token_count": 328
   },
   {
-    "chunk_id": "ch06_sec06_04_02_p01",
+    "chunk_id": "ch06_0020",
     "chapter": 6,
     "section": "6.4.2",
     "section_title": "General theoretical methods",
@@ -310,7 +310,7 @@
     "token_count": 200
   },
   {
-    "chunk_id": "ch06_sec06_04_02_p02",
+    "chunk_id": "ch06_0021",
     "chapter": 6,
     "section": "6.4.2",
     "section_title": "General theoretical methods",
@@ -320,7 +320,7 @@
     "token_count": 287
   },
   {
-    "chunk_id": "ch06_sec06_04_02_p03",
+    "chunk_id": "ch06_0022",
     "chapter": 6,
     "section": "6.4.2",
     "section_title": "General theoretical methods",
@@ -330,7 +330,7 @@
     "token_count": 305
   },
   {
-    "chunk_id": "ch06_sec06_04_03_p00",
+    "chunk_id": "ch06_0023",
     "chapter": 6,
     "section": "6.4.3",
     "section_title": "Other approaches",
@@ -340,7 +340,7 @@
     "token_count": 378
   },
   {
-    "chunk_id": "ch06_sec06_04_03_p01",
+    "chunk_id": "ch06_0024",
     "chapter": 6,
     "section": "6.4.3",
     "section_title": "Other approaches",
@@ -350,7 +350,7 @@
     "token_count": 278
   },
   {
-    "chunk_id": "ch06_sec06_04_03_p02",
+    "chunk_id": "ch06_0025",
     "chapter": 6,
     "section": "6.4.3",
     "section_title": "Other approaches",
@@ -360,7 +360,7 @@
     "token_count": 365
   },
   {
-    "chunk_id": "ch06_sec06_04_04_p00",
+    "chunk_id": "ch06_0026",
     "chapter": 6,
     "section": "6.4.4",
     "section_title": "Laboratory measurements",
@@ -370,7 +370,7 @@
     "token_count": 250
   },
   {
-    "chunk_id": "ch06_sec06_04_04_p01",
+    "chunk_id": "ch06_0027",
     "chapter": 6,
     "section": "6.4.4",
     "section_title": "Laboratory measurements",
@@ -380,7 +380,7 @@
     "token_count": 241
   },
   {
-    "chunk_id": "ch06_sec06_04_05_p00",
+    "chunk_id": "ch06_0028",
     "chapter": 6,
     "section": "6.4.5",
     "section_title": "Summary of theoretical and experimental studies",
@@ -390,7 +390,7 @@
     "token_count": 394
   },
   {
-    "chunk_id": "ch06_sec06_04_05_p01",
+    "chunk_id": "ch06_0029",
     "chapter": 6,
     "section": "6.4.5",
     "section_title": "Summary of theoretical and experimental studies",
@@ -400,7 +400,7 @@
     "token_count": 374
   },
   {
-    "chunk_id": "ch06_sec06_04_05_p02",
+    "chunk_id": "ch06_0030",
     "chapter": 6,
     "section": "6.4.5",
     "section_title": "Summary of theoretical and experimental studies",
@@ -410,7 +410,7 @@
     "token_count": 174
   },
   {
-    "chunk_id": "ch06_sec06_04_05_p03",
+    "chunk_id": "ch06_0031",
     "chapter": 6,
     "section": "6.4.5",
     "section_title": "Summary of theoretical and experimental studies",
@@ -420,7 +420,7 @@
     "token_count": 636
   },
   {
-    "chunk_id": "ch06_sec06_04_05_p04",
+    "chunk_id": "ch06_0032",
     "chapter": 6,
     "section": "6.4.5",
     "section_title": "Summary of theoretical and experimental studies",
@@ -430,7 +430,7 @@
     "token_count": 386
   },
   {
-    "chunk_id": "ch06_sec06_04_05_p05",
+    "chunk_id": "ch06_0033",
     "chapter": 6,
     "section": "6.4.5",
     "section_title": "Summary of theoretical and experimental studies",
@@ -440,7 +440,7 @@
     "token_count": 399
   },
   {
-    "chunk_id": "ch06_sec06_04_05_p06",
+    "chunk_id": "ch06_0034",
     "chapter": 6,
     "section": "6.4.5",
     "section_title": "Summary of theoretical and experimental studies",
@@ -454,7 +454,7 @@
     "token_count": 323
   },
   {
-    "chunk_id": "ch06_sec06_04_05_p07",
+    "chunk_id": "ch06_0035",
     "chapter": 6,
     "section": "6.4.5",
     "section_title": "Summary of theoretical and experimental studies",
@@ -464,7 +464,7 @@
     "token_count": 390
   },
   {
-    "chunk_id": "ch06_sec06_04_05_p08",
+    "chunk_id": "ch06_0036",
     "chapter": 6,
     "section": "6.4.5",
     "section_title": "Summary of theoretical and experimental studies",
@@ -474,7 +474,7 @@
     "token_count": 164
   },
   {
-    "chunk_id": "ch06_sec06_05_p00",
+    "chunk_id": "ch06_0037",
     "chapter": 6,
     "section": "6.5",
     "section_title": "The generalized equivalent-slab model 6.5.1 The scattering efficiency",
@@ -484,7 +484,7 @@
     "token_count": 320
   },
   {
-    "chunk_id": "ch06_sec06_05_02_p00",
+    "chunk_id": "ch06_0038",
     "chapter": 6,
     "section": "6.5.2",
     "section_title": "Fraunhofer diffraction",
@@ -494,7 +494,7 @@
     "token_count": 254
   },
   {
-    "chunk_id": "ch06_sec06_05_03_p00",
+    "chunk_id": "ch06_0039",
     "chapter": 6,
     "section": "6.5.3",
     "section_title": "Nondiffractive scattering",
@@ -508,7 +508,7 @@
     "token_count": 237
   },
   {
-    "chunk_id": "ch06_sec06_05_03_p00",
+    "chunk_id": "ch06_0040",
     "chapter": 6,
     "section": "6.5.3",
     "section_title": ".2 Exterior-surface reflection",
@@ -518,7 +518,7 @@
     "token_count": 319
   },
   {
-    "chunk_id": "ch06_sec06_05_03_p01",
+    "chunk_id": "ch06_0041",
     "chapter": 6,
     "section": "6.5.3",
     "section_title": ".2 Exterior-surface reflection",
@@ -528,7 +528,7 @@
     "token_count": 296
   },
   {
-    "chunk_id": "ch06_sec06_05_03_p02",
+    "chunk_id": "ch06_0042",
     "chapter": 6,
     "section": "6.5.3",
     "section_title": ".2 Exterior-surface reflection",
@@ -538,7 +538,7 @@
     "token_count": 260
   },
   {
-    "chunk_id": "ch06_sec06_05_03_p03",
+    "chunk_id": "ch06_0043",
     "chapter": 6,
     "section": "6.5.3",
     "section_title": ".2 Exterior-surface reflection",
@@ -548,7 +548,7 @@
     "token_count": 306
   },
   {
-    "chunk_id": "ch06_sec06_05_03_p04",
+    "chunk_id": "ch06_0044",
     "chapter": 6,
     "section": "6.5.3",
     "section_title": ".2 Exterior-surface reflection",
@@ -564,7 +564,7 @@
     "token_count": 299
   },
   {
-    "chunk_id": "ch06_sec06_05_03_p00",
+    "chunk_id": "ch06_0045",
     "chapter": 6,
     "section": "6.5.3",
     "section_title": ".3 Internal surface reflection",
@@ -578,7 +578,7 @@
     "token_count": 373
   },
   {
-    "chunk_id": "ch06_sec06_05_03_p01",
+    "chunk_id": "ch06_0046",
     "chapter": 6,
     "section": "6.5.3",
     "section_title": ".3 Internal surface reflection",
@@ -596,7 +596,7 @@
     "token_count": 359
   },
   {
-    "chunk_id": "ch06_sec06_05_03_p00",
+    "chunk_id": "ch06_0047",
     "chapter": 6,
     "section": "6.5.3",
     "section_title": ".4 The internal-transmission factor",
@@ -610,7 +610,7 @@
     "token_count": 357
   },
   {
-    "chunk_id": "ch06_sec06_05_03_p01",
+    "chunk_id": "ch06_0048",
     "chapter": 6,
     "section": "6.5.3",
     "section_title": ".4 The internal-transmission factor",
@@ -624,7 +624,7 @@
     "token_count": 403
   },
   {
-    "chunk_id": "ch06_sec06_05_03_p02",
+    "chunk_id": "ch06_0049",
     "chapter": 6,
     "section": "6.5.3",
     "section_title": ".4 The internal-transmission factor",
@@ -640,7 +640,7 @@
     "token_count": 304
   },
   {
-    "chunk_id": "ch06_sec06_05_03_p03",
+    "chunk_id": "ch06_0050",
     "chapter": 6,
     "section": "6.5.3",
     "section_title": ".4 The internal-transmission factor",
@@ -650,7 +650,7 @@
     "token_count": 344
   },
   {
-    "chunk_id": "ch06_sec06_05_03_p04",
+    "chunk_id": "ch06_0051",
     "chapter": 6,
     "section": "6.5.3",
     "section_title": ".4 The internal-transmission factor",
@@ -674,7 +674,7 @@
     "token_count": 299
   },
   {
-    "chunk_id": "ch06_sec06_05_03_p05",
+    "chunk_id": "ch06_0052",
     "chapter": 6,
     "section": "6.5.3",
     "section_title": ".4 The internal-transmission factor",
@@ -694,7 +694,7 @@
     "token_count": 394
   },
   {
-    "chunk_id": "ch06_sec06_05_03_p06",
+    "chunk_id": "ch06_0053",
     "chapter": 6,
     "section": "6.5.3",
     "section_title": ".4 The internal-transmission factor",
@@ -704,7 +704,7 @@
     "token_count": 116
   },
   {
-    "chunk_id": "ch06_sec06_05_04_p00",
+    "chunk_id": "ch06_0054",
     "chapter": 6,
     "section": "6.5.4",
     "section_title": "Experimental choice of models for $\\Theta$",
@@ -714,7 +714,7 @@
     "token_count": 343
   },
   {
-    "chunk_id": "ch06_sec06_05_04_p01",
+    "chunk_id": "ch06_0055",
     "chapter": 6,
     "section": "6.5.4",
     "section_title": "Experimental choice of models for $\\Theta$",
@@ -724,7 +724,7 @@
     "token_count": 326
   },
   {
-    "chunk_id": "ch06_sec06_05_04_p02",
+    "chunk_id": "ch06_0056",
     "chapter": 6,
     "section": "6.5.4",
     "section_title": "Experimental choice of models for $\\Theta$",
@@ -734,7 +734,7 @@
     "token_count": 359
   },
   {
-    "chunk_id": "ch06_sec06_05_04_p03",
+    "chunk_id": "ch06_0057",
     "chapter": 6,
     "section": "6.5.4",
     "section_title": "Experimental choice of models for $\\Theta$",
@@ -744,7 +744,7 @@
     "token_count": 433
   },
   {
-    "chunk_id": "ch06_sec06_05_04_p04",
+    "chunk_id": "ch06_0058",
     "chapter": 6,
     "section": "6.5.4",
     "section_title": "Experimental choice of models for $\\Theta$",
@@ -754,7 +754,7 @@
     "token_count": 398
   },
   {
-    "chunk_id": "ch06_sec06_05_04_p05",
+    "chunk_id": "ch06_0059",
     "chapter": 6,
     "section": "6.5.4",
     "section_title": "Experimental choice of models for $\\Theta$",
@@ -768,7 +768,7 @@
     "token_count": 256
   },
   {
-    "chunk_id": "ch06_sec06_05_04_p06",
+    "chunk_id": "ch06_0060",
     "chapter": 6,
     "section": "6.5.4",
     "section_title": "Experimental choice of models for $\\Theta$",
@@ -782,7 +782,7 @@
     "token_count": 385
   },
   {
-    "chunk_id": "ch06_sec06_05_05_p00",
+    "chunk_id": "ch06_0061",
     "chapter": 6,
     "section": "6.5.5",
     "section_title": "The espat function",
@@ -802,7 +802,7 @@
     "token_count": 407
   },
   {
-    "chunk_id": "ch06_sec06_05_05_p01",
+    "chunk_id": "ch06_0062",
     "chapter": 6,
     "section": "6.5.5",
     "section_title": "The espat function",
@@ -818,7 +818,7 @@
     "token_count": 239
   },
   {
-    "chunk_id": "ch06_sec06_05_05_p02",
+    "chunk_id": "ch06_0063",
     "chapter": 6,
     "section": "6.5.5",
     "section_title": "The espat function",
@@ -834,7 +834,7 @@
     "token_count": 328
   },
   {
-    "chunk_id": "ch06_sec06_05_05_p03",
+    "chunk_id": "ch06_0064",
     "chapter": 6,
     "section": "6.5.5",
     "section_title": "The espat function",
@@ -850,7 +850,7 @@
     "token_count": 383
   },
   {
-    "chunk_id": "ch06_sec06_05_05_p04",
+    "chunk_id": "ch06_0065",
     "chapter": 6,
     "section": "6.5.5",
     "section_title": "The espat function",
@@ -864,7 +864,7 @@
     "token_count": 332
   },
   {
-    "chunk_id": "ch06_sec06_05_05_p05",
+    "chunk_id": "ch06_0066",
     "chapter": 6,
     "section": "6.5.5",
     "section_title": "The espat function",
@@ -874,7 +874,7 @@
     "token_count": 114
   },
   {
-    "chunk_id": "ch06_sec06_05_07_p00",
+    "chunk_id": "ch06_0067",
     "chapter": 6,
     "section": "6.5.7",
     "section_title": "The particle phase function of the equivalent-slab model",
@@ -894,7 +894,7 @@
     "token_count": 311
   },
   {
-    "chunk_id": "ch06_sec06_05_08_p00",
+    "chunk_id": "ch06_0068",
     "chapter": 6,
     "section": "6.5.8",
     "section_title": "Coated particles",
@@ -908,7 +908,7 @@
     "token_count": 403
   },
   {
-    "chunk_id": "ch06_sec06_05_08_p01",
+    "chunk_id": "ch06_0069",
     "chapter": 6,
     "section": "6.5.8",
     "section_title": "Coated particles",
@@ -930,7 +930,7 @@
     "token_count": 327
   },
   {
-    "chunk_id": "ch06_sec06_05_09_p00",
+    "chunk_id": "ch06_0070",
     "chapter": 6,
     "section": "6.5.9",
     "section_title": "Summary of the equivalent-slab model for irregular particles",
@@ -946,7 +946,7 @@
     "token_count": 397
   },
   {
-    "chunk_id": "ch06_sec06_05_09_p01",
+    "chunk_id": "ch06_0071",
     "chapter": 6,
     "section": "6.5.9",
     "section_title": "Summary of the equivalent-slab model for irregular particles",
@@ -982,7 +982,7 @@
     "token_count": 407
   },
   {
-    "chunk_id": "ch06_sec06_05_09_p02",
+    "chunk_id": "ch06_0072",
     "chapter": 6,
     "section": "6.5.9",
     "section_title": "Summary of the equivalent-slab model for irregular particles",
@@ -996,7 +996,7 @@
     "token_count": 33
   },
   {
-    "chunk_id": "ch06_sec06_06_p00",
+    "chunk_id": "ch06_0073",
     "chapter": 6,
     "section": "6.6",
     "section_title": "Computer programs and databases",

@@ -1,6 +1,6 @@
 [
   {
-    "chunk_id": "ch12_sec12_01_p00",
+    "chunk_id": "ch12_0000",
     "chapter": 12,
     "section": "12.1",
     "section_title": "Introduction",
@@ -10,7 +10,7 @@
     "token_count": 219
   },
   {
-    "chunk_id": "ch12_sec12_01_p01",
+    "chunk_id": "ch12_0001",
     "chapter": 12,
     "section": "12.1",
     "section_title": "Introduction",
@@ -20,7 +20,7 @@
     "token_count": 377
   },
   {
-    "chunk_id": "ch12_sec12_01_p02",
+    "chunk_id": "ch12_0002",
     "chapter": 12,
     "section": "12.1",
     "section_title": "Introduction",
@@ -30,7 +30,7 @@
     "token_count": 369
   },
   {
-    "chunk_id": "ch12_sec12_01_p03",
+    "chunk_id": "ch12_0003",
     "chapter": 12,
     "section": "12.1",
     "section_title": "Introduction",
@@ -56,7 +56,7 @@
     "token_count": 363
   },
   {
-    "chunk_id": "ch12_sec12_01_p04",
+    "chunk_id": "ch12_0004",
     "chapter": 12,
     "section": "12.1",
     "section_title": "Introduction",
@@ -72,7 +72,7 @@
     "token_count": 394
   },
   {
-    "chunk_id": "ch12_sec12_01_p05",
+    "chunk_id": "ch12_0005",
     "chapter": 12,
     "section": "12.1",
     "section_title": "Introduction",
@@ -90,7 +90,7 @@
     "token_count": 363
   },
   {
-    "chunk_id": "ch12_sec12_01_p06",
+    "chunk_id": "ch12_0006",
     "chapter": 12,
     "section": "12.1",
     "section_title": "Introduction",
@@ -100,7 +100,7 @@
     "token_count": 390
   },
   {
-    "chunk_id": "ch12_sec12_01_p07",
+    "chunk_id": "ch12_0007",
     "chapter": 12,
     "section": "12.1",
     "section_title": "Introduction",
@@ -110,7 +110,7 @@
     "token_count": 209
   },
   {
-    "chunk_id": "ch12_sec12_02_01_p00",
+    "chunk_id": "ch12_0008",
     "chapter": 12,
     "section": "12.2.1",
     "section_title": "Derivation of the general equations",
@@ -124,7 +124,7 @@
     "token_count": 320
   },
   {
-    "chunk_id": "ch12_sec12_02_01_p01",
+    "chunk_id": "ch12_0009",
     "chapter": 12,
     "section": "12.2.1",
     "section_title": "Derivation of the general equations",
@@ -142,7 +142,7 @@
     "token_count": 395
   },
   {
-    "chunk_id": "ch12_sec12_02_01_p02",
+    "chunk_id": "ch12_0010",
     "chapter": 12,
     "section": "12.2.1",
     "section_title": "Derivation of the general equations",
@@ -158,7 +158,7 @@
     "token_count": 281
   },
   {
-    "chunk_id": "ch12_sec12_02_01_p03",
+    "chunk_id": "ch12_0011",
     "chapter": 12,
     "section": "12.2.1",
     "section_title": "Derivation of the general equations",
@@ -190,7 +190,7 @@
     "token_count": 408
   },
   {
-    "chunk_id": "ch12_sec12_02_01_p04",
+    "chunk_id": "ch12_0012",
     "chapter": 12,
     "section": "12.2.1",
     "section_title": "Derivation of the general equations",
@@ -208,7 +208,7 @@
     "token_count": 392
   },
   {
-    "chunk_id": "ch12_sec12_02_01_p05",
+    "chunk_id": "ch12_0013",
     "chapter": 12,
     "section": "12.2.1",
     "section_title": "Derivation of the general equations",
@@ -226,7 +226,7 @@
     "token_count": 357
   },
   {
-    "chunk_id": "ch12_sec12_02_01_p06",
+    "chunk_id": "ch12_0014",
     "chapter": 12,
     "section": "12.2.1",
     "section_title": "Derivation of the general equations",
@@ -250,7 +250,7 @@
     "token_count": 376
   },
   {
-    "chunk_id": "ch12_sec12_02_01_p07",
+    "chunk_id": "ch12_0015",
     "chapter": 12,
     "section": "12.2.1",
     "section_title": "Derivation of the general equations",
@@ -272,7 +272,7 @@
     "token_count": 405
   },
   {
-    "chunk_id": "ch12_sec12_02_01_p08",
+    "chunk_id": "ch12_0016",
     "chapter": 12,
     "section": "12.2.1",
     "section_title": "Derivation of the general equations",
@@ -288,7 +288,7 @@
     "token_count": 54
   },
   {
-    "chunk_id": "ch12_sec12_02_02_p00",
+    "chunk_id": "ch12_0017",
     "chapter": 12,
     "section": "12.2.2",
     "section_title": "The case when i < e",
@@ -308,7 +308,7 @@
     "token_count": 325
   },
   {
-    "chunk_id": "ch12_sec12_02_02_p01",
+    "chunk_id": "ch12_0018",
     "chapter": 12,
     "section": "12.2.2",
     "section_title": "The case when i < e",
@@ -328,7 +328,7 @@
     "token_count": 385
   },
   {
-    "chunk_id": "ch12_sec12_02_02_p02",
+    "chunk_id": "ch12_0019",
     "chapter": 12,
     "section": "12.2.2",
     "section_title": "The case when i < e",
@@ -342,7 +342,7 @@
     "token_count": 399
   },
   {
-    "chunk_id": "ch12_sec12_02_02_p03",
+    "chunk_id": "ch12_0020",
     "chapter": 12,
     "section": "12.2.2",
     "section_title": "The case when i < e",
@@ -362,7 +362,7 @@
     "token_count": 390
   },
   {
-    "chunk_id": "ch12_sec12_02_02_p04",
+    "chunk_id": "ch12_0021",
     "chapter": 12,
     "section": "12.2.2",
     "section_title": "The case when i < e",
@@ -382,7 +382,7 @@
     "token_count": 392
   },
   {
-    "chunk_id": "ch12_sec12_02_02_p05",
+    "chunk_id": "ch12_0022",
     "chapter": 12,
     "section": "12.2.2",
     "section_title": "The case when i < e",
@@ -408,7 +408,7 @@
     "token_count": 377
   },
   {
-    "chunk_id": "ch12_sec12_02_02_p06",
+    "chunk_id": "ch12_0023",
     "chapter": 12,
     "section": "12.2.2",
     "section_title": "The case when i < e",
@@ -430,7 +430,7 @@
     "token_count": 373
   },
   {
-    "chunk_id": "ch12_sec12_02_02_p07",
+    "chunk_id": "ch12_0024",
     "chapter": 12,
     "section": "12.2.2",
     "section_title": "The case when i < e",
@@ -452,7 +452,7 @@
     "token_count": 377
   },
   {
-    "chunk_id": "ch12_sec12_02_02_p08",
+    "chunk_id": "ch12_0025",
     "chapter": 12,
     "section": "12.2.2",
     "section_title": "The case when i < e",
@@ -478,7 +478,7 @@
     "token_count": 405
   },
   {
-    "chunk_id": "ch12_sec12_02_02_p09",
+    "chunk_id": "ch12_0026",
     "chapter": 12,
     "section": "12.2.2",
     "section_title": "The case when i < e",
@@ -498,7 +498,7 @@
     "token_count": 393
   },
   {
-    "chunk_id": "ch12_sec12_02_02_p10",
+    "chunk_id": "ch12_0027",
     "chapter": 12,
     "section": "12.2.2",
     "section_title": "The case when i < e",
@@ -526,7 +526,7 @@
     "token_count": 377
   },
   {
-    "chunk_id": "ch12_sec12_02_02_p11",
+    "chunk_id": "ch12_0028",
     "chapter": 12,
     "section": "12.2.2",
     "section_title": "The case when i < e",
@@ -558,7 +558,7 @@
     "token_count": 405
   },
   {
-    "chunk_id": "ch12_sec12_02_02_p12",
+    "chunk_id": "ch12_0029",
     "chapter": 12,
     "section": "12.2.2",
     "section_title": "The case when i < e",
@@ -582,7 +582,7 @@
     "token_count": 347
   },
   {
-    "chunk_id": "ch12_sec12_02_02_p13",
+    "chunk_id": "ch12_0030",
     "chapter": 12,
     "section": "12.2.2",
     "section_title": "The case when i < e",
@@ -602,7 +602,7 @@
     "token_count": 403
   },
   {
-    "chunk_id": "ch12_sec12_02_03_p00",
+    "chunk_id": "ch12_0031",
     "chapter": 12,
     "section": "12.2.3",
     "section_title": "The case when e ≤ i",
@@ -620,7 +620,7 @@
     "token_count": 228
   },
   {
-    "chunk_id": "ch12_sec12_02_04_p00",
+    "chunk_id": "ch12_0032",
     "chapter": 12,
     "section": "12.2.4",
     "section_title": "The physical meaning of θ¯",
@@ -630,7 +630,7 @@
     "token_count": 328
   },
   {
-    "chunk_id": "ch12_sec12_02_04_p01",
+    "chunk_id": "ch12_0033",
     "chapter": 12,
     "section": "12.2.4",
     "section_title": "The physical meaning of θ¯",
@@ -640,7 +640,7 @@
     "token_count": 279
   },
   {
-    "chunk_id": "ch12_sec12_02_04_p02",
+    "chunk_id": "ch12_0034",
     "chapter": 12,
     "section": "12.2.4",
     "section_title": "The physical meaning of θ¯",
@@ -650,7 +650,7 @@
     "token_count": 233
   },
   {
-    "chunk_id": "ch12_sec12_03_p00",
+    "chunk_id": "ch12_0035",
     "chapter": 12,
     "section": "12.3",
     "section_title": "Applications to planetary photometry 12.3.1 Disk-resolved photometry",
@@ -664,7 +664,7 @@
     "token_count": 373
   },
   {
-    "chunk_id": "ch12_sec12_03_p01",
+    "chunk_id": "ch12_0036",
     "chapter": 12,
     "section": "12.3",
     "section_title": "Applications to planetary photometry 12.3.1 Disk-resolved photometry",
@@ -674,7 +674,7 @@
     "token_count": 246
   },
   {
-    "chunk_id": "ch12_sec12_03_p02",
+    "chunk_id": "ch12_0037",
     "chapter": 12,
     "section": "12.3",
     "section_title": "Applications to planetary photometry 12.3.1 Disk-resolved photometry",
@@ -684,7 +684,7 @@
     "token_count": 384
   },
   {
-    "chunk_id": "ch12_sec12_03_p03",
+    "chunk_id": "ch12_0038",
     "chapter": 12,
     "section": "12.3",
     "section_title": "Applications to planetary photometry 12.3.1 Disk-resolved photometry",
@@ -694,7 +694,7 @@
     "token_count": 336
   },
   {
-    "chunk_id": "ch12_sec12_03_02_p00",
+    "chunk_id": "ch12_0039",
     "chapter": 12,
     "section": "12.3.2",
     "section_title": "Disk-integrated photometry",
@@ -714,7 +714,7 @@
     "token_count": 404
   },
   {
-    "chunk_id": "ch12_sec12_03_02_p01",
+    "chunk_id": "ch12_0040",
     "chapter": 12,
     "section": "12.3.2",
     "section_title": "Disk-integrated photometry",
@@ -728,7 +728,7 @@
     "token_count": 397
   },
   {
-    "chunk_id": "ch12_sec12_03_02_p02",
+    "chunk_id": "ch12_0041",
     "chapter": 12,
     "section": "12.3.2",
     "section_title": "Disk-integrated photometry",
@@ -738,7 +738,7 @@
     "token_count": 106
   },
   {
-    "chunk_id": "ch12_sec12_03_02_p03",
+    "chunk_id": "ch12_0042",
     "chapter": 12,
     "section": "12.3.2",
     "section_title": "Disk-integrated photometry",
@@ -748,7 +748,7 @@
     "token_count": 430
   },
   {
-    "chunk_id": "ch12_sec12_03_02_p04",
+    "chunk_id": "ch12_0043",
     "chapter": 12,
     "section": "12.3.2",
     "section_title": "Disk-integrated photometry",
@@ -764,7 +764,7 @@
     "token_count": 365
   },
   {
-    "chunk_id": "ch12_sec12_03_02_p05",
+    "chunk_id": "ch12_0044",
     "chapter": 12,
     "section": "12.3.2",
     "section_title": "Disk-integrated photometry",
@@ -774,7 +774,7 @@
     "token_count": 386
   },
   {
-    "chunk_id": "ch12_sec12_03_03_p00",
+    "chunk_id": "ch12_0045",
     "chapter": 12,
     "section": "12.3.3",
     "section_title": "An empirical correction for multiple interfacet scattering",
@@ -788,7 +788,7 @@
     "token_count": 233
   },
   {
-    "chunk_id": "ch12_sec12_04_p00",
+    "chunk_id": "ch12_0046",
     "chapter": 12,
     "section": "12.4",
     "section_title": "Summary of the roughness correction model",
@@ -804,7 +804,7 @@
     "token_count": 377
   },
   {
-    "chunk_id": "ch12_sec12_04_p01",
+    "chunk_id": "ch12_0047",
     "chapter": 12,
     "section": "12.4",
     "section_title": "Summary of the roughness correction model",
@@ -822,7 +822,7 @@
     "token_count": 356
   },
   {
-    "chunk_id": "ch12_sec12_04_p02",
+    "chunk_id": "ch12_0048",
     "chapter": 12,
     "section": "12.4",
     "section_title": "Summary of the roughness correction model",
@@ -844,7 +844,7 @@
     "token_count": 360
   },
   {
-    "chunk_id": "ch12_sec12_05_p00",
+    "chunk_id": "ch12_0049",
     "chapter": 12,
     "section": "12.5",
     "section_title": "Other planetary photometric models 12.5.1 Introduction",
@@ -854,7 +854,7 @@
     "token_count": 92
   },
   {
-    "chunk_id": "ch12_sec12_05_02_p00",
+    "chunk_id": "ch12_0050",
     "chapter": 12,
     "section": "12.5.2",
     "section_title": "The Lumme–Bowell model",
@@ -876,7 +876,7 @@
     "token_count": 371
   },
   {
-    "chunk_id": "ch12_sec12_05_02_p01",
+    "chunk_id": "ch12_0051",
     "chapter": 12,
     "section": "12.5.2",
     "section_title": "The Lumme–Bowell model",
@@ -894,7 +894,7 @@
     "token_count": 400
   },
   {
-    "chunk_id": "ch12_sec12_05_02_p02",
+    "chunk_id": "ch12_0052",
     "chapter": 12,
     "section": "12.5.2",
     "section_title": "The Lumme–Bowell model",
@@ -920,7 +920,7 @@
     "token_count": 249
   },
   {
-    "chunk_id": "ch12_sec12_05_03_p00",
+    "chunk_id": "ch12_0053",
     "chapter": 12,
     "section": "12.5.3",
     "section_title": "The Buratti-Veverka model",
@@ -934,7 +934,7 @@
     "token_count": 209
   },
   {
-    "chunk_id": "ch12_sec12_05_04_p00",
+    "chunk_id": "ch12_0054",
     "chapter": 12,
     "section": "12.5.4",
     "section_title": "The Shkuratov reflectance model",
@@ -954,7 +954,7 @@
     "token_count": 402
   },
   {
-    "chunk_id": "ch12_sec12_05_04_p01",
+    "chunk_id": "ch12_0055",
     "chapter": 12,
     "section": "12.5.4",
     "section_title": "The Shkuratov reflectance model",
@@ -972,7 +972,7 @@
     "token_count": 213
   },
   {
-    "chunk_id": "ch12_sec12_05_04_p02",
+    "chunk_id": "ch12_0056",
     "chapter": 12,
     "section": "12.5.4",
     "section_title": "The Shkuratov reflectance model",

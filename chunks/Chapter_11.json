@@ -1,6 +1,6 @@
 [
   {
-    "chunk_id": "ch11_sec11_01_p00",
+    "chunk_id": "ch11_0000",
     "chapter": 11,
     "section": "11.1",
     "section_title": "Introduction",
@@ -10,7 +10,7 @@
     "token_count": 259
   },
   {
-    "chunk_id": "ch11_sec11_02_01_p00",
+    "chunk_id": "ch11_0001",
     "chapter": 11,
     "section": "11.2.1",
     "section_title": "Biconical reflectances",
@@ -20,7 +20,7 @@
     "token_count": 132
   },
   {
-    "chunk_id": "ch11_sec11_02_02_p00",
+    "chunk_id": "ch11_0002",
     "chapter": 11,
     "section": "11.2.2",
     "section_title": "The hemispherical reflectance (directional–hemispherical reflectance) 11.2.2.1 Introduction",
@@ -34,7 +34,7 @@
     "token_count": 343
   },
   {
-    "chunk_id": "ch11_sec11_02_02_p01",
+    "chunk_id": "ch11_0003",
     "chapter": 11,
     "section": "11.2.2",
     "section_title": "The hemispherical reflectance (directional–hemispherical reflectance) 11.2.2.1 Introduction",
@@ -44,7 +44,7 @@
     "token_count": 120
   },
   {
-    "chunk_id": "ch11_sec11_02_02_p00",
+    "chunk_id": "ch11_0004",
     "chapter": 11,
     "section": "11.2.2",
     "section_title": ".2 The hemispherical reflectance of a medium of isotropic scatterers",
@@ -72,7 +72,7 @@
     "token_count": 400
   },
   {
-    "chunk_id": "ch11_sec11_02_02_p01",
+    "chunk_id": "ch11_0005",
     "chapter": 11,
     "section": "11.2.2",
     "section_title": ".2 The hemispherical reflectance of a medium of isotropic scatterers",
@@ -94,7 +94,7 @@
     "token_count": 387
   },
   {
-    "chunk_id": "ch11_sec11_02_02_p02",
+    "chunk_id": "ch11_0006",
     "chapter": 11,
     "section": "11.2.2",
     "section_title": ".2 The hemispherical reflectance of a medium of isotropic scatterers",
@@ -118,7 +118,7 @@
     "token_count": 384
   },
   {
-    "chunk_id": "ch11_sec11_02_02_p03",
+    "chunk_id": "ch11_0007",
     "chapter": 11,
     "section": "11.2.2",
     "section_title": ".2 The hemispherical reflectance of a medium of isotropic scatterers",
@@ -132,7 +132,7 @@
     "token_count": 76
   },
   {
-    "chunk_id": "ch11_sec11_02_02_p00",
+    "chunk_id": "ch11_0008",
     "chapter": 11,
     "section": "11.2.2",
     "section_title": ".4 The modified IMSA model for the hemispherical reflectance",
@@ -150,7 +150,7 @@
     "token_count": 387
   },
   {
-    "chunk_id": "ch11_sec11_02_02_p01",
+    "chunk_id": "ch11_0009",
     "chapter": 11,
     "section": "11.2.2",
     "section_title": ".4 The modified IMSA model for the hemispherical reflectance",
@@ -168,7 +168,7 @@
     "token_count": 397
   },
   {
-    "chunk_id": "ch11_sec11_02_03_p00",
+    "chunk_id": "ch11_0010",
     "chapter": 11,
     "section": "11.2.3",
     "section_title": "The hemispherical-directional reflectance",
@@ -188,7 +188,7 @@
     "token_count": 389
   },
   {
-    "chunk_id": "ch11_sec11_02_03_p01",
+    "chunk_id": "ch11_0011",
     "chapter": 11,
     "section": "11.2.3",
     "section_title": "The hemispherical-directional reflectance",
@@ -202,7 +202,7 @@
     "token_count": 72
   },
   {
-    "chunk_id": "ch11_sec11_02_04_p00",
+    "chunk_id": "ch11_0012",
     "chapter": 11,
     "section": "11.2.4",
     "section_title": "The spherical reflectance (bihemispherical reflectance)",
@@ -216,7 +216,7 @@
     "token_count": 371
   },
   {
-    "chunk_id": "ch11_sec11_02_04_p01",
+    "chunk_id": "ch11_0013",
     "chapter": 11,
     "section": "11.2.4",
     "section_title": "The spherical reflectance (bihemispherical reflectance)",
@@ -234,7 +234,7 @@
     "token_count": 230
   },
   {
-    "chunk_id": "ch11_sec11_02_04_p02",
+    "chunk_id": "ch11_0014",
     "chapter": 11,
     "section": "11.2.4",
     "section_title": "The spherical reflectance (bihemispherical reflectance)",
@@ -252,7 +252,7 @@
     "token_count": 334
   },
   {
-    "chunk_id": "ch11_sec11_02_04_p03",
+    "chunk_id": "ch11_0015",
     "chapter": 11,
     "section": "11.2.4",
     "section_title": "The spherical reflectance (bihemispherical reflectance)",
@@ -272,7 +272,7 @@
     "token_count": 257
   },
   {
-    "chunk_id": "ch11_sec11_03_p00",
+    "chunk_id": "ch11_0016",
     "chapter": 11,
     "section": "11.3",
     "section_title": "Planetary photometry 11.3.1 Introduction",
@@ -282,7 +282,7 @@
     "token_count": 321
   },
   {
-    "chunk_id": "ch11_sec11_03_02_p00",
+    "chunk_id": "ch11_0017",
     "chapter": 11,
     "section": "11.3.2",
     "section_title": "The normal albedo",
@@ -300,7 +300,7 @@
     "token_count": 265
   },
   {
-    "chunk_id": "ch11_sec11_03_03_p00",
+    "chunk_id": "ch11_0018",
     "chapter": 11,
     "section": "11.3.3",
     "section_title": "The photometric function",
@@ -320,7 +320,7 @@
     "token_count": 351
   },
   {
-    "chunk_id": "ch11_sec11_03_04_p00",
+    "chunk_id": "ch11_0019",
     "chapter": 11,
     "section": "11.3.4",
     "section_title": "The hemispherical albedo (plane albedo)",
@@ -334,7 +334,7 @@
     "token_count": 123
   },
   {
-    "chunk_id": "ch11_sec11_03_05_p00",
+    "chunk_id": "ch11_0020",
     "chapter": 11,
     "section": "11.3.5",
     "section_title": "The physical albedo (geometric albedo)",
@@ -354,7 +354,7 @@
     "token_count": 400
   },
   {
-    "chunk_id": "ch11_sec11_03_05_p01",
+    "chunk_id": "ch11_0021",
     "chapter": 11,
     "section": "11.3.5",
     "section_title": "The physical albedo (geometric albedo)",
@@ -370,7 +370,7 @@
     "token_count": 244
   },
   {
-    "chunk_id": "ch11_sec11_03_06_p00",
+    "chunk_id": "ch11_0022",
     "chapter": 11,
     "section": "11.3.6",
     "section_title": "The integral phase function",
@@ -394,7 +394,7 @@
     "token_count": 410
   },
   {
-    "chunk_id": "ch11_sec11_03_06_p01",
+    "chunk_id": "ch11_0023",
     "chapter": 11,
     "section": "11.3.6",
     "section_title": "The integral phase function",
@@ -420,7 +420,7 @@
     "token_count": 386
   },
   {
-    "chunk_id": "ch11_sec11_03_06_p02",
+    "chunk_id": "ch11_0024",
     "chapter": 11,
     "section": "11.3.6",
     "section_title": "The integral phase function",
@@ -430,7 +430,7 @@
     "token_count": 190
   },
   {
-    "chunk_id": "ch11_sec11_03_07_p00",
+    "chunk_id": "ch11_0025",
     "chapter": 11,
     "section": "11.3.7",
     "section_title": "The spherical albedo (Bond albedo)",
@@ -456,7 +456,7 @@
     "token_count": 388
   },
   {
-    "chunk_id": "ch11_sec11_03_08_p00",
+    "chunk_id": "ch11_0026",
     "chapter": 11,
     "section": "11.3.8",
     "section_title": "The bolometric albedo",
@@ -470,7 +470,7 @@
     "token_count": 141
   },
   {
-    "chunk_id": "ch11_sec11_03_09_p00",
+    "chunk_id": "ch11_0027",
     "chapter": 11,
     "section": "11.3.9",
     "section_title": "The phase integral",

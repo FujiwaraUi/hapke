@@ -1,6 +1,6 @@
 [
   {
-    "chunk_id": "ch04_sec04_01_p00",
+    "chunk_id": "ch04_0000",
     "chapter": 4,
     "section": "4.1",
     "section_title": "Introduction",
@@ -10,7 +10,7 @@
     "token_count": 213
   },
   {
-    "chunk_id": "ch04_sec04_02_p00",
+    "chunk_id": "ch04_0001",
     "chapter": 4,
     "section": "4.2",
     "section_title": "Boundary conditions in electromagnetic theory",
@@ -20,7 +20,7 @@
     "token_count": 302
   },
   {
-    "chunk_id": "ch04_sec04_03_01_p00",
+    "chunk_id": "ch04_0002",
     "chapter": 4,
     "section": "4.3.1",
     "section_title": "Introduction",
@@ -38,7 +38,7 @@
     "token_count": 333
   },
   {
-    "chunk_id": "ch04_sec04_03_01_p01",
+    "chunk_id": "ch04_0003",
     "chapter": 4,
     "section": "4.3.1",
     "section_title": "Introduction",
@@ -58,7 +58,7 @@
     "token_count": 400
   },
   {
-    "chunk_id": "ch04_sec04_03_01_p02",
+    "chunk_id": "ch04_0004",
     "chapter": 4,
     "section": "4.3.1",
     "section_title": "Introduction",
@@ -76,7 +76,7 @@
     "token_count": 176
   },
   {
-    "chunk_id": "ch04_sec04_03_02_p00",
+    "chunk_id": "ch04_0005",
     "chapter": 4,
     "section": "4.3.2",
     "section_title": "Reflection and transmission at normal incidence",
@@ -96,7 +96,7 @@
     "token_count": 402
   },
   {
-    "chunk_id": "ch04_sec04_03_02_p01",
+    "chunk_id": "ch04_0006",
     "chapter": 4,
     "section": "4.3.2",
     "section_title": "Reflection and transmission at normal incidence",
@@ -112,7 +112,7 @@
     "token_count": 357
   },
   {
-    "chunk_id": "ch04_sec04_03_02_p02",
+    "chunk_id": "ch04_0007",
     "chapter": 4,
     "section": "4.3.2",
     "section_title": "Reflection and transmission at normal incidence",
@@ -126,7 +126,7 @@
     "token_count": 401
   },
   {
-    "chunk_id": "ch04_sec04_03_02_p03",
+    "chunk_id": "ch04_0008",
     "chapter": 4,
     "section": "4.3.2",
     "section_title": "Reflection and transmission at normal incidence",
@@ -144,7 +144,7 @@
     "token_count": 284
   },
   {
-    "chunk_id": "ch04_sec04_03_02_p04",
+    "chunk_id": "ch04_0009",
     "chapter": 4,
     "section": "4.3.2",
     "section_title": "Reflection and transmission at normal incidence",
@@ -154,7 +154,7 @@
     "token_count": 372
   },
   {
-    "chunk_id": "ch04_sec04_03_03_p00",
+    "chunk_id": "ch04_0010",
     "chapter": 4,
     "section": "4.3.3",
     "section_title": "Reflection and transmission at arbitrary angles",
@@ -172,7 +172,7 @@
     "token_count": 392
   },
   {
-    "chunk_id": "ch04_sec04_03_03_p01",
+    "chunk_id": "ch04_0011",
     "chapter": 4,
     "section": "4.3.3",
     "section_title": "Reflection and transmission at arbitrary angles",
@@ -192,7 +192,7 @@
     "token_count": 370
   },
   {
-    "chunk_id": "ch04_sec04_03_03_p02",
+    "chunk_id": "ch04_0012",
     "chapter": 4,
     "section": "4.3.3",
     "section_title": "Reflection and transmission at arbitrary angles",
@@ -202,7 +202,7 @@
     "token_count": 160
   },
   {
-    "chunk_id": "ch04_sec04_03_03_p00",
+    "chunk_id": "ch04_0013",
     "chapter": 4,
     "section": "4.3.3",
     "section_title": ".2 Ee perpendicular to the plane of propagation",
@@ -228,7 +228,7 @@
     "token_count": 400
   },
   {
-    "chunk_id": "ch04_sec04_03_03_p01",
+    "chunk_id": "ch04_0014",
     "chapter": 4,
     "section": "4.3.3",
     "section_title": ".2 Ee perpendicular to the plane of propagation",
@@ -246,7 +246,7 @@
     "token_count": 98
   },
   {
-    "chunk_id": "ch04_sec04_03_03_p00",
+    "chunk_id": "ch04_0015",
     "chapter": 4,
     "section": "4.3.3",
     "section_title": ".3 Ee parallel to the plane of propagation",
@@ -276,7 +276,7 @@
     "token_count": 408
   },
   {
-    "chunk_id": "ch04_sec04_03_03_p01",
+    "chunk_id": "ch04_0016",
     "chapter": 4,
     "section": "4.3.3",
     "section_title": ".3 Ee parallel to the plane of propagation",
@@ -292,7 +292,7 @@
     "token_count": 120
   },
   {
-    "chunk_id": "ch04_sec04_03_04_p00",
+    "chunk_id": "ch04_0017",
     "chapter": 4,
     "section": "4.3.4",
     "section_title": "Reflection and transmission when n is real",
@@ -314,7 +314,7 @@
     "token_count": 373
   },
   {
-    "chunk_id": "ch04_sec04_03_04_p01",
+    "chunk_id": "ch04_0018",
     "chapter": 4,
     "section": "4.3.4",
     "section_title": "Reflection and transmission when n is real",
@@ -332,7 +332,7 @@
     "token_count": 393
   },
   {
-    "chunk_id": "ch04_sec04_03_04_p02",
+    "chunk_id": "ch04_0019",
     "chapter": 4,
     "section": "4.3.4",
     "section_title": "Reflection and transmission when n is real",
@@ -350,7 +350,7 @@
     "token_count": 404
   },
   {
-    "chunk_id": "ch04_sec04_03_04_p03",
+    "chunk_id": "ch04_0020",
     "chapter": 4,
     "section": "4.3.4",
     "section_title": "Reflection and transmission when n is real",
@@ -360,7 +360,7 @@
     "token_count": 301
   },
   {
-    "chunk_id": "ch04_sec04_03_05_p00",
+    "chunk_id": "ch04_0021",
     "chapter": 4,
     "section": "4.3.5",
     "section_title": "Polarization",
@@ -378,7 +378,7 @@
     "token_count": 375
   },
   {
-    "chunk_id": "ch04_sec04_03_05_p01",
+    "chunk_id": "ch04_0022",
     "chapter": 4,
     "section": "4.3.5",
     "section_title": "Polarization",
@@ -388,7 +388,7 @@
     "token_count": 271
   },
   {
-    "chunk_id": "ch04_sec04_03_06_p00",
+    "chunk_id": "ch04_0023",
     "chapter": 4,
     "section": "4.3.6",
     "section_title": "Reflection and refraction when n is complex",
@@ -412,7 +412,7 @@
     "token_count": 389
   },
   {
-    "chunk_id": "ch04_sec04_03_06_p01",
+    "chunk_id": "ch04_0024",
     "chapter": 4,
     "section": "4.3.6",
     "section_title": "Reflection and refraction when n is complex",
@@ -432,7 +432,7 @@
     "token_count": 401
   },
   {
-    "chunk_id": "ch04_sec04_03_06_p02",
+    "chunk_id": "ch04_0025",
     "chapter": 4,
     "section": "4.3.6",
     "section_title": "Reflection and refraction when n is complex",
@@ -450,7 +450,7 @@
     "token_count": 162
   },
   {
-    "chunk_id": "ch04_sec04_04_p00",
+    "chunk_id": "ch04_0026",
     "chapter": 4,
     "section": "4.4",
     "section_title": "The Kramers–Kronig reflectivity relations",
@@ -470,7 +470,7 @@
     "token_count": 278
   },
   {
-    "chunk_id": "ch04_sec04_04_p01",
+    "chunk_id": "ch04_0027",
     "chapter": 4,
     "section": "4.4",
     "section_title": "The Kramers–Kronig reflectivity relations",
@@ -488,7 +488,7 @@
     "token_count": 369
   },
   {
-    "chunk_id": "ch04_sec04_05_p00",
+    "chunk_id": "ch04_0028",
     "chapter": 4,
     "section": "4.5",
     "section_title": "Absorption bands in reflectivity",
@@ -498,7 +498,7 @@
     "token_count": 358
   },
   {
-    "chunk_id": "ch04_sec04_05_p01",
+    "chunk_id": "ch04_0029",
     "chapter": 4,
     "section": "4.5",
     "section_title": "Absorption bands in reflectivity",
@@ -508,7 +508,7 @@
     "token_count": 207
   },
   {
-    "chunk_id": "ch04_sec04_05_p02",
+    "chunk_id": "ch04_0030",
     "chapter": 4,
     "section": "4.5",
     "section_title": "Absorption bands in reflectivity",
@@ -518,7 +518,7 @@
     "token_count": 275
   },
   {
-    "chunk_id": "ch04_sec04_06_p00",
+    "chunk_id": "ch04_0031",
     "chapter": 4,
     "section": "4.6",
     "section_title": "Criterion for optical flatness",
@@ -532,7 +532,7 @@
     "token_count": 378
   },
   {
-    "chunk_id": "ch04_sec04_06_p01",
+    "chunk_id": "ch04_0032",
     "chapter": 4,
     "section": "4.6",
     "section_title": "Criterion for optical flatness",

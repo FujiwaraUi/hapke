@@ -1,6 +1,6 @@
 [
   {
-    "chunk_id": "ch14_sec14_01_p00",
+    "chunk_id": "ch14_0000",
     "chapter": 14,
     "section": "14.1",
     "section_title": "Introduction",
@@ -10,7 +10,7 @@
     "token_count": 385
   },
   {
-    "chunk_id": "ch14_sec14_01_p01",
+    "chunk_id": "ch14_0001",
     "chapter": 14,
     "section": "14.1",
     "section_title": "Introduction",
@@ -20,7 +20,7 @@
     "token_count": 377
   },
   {
-    "chunk_id": "ch14_sec14_02_p00",
+    "chunk_id": "ch14_0002",
     "chapter": 14,
     "section": "14.2",
     "section_title": "Measurement of reflectances",
@@ -34,7 +34,7 @@
     "token_count": 217
   },
   {
-    "chunk_id": "ch14_sec14_02_p01",
+    "chunk_id": "ch14_0003",
     "chapter": 14,
     "section": "14.2",
     "section_title": "Measurement of reflectances",
@@ -44,7 +44,7 @@
     "token_count": 379
   },
   {
-    "chunk_id": "ch14_sec14_02_p02",
+    "chunk_id": "ch14_0004",
     "chapter": 14,
     "section": "14.2",
     "section_title": "Measurement of reflectances",
@@ -54,7 +54,7 @@
     "token_count": 351
   },
   {
-    "chunk_id": "ch14_sec14_02_p03",
+    "chunk_id": "ch14_0005",
     "chapter": 14,
     "section": "14.2",
     "section_title": "Measurement of reflectances",
@@ -64,7 +64,7 @@
     "token_count": 376
   },
   {
-    "chunk_id": "ch14_sec14_02_p04",
+    "chunk_id": "ch14_0006",
     "chapter": 14,
     "section": "14.2",
     "section_title": "Measurement of reflectances",
@@ -78,7 +78,7 @@
     "token_count": 329
   },
   {
-    "chunk_id": "ch14_sec14_02_p05",
+    "chunk_id": "ch14_0007",
     "chapter": 14,
     "section": "14.2",
     "section_title": "Measurement of reflectances",
@@ -92,7 +92,7 @@
     "token_count": 278
   },
   {
-    "chunk_id": "ch14_sec14_03_p00",
+    "chunk_id": "ch14_0008",
     "chapter": 14,
     "section": "14.3",
     "section_title": "Inverting the reflectance to find the scattering parameters 14.3.1 Numerical inversion methods",
@@ -106,7 +106,7 @@
     "token_count": 304
   },
   {
-    "chunk_id": "ch14_sec14_03_p01",
+    "chunk_id": "ch14_0009",
     "chapter": 14,
     "section": "14.3",
     "section_title": "Inverting the reflectance to find the scattering parameters 14.3.1 Numerical inversion methods",
@@ -124,7 +124,7 @@
     "token_count": 331
   },
   {
-    "chunk_id": "ch14_sec14_03_p02",
+    "chunk_id": "ch14_0010",
     "chapter": 14,
     "section": "14.3",
     "section_title": "Inverting the reflectance to find the scattering parameters 14.3.1 Numerical inversion methods",
@@ -134,7 +134,7 @@
     "token_count": 178
   },
   {
-    "chunk_id": "ch14_sec14_03_p03",
+    "chunk_id": "ch14_0011",
     "chapter": 14,
     "section": "14.3",
     "section_title": "Inverting the reflectance to find the scattering parameters 14.3.1 Numerical inversion methods",
@@ -144,7 +144,7 @@
     "token_count": 294
   },
   {
-    "chunk_id": "ch14_sec14_03_p04",
+    "chunk_id": "ch14_0012",
     "chapter": 14,
     "section": "14.3",
     "section_title": "Inverting the reflectance to find the scattering parameters 14.3.1 Numerical inversion methods",
@@ -154,7 +154,7 @@
     "token_count": 336
   },
   {
-    "chunk_id": "ch14_sec14_03_p05",
+    "chunk_id": "ch14_0013",
     "chapter": 14,
     "section": "14.3",
     "section_title": "Inverting the reflectance to find the scattering parameters 14.3.1 Numerical inversion methods",
@@ -164,7 +164,7 @@
     "token_count": 158
   },
   {
-    "chunk_id": "ch14_sec14_03_p06",
+    "chunk_id": "ch14_0014",
     "chapter": 14,
     "section": "14.3",
     "section_title": "Inverting the reflectance to find the scattering parameters 14.3.1 Numerical inversion methods",
@@ -174,7 +174,7 @@
     "token_count": 309
   },
   {
-    "chunk_id": "ch14_sec14_03_p07",
+    "chunk_id": "ch14_0015",
     "chapter": 14,
     "section": "14.3",
     "section_title": "Inverting the reflectance to find the scattering parameters 14.3.1 Numerical inversion methods",
@@ -184,7 +184,7 @@
     "token_count": 331
   },
   {
-    "chunk_id": "ch14_sec14_03_p08",
+    "chunk_id": "ch14_0016",
     "chapter": 14,
     "section": "14.3",
     "section_title": "Inverting the reflectance to find the scattering parameters 14.3.1 Numerical inversion methods",
@@ -194,7 +194,7 @@
     "token_count": 192
   },
   {
-    "chunk_id": "ch14_sec14_03_02_p00",
+    "chunk_id": "ch14_0017",
     "chapter": 14,
     "section": "14.3.2",
     "section_title": "Analytic solution for the single-scattering albedo",
@@ -208,7 +208,7 @@
     "token_count": 365
   },
   {
-    "chunk_id": "ch14_sec14_03_02_p01",
+    "chunk_id": "ch14_0018",
     "chapter": 14,
     "section": "14.3.2",
     "section_title": "Analytic solution for the single-scattering albedo",
@@ -232,7 +232,7 @@
     "token_count": 396
   },
   {
-    "chunk_id": "ch14_sec14_03_02_p02",
+    "chunk_id": "ch14_0019",
     "chapter": 14,
     "section": "14.3.2",
     "section_title": "Analytic solution for the single-scattering albedo",
@@ -252,7 +252,7 @@
     "token_count": 399
   },
   {
-    "chunk_id": "ch14_sec14_03_02_p03",
+    "chunk_id": "ch14_0020",
     "chapter": 14,
     "section": "14.3.2",
     "section_title": "Analytic solution for the single-scattering albedo",
@@ -274,7 +274,7 @@
     "token_count": 248
   },
   {
-    "chunk_id": "ch14_sec14_04_01_p00",
+    "chunk_id": "ch14_0021",
     "chapter": 14,
     "section": "14.4.1",
     "section_title": "Relation between the reflectance and the absorption coefficient",
@@ -292,7 +292,7 @@
     "token_count": 361
   },
   {
-    "chunk_id": "ch14_sec14_04_01_p01",
+    "chunk_id": "ch14_0022",
     "chapter": 14,
     "section": "14.4.1",
     "section_title": "Relation between the reflectance and the absorption coefficient",
@@ -310,7 +310,7 @@
     "token_count": 201
   },
   {
-    "chunk_id": "ch14_sec14_04_01_p02",
+    "chunk_id": "ch14_0023",
     "chapter": 14,
     "section": "14.4.1",
     "section_title": "Relation between the reflectance and the absorption coefficient",
@@ -320,7 +320,7 @@
     "token_count": 355
   },
   {
-    "chunk_id": "ch14_sec14_04_01_p03",
+    "chunk_id": "ch14_0024",
     "chapter": 14,
     "section": "14.4.1",
     "section_title": "Relation between the reflectance and the absorption coefficient",
@@ -330,7 +330,7 @@
     "token_count": 356
   },
   {
-    "chunk_id": "ch14_sec14_04_01_p04",
+    "chunk_id": "ch14_0025",
     "chapter": 14,
     "section": "14.4.1",
     "section_title": "Relation between the reflectance and the absorption coefficient",
@@ -340,7 +340,7 @@
     "token_count": 283
   },
   {
-    "chunk_id": "ch14_sec14_04_01_p05",
+    "chunk_id": "ch14_0026",
     "chapter": 14,
     "section": "14.4.1",
     "section_title": "Relation between the reflectance and the absorption coefficient",
@@ -350,7 +350,7 @@
     "token_count": 237
   },
   {
-    "chunk_id": "ch14_sec14_04_01_p06",
+    "chunk_id": "ch14_0027",
     "chapter": 14,
     "section": "14.4.1",
     "section_title": "Relation between the reflectance and the absorption coefficient",
@@ -360,7 +360,7 @@
     "token_count": 267
   },
   {
-    "chunk_id": "ch14_sec14_04_01_p07",
+    "chunk_id": "ch14_0028",
     "chapter": 14,
     "section": "14.4.1",
     "section_title": "Relation between the reflectance and the absorption coefficient",
@@ -370,7 +370,7 @@
     "token_count": 207
   },
   {
-    "chunk_id": "ch14_sec14_04_02_p00",
+    "chunk_id": "ch14_0029",
     "chapter": 14,
     "section": "14.4.2",
     "section_title": "Band shape",
@@ -380,7 +380,7 @@
     "token_count": 393
   },
   {
-    "chunk_id": "ch14_sec14_04_02_p01",
+    "chunk_id": "ch14_0030",
     "chapter": 14,
     "section": "14.4.2",
     "section_title": "Band shape",
@@ -390,7 +390,7 @@
     "token_count": 388
   },
   {
-    "chunk_id": "ch14_sec14_04_02_p02",
+    "chunk_id": "ch14_0031",
     "chapter": 14,
     "section": "14.4.2",
     "section_title": "Band shape",
@@ -400,7 +400,7 @@
     "token_count": 301
   },
   {
-    "chunk_id": "ch14_sec14_04_02_p03",
+    "chunk_id": "ch14_0032",
     "chapter": 14,
     "section": "14.4.2",
     "section_title": "Band shape",
@@ -410,7 +410,7 @@
     "token_count": 367
   },
   {
-    "chunk_id": "ch14_sec14_04_02_p04",
+    "chunk_id": "ch14_0033",
     "chapter": 14,
     "section": "14.4.2",
     "section_title": "Band shape",
@@ -420,7 +420,7 @@
     "token_count": 116
   },
   {
-    "chunk_id": "ch14_sec14_04_03_p00",
+    "chunk_id": "ch14_0034",
     "chapter": 14,
     "section": "14.4.3",
     "section_title": "Dependence of band depth on geometry",
@@ -430,7 +430,7 @@
     "token_count": 374
   },
   {
-    "chunk_id": "ch14_sec14_04_04_p00",
+    "chunk_id": "ch14_0035",
     "chapter": 14,
     "section": "14.4.4",
     "section_title": "Dependence of band contrast on particle size",
@@ -440,7 +440,7 @@
     "token_count": 357
   },
   {
-    "chunk_id": "ch14_sec14_04_04_p01",
+    "chunk_id": "ch14_0036",
     "chapter": 14,
     "section": "14.4.4",
     "section_title": "Dependence of band contrast on particle size",
@@ -450,7 +450,7 @@
     "token_count": 189
   },
   {
-    "chunk_id": "ch14_sec14_04_05_p00",
+    "chunk_id": "ch14_0037",
     "chapter": 14,
     "section": "14.4.5",
     "section_title": "Effects of porosity",
@@ -460,7 +460,7 @@
     "token_count": 168
   },
   {
-    "chunk_id": "ch14_sec14_05_p00",
+    "chunk_id": "ch14_0038",
     "chapter": 14,
     "section": "14.5",
     "section_title": "The reflectance spectra of intimate mixtures",
@@ -470,7 +470,7 @@
     "token_count": 318
   },
   {
-    "chunk_id": "ch14_sec14_05_p01",
+    "chunk_id": "ch14_0039",
     "chapter": 14,
     "section": "14.5",
     "section_title": "The reflectance spectra of intimate mixtures",
@@ -486,7 +486,7 @@
     "token_count": 385
   },
   {
-    "chunk_id": "ch14_sec14_05_p02",
+    "chunk_id": "ch14_0040",
     "chapter": 14,
     "section": "14.5",
     "section_title": "The reflectance spectra of intimate mixtures",
@@ -500,7 +500,7 @@
     "token_count": 310
   },
   {
-    "chunk_id": "ch14_sec14_05_p03",
+    "chunk_id": "ch14_0041",
     "chapter": 14,
     "section": "14.5",
     "section_title": "The reflectance spectra of intimate mixtures",
@@ -510,7 +510,7 @@
     "token_count": 279
   },
   {
-    "chunk_id": "ch14_sec14_05_p04",
+    "chunk_id": "ch14_0042",
     "chapter": 14,
     "section": "14.5",
     "section_title": "The reflectance spectra of intimate mixtures",
@@ -520,7 +520,7 @@
     "token_count": 398
   },
   {
-    "chunk_id": "ch14_sec14_06_p00",
+    "chunk_id": "ch14_0043",
     "chapter": 14,
     "section": "14.6",
     "section_title": "Absorption bands in layered media 14.6.1 The effect of layers on band contrast",
@@ -536,7 +536,7 @@
     "token_count": 384
   },
   {
-    "chunk_id": "ch14_sec14_06_p01",
+    "chunk_id": "ch14_0044",
     "chapter": 14,
     "section": "14.6",
     "section_title": "Absorption bands in layered media 14.6.1 The effect of layers on band contrast",
@@ -546,7 +546,7 @@
     "token_count": 402
   },
   {
-    "chunk_id": "ch14_sec14_06_p02",
+    "chunk_id": "ch14_0045",
     "chapter": 14,
     "section": "14.6",
     "section_title": "Absorption bands in layered media 14.6.1 The effect of layers on band contrast",
@@ -556,7 +556,7 @@
     "token_count": 396
   },
   {
-    "chunk_id": "ch14_sec14_06_p03",
+    "chunk_id": "ch14_0046",
     "chapter": 14,
     "section": "14.6",
     "section_title": "Absorption bands in layered media 14.6.1 The effect of layers on band contrast",
@@ -566,7 +566,7 @@
     "token_count": 119
   },
   {
-    "chunk_id": "ch14_sec14_06_02_p00",
+    "chunk_id": "ch14_0047",
     "chapter": 14,
     "section": "14.6.2",
     "section_title": "The radialith, or how thick is \"thick enough\"?",
@@ -582,7 +582,7 @@
     "token_count": 368
   },
   {
-    "chunk_id": "ch14_sec14_06_02_p01",
+    "chunk_id": "ch14_0048",
     "chapter": 14,
     "section": "14.6.2",
     "section_title": "The radialith, or how thick is \"thick enough\"?",
@@ -600,7 +600,7 @@
     "token_count": 397
   },
   {
-    "chunk_id": "ch14_sec14_07_p00",
+    "chunk_id": "ch14_0049",
     "chapter": 14,
     "section": "14.7",
     "section_title": "Retrieving the absorption coefficient from the single-scattering albedo 14.7.1 Introduction",
@@ -610,7 +610,7 @@
     "token_count": 367
   },
   {
-    "chunk_id": "ch14_sec14_07_02_p00",
+    "chunk_id": "ch14_0050",
     "chapter": 14,
     "section": "14.7.2",
     "section_title": "Solving for $\\alpha$ directly",
@@ -626,7 +626,7 @@
     "token_count": 379
   },
   {
-    "chunk_id": "ch14_sec14_07_02_p01",
+    "chunk_id": "ch14_0051",
     "chapter": 14,
     "section": "14.7.2",
     "section_title": "Solving for $\\alpha$ directly",
@@ -636,7 +636,7 @@
     "token_count": 158
   },
   {
-    "chunk_id": "ch14_sec14_07_03_p00",
+    "chunk_id": "ch14_0052",
     "chapter": 14,
     "section": "14.7.3",
     "section_title": "The espat function",
@@ -656,7 +656,7 @@
     "token_count": 394
   },
   {
-    "chunk_id": "ch14_sec14_07_03_p01",
+    "chunk_id": "ch14_0053",
     "chapter": 14,
     "section": "14.7.3",
     "section_title": "The espat function",
@@ -672,7 +672,7 @@
     "token_count": 382
   },
   {
-    "chunk_id": "ch14_sec14_07_04_p00",
+    "chunk_id": "ch14_0054",
     "chapter": 14,
     "section": "14.7.4",
     "section_title": "An example of retrieving $n_i$ from the reflectance",
@@ -682,7 +682,7 @@
     "token_count": 277
   },
   {
-    "chunk_id": "ch14_sec14_07_04_p01",
+    "chunk_id": "ch14_0055",
     "chapter": 14,
     "section": "14.7.4",
     "section_title": "An example of retrieving $n_i$ from the reflectance",
@@ -692,7 +692,7 @@
     "token_count": 216
   },
   {
-    "chunk_id": "ch14_sec14_07_04_p02",
+    "chunk_id": "ch14_0056",
     "chapter": 14,
     "section": "14.7.4",
     "section_title": "An example of retrieving $n_i$ from the reflectance",
@@ -702,7 +702,7 @@
     "token_count": 351
   },
   {
-    "chunk_id": "ch14_sec14_07_04_p03",
+    "chunk_id": "ch14_0057",
     "chapter": 14,
     "section": "14.7.4",
     "section_title": "An example of retrieving $n_i$ from the reflectance",
@@ -712,7 +712,7 @@
     "token_count": 208
   },
   {
-    "chunk_id": "ch14_sec14_08_p00",
+    "chunk_id": "ch14_0058",
     "chapter": 14,
     "section": "14.8",
     "section_title": "Other methodologies 14.8.1 Kubelka–Munk theory",
@@ -722,7 +722,7 @@
     "token_count": 91
   },
   {
-    "chunk_id": "ch14_sec14_08_p01",
+    "chunk_id": "ch14_0059",
     "chapter": 14,
     "section": "14.8",
     "section_title": "Other methodologies 14.8.1 Kubelka–Munk theory",
@@ -732,7 +732,7 @@
     "token_count": 457
   },
   {
-    "chunk_id": "ch14_sec14_08_p02",
+    "chunk_id": "ch14_0060",
     "chapter": 14,
     "section": "14.8",
     "section_title": "Other methodologies 14.8.1 Kubelka–Munk theory",
@@ -760,7 +760,7 @@
     "token_count": 411
   },
   {
-    "chunk_id": "ch14_sec14_08_p03",
+    "chunk_id": "ch14_0061",
     "chapter": 14,
     "section": "14.8",
     "section_title": "Other methodologies 14.8.1 Kubelka–Munk theory",
@@ -774,7 +774,7 @@
     "token_count": 328
   },
   {
-    "chunk_id": "ch14_sec14_08_p04",
+    "chunk_id": "ch14_0062",
     "chapter": 14,
     "section": "14.8",
     "section_title": "Other methodologies 14.8.1 Kubelka–Munk theory",
@@ -784,7 +784,7 @@
     "token_count": 401
   },
   {
-    "chunk_id": "ch14_sec14_08_p05",
+    "chunk_id": "ch14_0063",
     "chapter": 14,
     "section": "14.8",
     "section_title": "Other methodologies 14.8.1 Kubelka–Munk theory",
@@ -798,7 +798,7 @@
     "token_count": 259
   },
   {
-    "chunk_id": "ch14_sec14_08_p06",
+    "chunk_id": "ch14_0064",
     "chapter": 14,
     "section": "14.8",
     "section_title": "Other methodologies 14.8.1 Kubelka–Munk theory",
@@ -812,7 +812,7 @@
     "token_count": 387
   },
   {
-    "chunk_id": "ch14_sec14_08_p07",
+    "chunk_id": "ch14_0065",
     "chapter": 14,
     "section": "14.8",
     "section_title": "Other methodologies 14.8.1 Kubelka–Munk theory",
@@ -826,7 +826,7 @@
     "token_count": 367
   },
   {
-    "chunk_id": "ch14_sec14_08_02_p00",
+    "chunk_id": "ch14_0066",
     "chapter": 14,
     "section": "14.8.2",
     "section_title": "The Shkuratov albedo model",
@@ -852,7 +852,7 @@
     "token_count": 408
   },
   {
-    "chunk_id": "ch14_sec14_08_02_p01",
+    "chunk_id": "ch14_0067",
     "chapter": 14,
     "section": "14.8.2",
     "section_title": "The Shkuratov albedo model",
@@ -876,7 +876,7 @@
     "token_count": 209
   },
   {
-    "chunk_id": "ch14_sec14_08_03_p00",
+    "chunk_id": "ch14_0068",
     "chapter": 14,
     "section": "14.8.3",
     "section_title": "The mean optical path length (MOPL)",
@@ -890,7 +890,7 @@
     "token_count": 355
   },
   {
-    "chunk_id": "ch14_sec14_08_03_p01",
+    "chunk_id": "ch14_0069",
     "chapter": 14,
     "section": "14.8.3",
     "section_title": "The mean optical path length (MOPL)",
@@ -900,7 +900,7 @@
     "token_count": 288
   },
   {
-    "chunk_id": "ch14_sec14_09_p00",
+    "chunk_id": "ch14_0070",
     "chapter": 14,
     "section": "14.9",
     "section_title": "Particulate media with $X \\ll 1$",
@@ -910,7 +910,7 @@
     "token_count": 358
   },
   {
-    "chunk_id": "ch14_sec14_10_p00",
+    "chunk_id": "ch14_0071",
     "chapter": 14,
     "section": "14.10",
     "section_title": "Planetary applications 14.10.1 The near-IR Fe2+ bands in silicates",
@@ -920,7 +920,7 @@
     "token_count": 258
   },
   {
-    "chunk_id": "ch14_sec14_10_p01",
+    "chunk_id": "ch14_0072",
     "chapter": 14,
     "section": "14.10",
     "section_title": "Planetary applications 14.10.1 The near-IR Fe2+ bands in silicates",
@@ -930,7 +930,7 @@
     "token_count": 213
   },
   {
-    "chunk_id": "ch14_sec14_10_02_p00",
+    "chunk_id": "ch14_0073",
     "chapter": 14,
     "section": "14.10.2",
     "section_title": "The modified Gaussian method",
@@ -940,7 +940,7 @@
     "token_count": 350
   },
   {
-    "chunk_id": "ch14_sec14_10_03_p00",
+    "chunk_id": "ch14_0074",
     "chapter": 14,
     "section": "14.10.3",
     "section_title": "Space weathering",
@@ -950,7 +950,7 @@
     "token_count": 385
   },
   {
-    "chunk_id": "ch14_sec14_10_03_p01",
+    "chunk_id": "ch14_0075",
     "chapter": 14,
     "section": "14.10.3",
     "section_title": "Space weathering",
@@ -960,7 +960,7 @@
     "token_count": 393
   },
   {
-    "chunk_id": "ch14_sec14_10_03_p02",
+    "chunk_id": "ch14_0076",
     "chapter": 14,
     "section": "14.10.3",
     "section_title": "Space weathering",
@@ -976,7 +976,7 @@
     "token_count": 265
   },
   {
-    "chunk_id": "ch14_sec14_10_04_p00",
+    "chunk_id": "ch14_0077",
     "chapter": 14,
     "section": "14.10.4",
     "section_title": "The spectral-ratio-albedo diagram",
@@ -986,7 +986,7 @@
     "token_count": 202
   },
   {
-    "chunk_id": "ch14_sec14_10_04_p01",
+    "chunk_id": "ch14_0078",
     "chapter": 14,
     "section": "14.10.4",
     "section_title": "The spectral-ratio-albedo diagram",
@@ -996,7 +996,7 @@
     "token_count": 330
   },
   {
-    "chunk_id": "ch14_sec14_10_04_p02",
+    "chunk_id": "ch14_0079",
     "chapter": 14,
     "section": "14.10.4",
     "section_title": "The spectral-ratio-albedo diagram",

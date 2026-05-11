@@ -1,6 +1,6 @@
 [
   {
-    "chunk_id": "ch01_sec00_p00",
+    "chunk_id": "ch01_0000",
     "chapter": 1,
     "section": "",
     "section_title": "Introduction",
@@ -10,7 +10,7 @@
     "token_count": 25
   },
   {
-    "chunk_id": "ch01_sec01_01_p00",
+    "chunk_id": "ch01_0001",
     "chapter": 1,
     "section": "1.1",
     "section_title": "Scientific rationale",
@@ -20,7 +20,7 @@
     "token_count": 268
   },
   {
-    "chunk_id": "ch01_sec01_01_p01",
+    "chunk_id": "ch01_0002",
     "chapter": 1,
     "section": "1.1",
     "section_title": "Scientific rationale",
@@ -30,7 +30,7 @@
     "token_count": 204
   },
   {
-    "chunk_id": "ch01_sec01_01_p02",
+    "chunk_id": "ch01_0003",
     "chapter": 1,
     "section": "1.1",
     "section_title": "Scientific rationale",
@@ -40,7 +40,7 @@
     "token_count": 280
   },
   {
-    "chunk_id": "ch01_sec01_01_p03",
+    "chunk_id": "ch01_0004",
     "chapter": 1,
     "section": "1.1",
     "section_title": "Scientific rationale",
@@ -50,7 +50,7 @@
     "token_count": 229
   },
   {
-    "chunk_id": "ch01_sec01_01_p04",
+    "chunk_id": "ch01_0005",
     "chapter": 1,
     "section": "1.1",
     "section_title": "Scientific rationale",
@@ -60,7 +60,7 @@
     "token_count": 291
   },
   {
-    "chunk_id": "ch01_sec01_01_p05",
+    "chunk_id": "ch01_0006",
     "chapter": 1,
     "section": "1.1",
     "section_title": "Scientific rationale",
@@ -70,7 +70,7 @@
     "token_count": 242
   },
   {
-    "chunk_id": "ch01_sec01_01_p06",
+    "chunk_id": "ch01_0007",
     "chapter": 1,
     "section": "1.1",
     "section_title": "Scientific rationale",
@@ -80,7 +80,7 @@
     "token_count": 368
   },
   {
-    "chunk_id": "ch01_sec01_02_p00",
+    "chunk_id": "ch01_0008",
     "chapter": 1,
     "section": "1.2",
     "section_title": "About this book",
@@ -90,7 +90,7 @@
     "token_count": 298
   },
   {
-    "chunk_id": "ch01_sec01_02_p01",
+    "chunk_id": "ch01_0009",
     "chapter": 1,
     "section": "1.2",
     "section_title": "About this book",

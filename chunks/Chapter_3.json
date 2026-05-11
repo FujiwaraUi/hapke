@@ -1,6 +1,6 @@
 [
   {
-    "chunk_id": "ch03_sec03_01_p00",
+    "chunk_id": "ch03_0000",
     "chapter": 3,
     "section": "3.1",
     "section_title": "Introduction",
@@ -10,7 +10,7 @@
     "token_count": 125
   },
   {
-    "chunk_id": "ch03_sec03_02_01_p00",
+    "chunk_id": "ch03_0001",
     "chapter": 3,
     "section": "3.2.1",
     "section_title": "Conductors: the drude model",
@@ -24,7 +24,7 @@
     "token_count": 400
   },
   {
-    "chunk_id": "ch03_sec03_02_01_p01",
+    "chunk_id": "ch03_0002",
     "chapter": 3,
     "section": "3.2.1",
     "section_title": "Conductors: the drude model",
@@ -52,7 +52,7 @@
     "token_count": 399
   },
   {
-    "chunk_id": "ch03_sec03_02_01_p02",
+    "chunk_id": "ch03_0003",
     "chapter": 3,
     "section": "3.2.1",
     "section_title": "Conductors: the drude model",
@@ -72,7 +72,7 @@
     "token_count": 355
   },
   {
-    "chunk_id": "ch03_sec03_02_01_p03",
+    "chunk_id": "ch03_0004",
     "chapter": 3,
     "section": "3.2.1",
     "section_title": "Conductors: the drude model",
@@ -86,7 +86,7 @@
     "token_count": 106
   },
   {
-    "chunk_id": "ch03_sec03_02_02_p00",
+    "chunk_id": "ch03_0005",
     "chapter": 3,
     "section": "3.2.2",
     "section_title": "Absorption in insulators: the Lorentz model",
@@ -106,7 +106,7 @@
     "token_count": 401
   },
   {
-    "chunk_id": "ch03_sec03_02_02_p01",
+    "chunk_id": "ch03_0006",
     "chapter": 3,
     "section": "3.2.2",
     "section_title": "Absorption in insulators: the Lorentz model",
@@ -130,7 +130,7 @@
     "token_count": 379
   },
   {
-    "chunk_id": "ch03_sec03_02_02_p02",
+    "chunk_id": "ch03_0007",
     "chapter": 3,
     "section": "3.2.2",
     "section_title": "Absorption in insulators: the Lorentz model",
@@ -140,7 +140,7 @@
     "token_count": 394
   },
   {
-    "chunk_id": "ch03_sec03_02_02_p03",
+    "chunk_id": "ch03_0008",
     "chapter": 3,
     "section": "3.2.2",
     "section_title": "Absorption in insulators: the Lorentz model",
@@ -150,7 +150,7 @@
     "token_count": 391
   },
   {
-    "chunk_id": "ch03_sec03_02_02_p04",
+    "chunk_id": "ch03_0009",
     "chapter": 3,
     "section": "3.2.2",
     "section_title": "Absorption in insulators: the Lorentz model",
@@ -166,7 +166,7 @@
     "token_count": 101
   },
   {
-    "chunk_id": "ch03_sec03_02_03_p00",
+    "chunk_id": "ch03_0010",
     "chapter": 3,
     "section": "3.2.3",
     "section_title": "Quantum-mechanical dispersion",
@@ -180,7 +180,7 @@
     "token_count": 260
   },
   {
-    "chunk_id": "ch03_sec03_03_p00",
+    "chunk_id": "ch03_0011",
     "chapter": 3,
     "section": "3.3",
     "section_title": "Dispersion relations",
@@ -196,7 +196,7 @@
     "token_count": 403
   },
   {
-    "chunk_id": "ch03_sec03_03_p01",
+    "chunk_id": "ch03_0012",
     "chapter": 3,
     "section": "3.3",
     "section_title": "Dispersion relations",
@@ -210,7 +210,7 @@
     "token_count": 217
   },
   {
-    "chunk_id": "ch03_sec03_04_p00",
+    "chunk_id": "ch03_0013",
     "chapter": 3,
     "section": "3.4",
     "section_title": "Mechanisms of absorption",
@@ -220,7 +220,7 @@
     "token_count": 252
   },
   {
-    "chunk_id": "ch03_sec03_04_02_p00",
+    "chunk_id": "ch03_0014",
     "chapter": 3,
     "section": "3.4.2",
     "section_title": "Molecular rotation",
@@ -230,7 +230,7 @@
     "token_count": 303
   },
   {
-    "chunk_id": "ch03_sec03_04_02_p01",
+    "chunk_id": "ch03_0015",
     "chapter": 3,
     "section": "3.4.2",
     "section_title": "Molecular rotation",
@@ -240,7 +240,7 @@
     "token_count": 321
   },
   {
-    "chunk_id": "ch03_sec03_04_03_p00",
+    "chunk_id": "ch03_0016",
     "chapter": 3,
     "section": "3.4.3",
     "section_title": "Lattice vibrations",
@@ -250,7 +250,7 @@
     "token_count": 243
   },
   {
-    "chunk_id": "ch03_sec03_04_03_p01",
+    "chunk_id": "ch03_0017",
     "chapter": 3,
     "section": "3.4.3",
     "section_title": "Lattice vibrations",
@@ -260,7 +260,7 @@
     "token_count": 331
   },
   {
-    "chunk_id": "ch03_sec03_04_04_p00",
+    "chunk_id": "ch03_0018",
     "chapter": 3,
     "section": "3.4.4",
     "section_title": ".1 The band model of electrons in a solid",
@@ -270,7 +270,7 @@
     "token_count": 361
   },
   {
-    "chunk_id": "ch03_sec03_04_04_p01",
+    "chunk_id": "ch03_0019",
     "chapter": 3,
     "section": "3.4.4",
     "section_title": ".1 The band model of electrons in a solid",
@@ -280,7 +280,7 @@
     "token_count": 350
   },
   {
-    "chunk_id": "ch03_sec03_04_04_p02",
+    "chunk_id": "ch03_0020",
     "chapter": 3,
     "section": "3.4.4",
     "section_title": ".1 The band model of electrons in a solid",
@@ -290,7 +290,7 @@
     "token_count": 217
   },
   {
-    "chunk_id": "ch03_sec03_04_04_p00",
+    "chunk_id": "ch03_0021",
     "chapter": 3,
     "section": "3.4.4",
     "section_title": ".2 Color centers",
@@ -300,7 +300,7 @@
     "token_count": 384
   },
   {
-    "chunk_id": "ch03_sec03_04_04_p00",
+    "chunk_id": "ch03_0022",
     "chapter": 3,
     "section": "3.4.4",
     "section_title": ".3 Crystal-field effects in transition elements",
@@ -310,7 +310,7 @@
     "token_count": 381
   },
   {
-    "chunk_id": "ch03_sec03_04_04_p01",
+    "chunk_id": "ch03_0023",
     "chapter": 3,
     "section": "3.4.4",
     "section_title": ".3 Crystal-field effects in transition elements",
@@ -320,7 +320,7 @@
     "token_count": 279
   },
   {
-    "chunk_id": "ch03_sec03_04_04_p00",
+    "chunk_id": "ch03_0024",
     "chapter": 3,
     "section": "3.4.4",
     "section_title": ".4 Charge transfer",
@@ -330,7 +330,7 @@
     "token_count": 309
   },
   {
-    "chunk_id": "ch03_sec03_04_04_p00",
+    "chunk_id": "ch03_0025",
     "chapter": 3,
     "section": "3.4.4",
     "section_title": ".5 Excitons",
@@ -340,7 +340,7 @@
     "token_count": 130
   },
   {
-    "chunk_id": "ch03_sec03_04_04_p00",
+    "chunk_id": "ch03_0026",
     "chapter": 3,
     "section": "3.4.4",
     "section_title": ".6 Interband and impurity transitions",
@@ -350,7 +350,7 @@
     "token_count": 247
   },
   {
-    "chunk_id": "ch03_sec03_04_05_p00",
+    "chunk_id": "ch03_0027",
     "chapter": 3,
     "section": "3.4.5",
     "section_title": "Free carriers",
@@ -360,7 +360,7 @@
     "token_count": 339
   },
   {
-    "chunk_id": "ch03_sec03_05_p00",
+    "chunk_id": "ch03_0028",
     "chapter": 3,
     "section": "3.5",
     "section_title": "Band shape and temperature effects",
@@ -370,7 +370,7 @@
     "token_count": 397
   },
   {
-    "chunk_id": "ch03_sec03_05_p01",
+    "chunk_id": "ch03_0029",
     "chapter": 3,
     "section": "3.5",
     "section_title": "Band shape and temperature effects",
@@ -380,7 +380,7 @@
     "token_count": 212
   },
   {
-    "chunk_id": "ch03_sec03_06_p00",
+    "chunk_id": "ch03_0030",
     "chapter": 3,
     "section": "3.6",
     "section_title": "Spectral databases",

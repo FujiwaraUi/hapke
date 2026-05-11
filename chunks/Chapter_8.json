@@ -1,6 +1,6 @@
 [
   {
-    "chunk_id": "ch08_sec08_01_p00",
+    "chunk_id": "ch08_0000",
     "chapter": 8,
     "section": "8.1",
     "section_title": "Introduction",
@@ -10,7 +10,7 @@
     "token_count": 225
   },
   {
-    "chunk_id": "ch08_sec08_01_p01",
+    "chunk_id": "ch08_0001",
     "chapter": 8,
     "section": "8.1",
     "section_title": "Introduction",
@@ -20,7 +20,7 @@
     "token_count": 233
   },
   {
-    "chunk_id": "ch08_sec08_02_p00",
+    "chunk_id": "ch08_0002",
     "chapter": 8,
     "section": "8.2",
     "section_title": "Reflectances",
@@ -30,7 +30,7 @@
     "token_count": 186
   },
   {
-    "chunk_id": "ch08_sec08_02_p01",
+    "chunk_id": "ch08_0003",
     "chapter": 8,
     "section": "8.2",
     "section_title": "Reflectances",
@@ -40,7 +40,7 @@
     "token_count": 272
   },
   {
-    "chunk_id": "ch08_sec08_02_p02",
+    "chunk_id": "ch08_0004",
     "chapter": 8,
     "section": "8.2",
     "section_title": "Reflectances",
@@ -50,7 +50,7 @@
     "token_count": 343
   },
   {
-    "chunk_id": "ch08_sec08_02_p03",
+    "chunk_id": "ch08_0005",
     "chapter": 8,
     "section": "8.2",
     "section_title": "Reflectances",
@@ -60,7 +60,7 @@
     "token_count": 324
   },
   {
-    "chunk_id": "ch08_sec08_02_p04",
+    "chunk_id": "ch08_0006",
     "chapter": 8,
     "section": "8.2",
     "section_title": "Reflectances",
@@ -70,7 +70,7 @@
     "token_count": 337
   },
   {
-    "chunk_id": "ch08_sec08_02_p05",
+    "chunk_id": "ch08_0007",
     "chapter": 8,
     "section": "8.2",
     "section_title": "Reflectances",
@@ -80,7 +80,7 @@
     "token_count": 203
   },
   {
-    "chunk_id": "ch08_sec08_03_p00",
+    "chunk_id": "ch08_0008",
     "chapter": 8,
     "section": "8.3",
     "section_title": "Geometry and notation",
@@ -94,7 +94,7 @@
     "token_count": 398
   },
   {
-    "chunk_id": "ch08_sec08_03_p01",
+    "chunk_id": "ch08_0009",
     "chapter": 8,
     "section": "8.3",
     "section_title": "Geometry and notation",
@@ -108,7 +108,7 @@
     "token_count": 340
   },
   {
-    "chunk_id": "ch08_sec08_03_p02",
+    "chunk_id": "ch08_0010",
     "chapter": 8,
     "section": "8.3",
     "section_title": "Geometry and notation",
@@ -128,7 +128,7 @@
     "token_count": 281
   },
   {
-    "chunk_id": "ch08_sec08_04_p00",
+    "chunk_id": "ch08_0011",
     "chapter": 8,
     "section": "8.4",
     "section_title": "The radiance at a detector viewing a horizontally stratified medium",
@@ -138,7 +138,7 @@
     "token_count": 378
   },
   {
-    "chunk_id": "ch08_sec08_04_p01",
+    "chunk_id": "ch08_0012",
     "chapter": 8,
     "section": "8.4",
     "section_title": "The radiance at a detector viewing a horizontally stratified medium",
@@ -156,7 +156,7 @@
     "token_count": 292
   },
   {
-    "chunk_id": "ch08_sec08_05_01_p00",
+    "chunk_id": "ch08_0013",
     "chapter": 8,
     "section": "8.5.1",
     "section_title": "Lambert's law (the diffuse-reflectance function)",
@@ -172,7 +172,7 @@
     "token_count": 373
   },
   {
-    "chunk_id": "ch08_sec08_05_01_p01",
+    "chunk_id": "ch08_0014",
     "chapter": 8,
     "section": "8.5.1",
     "section_title": "Lambert's law (the diffuse-reflectance function)",
@@ -188,7 +188,7 @@
     "token_count": 302
   },
   {
-    "chunk_id": "ch08_sec08_05_02_p00",
+    "chunk_id": "ch08_0015",
     "chapter": 8,
     "section": "8.5.2",
     "section_title": "Minnaert's law",
@@ -202,7 +202,7 @@
     "token_count": 359
   },
   {
-    "chunk_id": "ch08_sec08_05_03_p00",
+    "chunk_id": "ch08_0016",
     "chapter": 8,
     "section": "8.5.3",
     "section_title": "The general Lommel–Seeliger law",
@@ -216,7 +216,7 @@
     "token_count": 103
   },
   {
-    "chunk_id": "ch08_sec08_05_04_p00",
+    "chunk_id": "ch08_0017",
     "chapter": 8,
     "section": "8.5.4",
     "section_title": "Combined Lambert-Lommel-Seeliger law",
@@ -230,7 +230,7 @@
     "token_count": 88
   },
   {
-    "chunk_id": "ch08_sec08_06_p00",
+    "chunk_id": "ch08_0018",
     "chapter": 8,
     "section": "8.6",
     "section_title": "The diffusive reflectance 8.6.1 Equations",
@@ -240,7 +240,7 @@
     "token_count": 316
   },
   {
-    "chunk_id": "ch08_sec08_06_p01",
+    "chunk_id": "ch08_0019",
     "chapter": 8,
     "section": "8.6",
     "section_title": "The diffusive reflectance 8.6.1 Equations",
@@ -254,7 +254,7 @@
     "token_count": 365
   },
   {
-    "chunk_id": "ch08_sec08_06_p02",
+    "chunk_id": "ch08_0020",
     "chapter": 8,
     "section": "8.6",
     "section_title": "The diffusive reflectance 8.6.1 Equations",
@@ -276,7 +276,7 @@
     "token_count": 390
   },
   {
-    "chunk_id": "ch08_sec08_06_02_p00",
+    "chunk_id": "ch08_0021",
     "chapter": 8,
     "section": "8.6.2",
     "section_title": "Solution for isotropic scatterers",
@@ -312,7 +312,7 @@
     "token_count": 403
   },
   {
-    "chunk_id": "ch08_sec08_06_02_p01",
+    "chunk_id": "ch08_0022",
     "chapter": 8,
     "section": "8.6.2",
     "section_title": "Solution for isotropic scatterers",
@@ -342,7 +342,7 @@
     "token_count": 347
   },
   {
-    "chunk_id": "ch08_sec08_06_02_p02",
+    "chunk_id": "ch08_0023",
     "chapter": 8,
     "section": "8.6.2",
     "section_title": "Solution for isotropic scatterers",
@@ -360,7 +360,7 @@
     "token_count": 397
   },
   {
-    "chunk_id": "ch08_sec08_06_02_p03",
+    "chunk_id": "ch08_0024",
     "chapter": 8,
     "section": "8.6.2",
     "section_title": "Solution for isotropic scatterers",
@@ -374,7 +374,7 @@
     "token_count": 140
   },
   {
-    "chunk_id": "ch08_sec08_06_03_p00",
+    "chunk_id": "ch08_0025",
     "chapter": 8,
     "section": "8.6.3",
     "section_title": "The Lambert-diffusive-scattering law",
@@ -392,7 +392,7 @@
     "token_count": 134
   },
   {
-    "chunk_id": "ch08_sec08_06_04_p00",
+    "chunk_id": "ch08_0026",
     "chapter": 8,
     "section": "8.6.4",
     "section_title": "Diffusive solution for anisotropic scatterers: similarity relations",
@@ -426,7 +426,7 @@
     "token_count": 406
   },
   {
-    "chunk_id": "ch08_sec08_06_04_p01",
+    "chunk_id": "ch08_0027",
     "chapter": 8,
     "section": "8.6.4",
     "section_title": "Diffusive solution for anisotropic scatterers: similarity relations",
@@ -440,7 +440,7 @@
     "token_count": 230
   },
   {
-    "chunk_id": "ch08_sec08_07_p00",
+    "chunk_id": "ch08_0028",
     "chapter": 8,
     "section": "8.7",
     "section_title": "The bidirectional reflectance 8.7.1 Introduction",
@@ -450,7 +450,7 @@
     "token_count": 246
   },
   {
-    "chunk_id": "ch08_sec08_07_p01",
+    "chunk_id": "ch08_0029",
     "chapter": 8,
     "section": "8.7",
     "section_title": "The bidirectional reflectance 8.7.1 Introduction",
@@ -460,7 +460,7 @@
     "token_count": 373
   },
   {
-    "chunk_id": "ch08_sec08_07_p02",
+    "chunk_id": "ch08_0030",
     "chapter": 8,
     "section": "8.7",
     "section_title": "The bidirectional reflectance 8.7.1 Introduction",
@@ -470,7 +470,7 @@
     "token_count": 371
   },
   {
-    "chunk_id": "ch08_sec08_07_p03",
+    "chunk_id": "ch08_0031",
     "chapter": 8,
     "section": "8.7",
     "section_title": "The bidirectional reflectance 8.7.1 Introduction",
@@ -486,7 +486,7 @@
     "token_count": 378
   },
   {
-    "chunk_id": "ch08_sec08_07_p04",
+    "chunk_id": "ch08_0032",
     "chapter": 8,
     "section": "8.7",
     "section_title": "The bidirectional reflectance 8.7.1 Introduction",
@@ -502,7 +502,7 @@
     "token_count": 65
   },
   {
-    "chunk_id": "ch08_sec08_07_02_p00",
+    "chunk_id": "ch08_0033",
     "chapter": 8,
     "section": "8.7.2",
     "section_title": "Single scattering: the Lommel-Seeliger law",
@@ -520,7 +520,7 @@
     "token_count": 376
   },
   {
-    "chunk_id": "ch08_sec08_07_02_p01",
+    "chunk_id": "ch08_0034",
     "chapter": 8,
     "section": "8.7.2",
     "section_title": "Single scattering: the Lommel-Seeliger law",
@@ -534,7 +534,7 @@
     "token_count": 164
   },
   {
-    "chunk_id": "ch08_sec08_07_03_p00",
+    "chunk_id": "ch08_0035",
     "chapter": 8,
     "section": "8.7.3",
     "section_title": "The bidirectional reflectance of a sparse medium of isotropic scatterers",
@@ -544,7 +544,7 @@
     "token_count": 316
   },
   {
-    "chunk_id": "ch08_sec08_07_03_p01",
+    "chunk_id": "ch08_0036",
     "chapter": 8,
     "section": "8.7.3",
     "section_title": "The bidirectional reflectance of a sparse medium of isotropic scatterers",
@@ -560,7 +560,7 @@
     "token_count": 353
   },
   {
-    "chunk_id": "ch08_sec08_07_03_p02",
+    "chunk_id": "ch08_0037",
     "chapter": 8,
     "section": "8.7.3",
     "section_title": "The bidirectional reflectance of a sparse medium of isotropic scatterers",
@@ -586,7 +586,7 @@
     "token_count": 394
   },
   {
-    "chunk_id": "ch08_sec08_07_03_p03",
+    "chunk_id": "ch08_0038",
     "chapter": 8,
     "section": "8.7.3",
     "section_title": "The bidirectional reflectance of a sparse medium of isotropic scatterers",
@@ -610,7 +610,7 @@
     "token_count": 353
   },
   {
-    "chunk_id": "ch08_sec08_07_03_p04",
+    "chunk_id": "ch08_0039",
     "chapter": 8,
     "section": "8.7.3",
     "section_title": "The bidirectional reflectance of a sparse medium of isotropic scatterers",
@@ -628,7 +628,7 @@
     "token_count": 398
   },
   {
-    "chunk_id": "ch08_sec08_07_03_p05",
+    "chunk_id": "ch08_0040",
     "chapter": 8,
     "section": "8.7.3",
     "section_title": "The bidirectional reflectance of a sparse medium of isotropic scatterers",
@@ -642,7 +642,7 @@
     "token_count": 49
   },
   {
-    "chunk_id": "ch08_sec08_07_03_p00",
+    "chunk_id": "ch08_0041",
     "chapter": 8,
     "section": "8.7.3",
     "section_title": ".2 Solution using the method of invariance",
@@ -660,7 +660,7 @@
     "token_count": 361
   },
   {
-    "chunk_id": "ch08_sec08_07_03_p01",
+    "chunk_id": "ch08_0042",
     "chapter": 8,
     "section": "8.7.3",
     "section_title": ".2 Solution using the method of invariance",
@@ -678,7 +678,7 @@
     "token_count": 356
   },
   {
-    "chunk_id": "ch08_sec08_07_03_p00",
+    "chunk_id": "ch08_0043",
     "chapter": 8,
     "section": "8.7.3",
     "section_title": ".3 Properties, analytic approximations, and moments of the H functions",
@@ -692,7 +692,7 @@
     "token_count": 401
   },
   {
-    "chunk_id": "ch08_sec08_07_03_p01",
+    "chunk_id": "ch08_0044",
     "chapter": 8,
     "section": "8.7.3",
     "section_title": ".3 Properties, analytic approximations, and moments of the H functions",
@@ -724,7 +724,7 @@
     "token_count": 399
   },
   {
-    "chunk_id": "ch08_sec08_07_03_p02",
+    "chunk_id": "ch08_0045",
     "chapter": 8,
     "section": "8.7.3",
     "section_title": ".3 Properties, analytic approximations, and moments of the H functions",
@@ -744,7 +744,7 @@
     "token_count": 400
   },
   {
-    "chunk_id": "ch08_sec08_07_03_p03",
+    "chunk_id": "ch08_0046",
     "chapter": 8,
     "section": "8.7.3",
     "section_title": ".3 Properties, analytic approximations, and moments of the H functions",
@@ -760,7 +760,7 @@
     "token_count": 107
   },
   {
-    "chunk_id": "ch08_sec08_07_04_p00",
+    "chunk_id": "ch08_0047",
     "chapter": 8,
     "section": "8.7.4",
     "section_title": "Anisotropic scatterers",
@@ -770,7 +770,7 @@
     "token_count": 232
   },
   {
-    "chunk_id": "ch08_sec08_07_04_p00",
+    "chunk_id": "ch08_0048",
     "chapter": 8,
     "section": "8.7.4",
     "section_title": ".2 Similarity relations",
@@ -786,7 +786,7 @@
     "token_count": 377
   },
   {
-    "chunk_id": "ch08_sec08_07_04_p01",
+    "chunk_id": "ch08_0049",
     "chapter": 8,
     "section": "8.7.4",
     "section_title": ".2 Similarity relations",
@@ -796,7 +796,7 @@
     "token_count": 257
   },
   {
-    "chunk_id": "ch08_sec08_07_04_p00",
+    "chunk_id": "ch08_0050",
     "chapter": 8,
     "section": "8.7.4",
     "section_title": ".3 The isotropic multiple-scattering approximation (IMSA)",
@@ -806,7 +806,7 @@
     "token_count": 335
   },
   {
-    "chunk_id": "ch08_sec08_07_04_p01",
+    "chunk_id": "ch08_0051",
     "chapter": 8,
     "section": "8.7.4",
     "section_title": ".3 The isotropic multiple-scattering approximation (IMSA)",
@@ -824,7 +824,7 @@
     "token_count": 296
   },
   {
-    "chunk_id": "ch08_sec08_07_04_p02",
+    "chunk_id": "ch08_0052",
     "chapter": 8,
     "section": "8.7.4",
     "section_title": ".3 The isotropic multiple-scattering approximation (IMSA)",
@@ -834,7 +834,7 @@
     "token_count": 279
   },
   {
-    "chunk_id": "ch08_sec08_07_04_p03",
+    "chunk_id": "ch08_0053",
     "chapter": 8,
     "section": "8.7.4",
     "section_title": ".3 The isotropic multiple-scattering approximation (IMSA)",
@@ -844,7 +844,7 @@
     "token_count": 193
   },
   {
-    "chunk_id": "ch08_sec08_07_04_p04",
+    "chunk_id": "ch08_0054",
     "chapter": 8,
     "section": "8.7.4",
     "section_title": ".3 The isotropic multiple-scattering approximation (IMSA)",
@@ -858,7 +858,7 @@
     "token_count": 363
   },
   {
-    "chunk_id": "ch08_sec08_07_04_p05",
+    "chunk_id": "ch08_0055",
     "chapter": 8,
     "section": "8.7.4",
     "section_title": ".3 The isotropic multiple-scattering approximation (IMSA)",
@@ -880,7 +880,7 @@
     "token_count": 407
   },
   {
-    "chunk_id": "ch08_sec08_07_04_p06",
+    "chunk_id": "ch08_0056",
     "chapter": 8,
     "section": "8.7.4",
     "section_title": ".3 The isotropic multiple-scattering approximation (IMSA)",
@@ -912,7 +912,7 @@
     "token_count": 403
   },
   {
-    "chunk_id": "ch08_sec08_07_04_p07",
+    "chunk_id": "ch08_0057",
     "chapter": 8,
     "section": "8.7.4",
     "section_title": ".3 The isotropic multiple-scattering approximation (IMSA)",
@@ -928,7 +928,7 @@
     "token_count": 300
   },
   {
-    "chunk_id": "ch08_sec08_08_p00",
+    "chunk_id": "ch08_0058",
     "chapter": 8,
     "section": "8.8",
     "section_title": "Comparison of the IMSA model with measurements",
@@ -938,7 +938,7 @@
     "token_count": 356
   },
   {
-    "chunk_id": "ch08_sec08_08_p01",
+    "chunk_id": "ch08_0059",
     "chapter": 8,
     "section": "8.8",
     "section_title": "Comparison of the IMSA model with measurements",
@@ -948,7 +948,7 @@
     "token_count": 400
   },
   {
-    "chunk_id": "ch08_sec08_08_p02",
+    "chunk_id": "ch08_0060",
     "chapter": 8,
     "section": "8.8",
     "section_title": "Comparison of the IMSA model with measurements",
@@ -958,7 +958,7 @@
     "token_count": 363
   },
   {
-    "chunk_id": "ch08_sec08_08_p03",
+    "chunk_id": "ch08_0061",
     "chapter": 8,
     "section": "8.8",
     "section_title": "Comparison of the IMSA model with measurements",
@@ -968,7 +968,7 @@
     "token_count": 307
   },
   {
-    "chunk_id": "ch08_sec08_08_p04",
+    "chunk_id": "ch08_0062",
     "chapter": 8,
     "section": "8.8",
     "section_title": "Comparison of the IMSA model with measurements",
@@ -978,7 +978,7 @@
     "token_count": 352
   },
   {
-    "chunk_id": "ch08_sec08_08_p05",
+    "chunk_id": "ch08_0063",
     "chapter": 8,
     "section": "8.8",
     "section_title": "Comparison of the IMSA model with measurements",
@@ -988,7 +988,7 @@
     "token_count": 352
   },
   {
-    "chunk_id": "ch08_sec08_08_p06",
+    "chunk_id": "ch08_0064",
     "chapter": 8,
     "section": "8.8",
     "section_title": "Comparison of the IMSA model with measurements",
@@ -998,7 +998,7 @@
     "token_count": 238
   },
   {
-    "chunk_id": "ch08_sec08_09_p00",
+    "chunk_id": "ch08_0065",
     "chapter": 8,
     "section": "8.9",
     "section_title": "Bidirectional reflectance of a medium of arbitrary filling factor",
@@ -1008,7 +1008,7 @@
     "token_count": 342
   },
   {
-    "chunk_id": "ch08_sec08_09_p01",
+    "chunk_id": "ch08_0066",
     "chapter": 8,
     "section": "8.9",
     "section_title": "Bidirectional reflectance of a medium of arbitrary filling factor",
@@ -1024,7 +1024,7 @@
     "token_count": 373
   },
   {
-    "chunk_id": "ch08_sec08_09_p02",
+    "chunk_id": "ch08_0067",
     "chapter": 8,
     "section": "8.9",
     "section_title": "Bidirectional reflectance of a medium of arbitrary filling factor",
@@ -1034,7 +1034,7 @@
     "token_count": 293
   },
   {
-    "chunk_id": "ch08_sec08_09_p03",
+    "chunk_id": "ch08_0068",
     "chapter": 8,
     "section": "8.9",
     "section_title": "Bidirectional reflectance of a medium of arbitrary filling factor",
@@ -1044,7 +1044,7 @@
     "token_count": 273
   },
   {
-    "chunk_id": "ch08_sec08_09_p04",
+    "chunk_id": "ch08_0069",
     "chapter": 8,
     "section": "8.9",
     "section_title": "Bidirectional reflectance of a medium of arbitrary filling factor",

@@ -1,6 +1,6 @@
 [
   {
-    "chunk_id": "ch02_sec02_01_p00",
+    "chunk_id": "ch02_0000",
     "chapter": 2,
     "section": "2.1",
     "section_title": "Maxwell's equations",
@@ -20,7 +20,7 @@
     "token_count": 333
   },
   {
-    "chunk_id": "ch02_sec02_01_p01",
+    "chunk_id": "ch02_0001",
     "chapter": 2,
     "section": "2.1",
     "section_title": "Maxwell's equations",
@@ -30,7 +30,7 @@
     "token_count": 372
   },
   {
-    "chunk_id": "ch02_sec02_02_01_p00",
+    "chunk_id": "ch02_0002",
     "chapter": 2,
     "section": "2.2.1",
     "section_title": "The wave equation",
@@ -62,7 +62,7 @@
     "token_count": 387
   },
   {
-    "chunk_id": "ch02_sec02_02_01_p01",
+    "chunk_id": "ch02_0003",
     "chapter": 2,
     "section": "2.2.1",
     "section_title": "The wave equation",
@@ -80,7 +80,7 @@
     "token_count": 402
   },
   {
-    "chunk_id": "ch02_sec02_02_01_p02",
+    "chunk_id": "ch02_0004",
     "chapter": 2,
     "section": "2.2.1",
     "section_title": "The wave equation",
@@ -98,7 +98,7 @@
     "token_count": 402
   },
   {
-    "chunk_id": "ch02_sec02_02_01_p03",
+    "chunk_id": "ch02_0005",
     "chapter": 2,
     "section": "2.2.1",
     "section_title": "The wave equation",
@@ -114,7 +114,7 @@
     "token_count": 276
   },
   {
-    "chunk_id": "ch02_sec02_02_01_p04",
+    "chunk_id": "ch02_0006",
     "chapter": 2,
     "section": "2.2.1",
     "section_title": "The wave equation",
@@ -134,7 +134,7 @@
     "token_count": 353
   },
   {
-    "chunk_id": "ch02_sec02_02_01_p05",
+    "chunk_id": "ch02_0007",
     "chapter": 2,
     "section": "2.2.1",
     "section_title": "The wave equation",
@@ -152,7 +152,7 @@
     "token_count": 337
   },
   {
-    "chunk_id": "ch02_sec02_02_02_p00",
+    "chunk_id": "ch02_0008",
     "chapter": 2,
     "section": "2.2.2",
     "section_title": "Huygens's principle",
@@ -162,7 +162,7 @@
     "token_count": 315
   },
   {
-    "chunk_id": "ch02_sec02_02_03_p00",
+    "chunk_id": "ch02_0009",
     "chapter": 2,
     "section": "2.2.3",
     "section_title": "The Poynting vector and the irradiance",
@@ -186,7 +186,7 @@
     "token_count": 367
   },
   {
-    "chunk_id": "ch02_sec02_02_03_p01",
+    "chunk_id": "ch02_0010",
     "chapter": 2,
     "section": "2.2.3",
     "section_title": "The Poynting vector and the irradiance",
@@ -206,7 +206,7 @@
     "token_count": 395
   },
   {
-    "chunk_id": "ch02_sec02_03_p00",
+    "chunk_id": "ch02_0011",
     "chapter": 2,
     "section": "2.3",
     "section_title": "Propagation in a linear nonabsorbing medium 2.3.1 Induced electric dipoles",
@@ -222,7 +222,7 @@
     "token_count": 370
   },
   {
-    "chunk_id": "ch02_sec02_03_p01",
+    "chunk_id": "ch02_0012",
     "chapter": 2,
     "section": "2.3",
     "section_title": "Propagation in a linear nonabsorbing medium 2.3.1 Induced electric dipoles",
@@ -248,7 +248,7 @@
     "token_count": 381
   },
   {
-    "chunk_id": "ch02_sec02_03_02_p00",
+    "chunk_id": "ch02_0013",
     "chapter": 2,
     "section": "2.3.2",
     "section_title": "The Clausius-Mossotti / Lorentz-Lorenz relation",
@@ -262,7 +262,7 @@
     "token_count": 375
   },
   {
-    "chunk_id": "ch02_sec02_03_02_p01",
+    "chunk_id": "ch02_0014",
     "chapter": 2,
     "section": "2.3.2",
     "section_title": "The Clausius-Mossotti / Lorentz-Lorenz relation",
@@ -278,7 +278,7 @@
     "token_count": 398
   },
   {
-    "chunk_id": "ch02_sec02_03_02_p02",
+    "chunk_id": "ch02_0015",
     "chapter": 2,
     "section": "2.3.2",
     "section_title": "The Clausius-Mossotti / Lorentz-Lorenz relation",
@@ -306,7 +306,7 @@
     "token_count": 404
   },
   {
-    "chunk_id": "ch02_sec02_03_02_p03",
+    "chunk_id": "ch02_0016",
     "chapter": 2,
     "section": "2.3.2",
     "section_title": "The Clausius-Mossotti / Lorentz-Lorenz relation",
@@ -320,7 +320,7 @@
     "token_count": 230
   },
   {
-    "chunk_id": "ch02_sec02_03_03_p00",
+    "chunk_id": "ch02_0017",
     "chapter": 2,
     "section": "2.3.3",
     "section_title": "Induced magnetic dipoles",
@@ -344,7 +344,7 @@
     "token_count": 314
   },
   {
-    "chunk_id": "ch02_sec02_03_04_p00",
+    "chunk_id": "ch02_0018",
     "chapter": 2,
     "section": "2.3.4",
     "section_title": "The wave equation",
@@ -370,7 +370,7 @@
     "token_count": 411
   },
   {
-    "chunk_id": "ch02_sec02_03_04_p01",
+    "chunk_id": "ch02_0019",
     "chapter": 2,
     "section": "2.3.4",
     "section_title": "The wave equation",
@@ -386,7 +386,7 @@
     "token_count": 34
   },
   {
-    "chunk_id": "ch02_sec02_04_01_p00",
+    "chunk_id": "ch02_0020",
     "chapter": 2,
     "section": "2.4.1",
     "section_title": "The wave equation with finite conductivity",
@@ -410,7 +410,7 @@
     "token_count": 395
   },
   {
-    "chunk_id": "ch02_sec02_04_01_p01",
+    "chunk_id": "ch02_0021",
     "chapter": 2,
     "section": "2.4.1",
     "section_title": "The wave equation with finite conductivity",
@@ -420,7 +420,7 @@
     "token_count": 295
   },
   {
-    "chunk_id": "ch02_sec02_04_02_p00",
+    "chunk_id": "ch02_0022",
     "chapter": 2,
     "section": "2.4.2",
     "section_title": "Representations of absorption of radiation",
@@ -436,7 +436,7 @@
     "token_count": 314
   },
   {
-    "chunk_id": "ch02_sec02_04_02_p01",
+    "chunk_id": "ch02_0023",
     "chapter": 2,
     "section": "2.4.2",
     "section_title": "Representations of absorption of radiation",
@@ -464,7 +464,7 @@
     "token_count": 392
   },
   {
-    "chunk_id": "ch02_sec02_04_02_p02",
+    "chunk_id": "ch02_0024",
     "chapter": 2,
     "section": "2.4.2",
     "section_title": "Representations of absorption of radiation",
@@ -494,7 +494,7 @@
     "token_count": 336
   },
   {
-    "chunk_id": "ch02_sec02_04_02_p03",
+    "chunk_id": "ch02_0025",
     "chapter": 2,
     "section": "2.4.2",
     "section_title": "Representations of absorption of radiation",
@@ -516,7 +516,7 @@
     "token_count": 386
   },
   {
-    "chunk_id": "ch02_sec02_04_02_p04",
+    "chunk_id": "ch02_0026",
     "chapter": 2,
     "section": "2.4.2",
     "section_title": "Representations of absorption of radiation",
@@ -540,7 +540,7 @@
     "token_count": 393
   },
   {
-    "chunk_id": "ch02_sec02_04_02_p05",
+    "chunk_id": "ch02_0027",
     "chapter": 2,
     "section": "2.4.2",
     "section_title": "Representations of absorption of radiation",
@@ -554,7 +554,7 @@
     "token_count": 95
   },
   {
-    "chunk_id": "ch02_sec02_05_p00",
+    "chunk_id": "ch02_0028",
     "chapter": 2,
     "section": "2.5",
     "section_title": "Interference",
@@ -568,7 +568,7 @@
     "token_count": 376
   },
   {
-    "chunk_id": "ch02_sec02_05_p01",
+    "chunk_id": "ch02_0029",
     "chapter": 2,
     "section": "2.5",
     "section_title": "Interference",
@@ -582,7 +582,7 @@
     "token_count": 221
   },
   {
-    "chunk_id": "ch02_sec02_05_p02",
+    "chunk_id": "ch02_0030",
     "chapter": 2,
     "section": "2.5",
     "section_title": "Interference",
@@ -596,7 +596,7 @@
     "token_count": 293
   },
   {
-    "chunk_id": "ch02_sec02_06_p00",
+    "chunk_id": "ch02_0031",
     "chapter": 2,
     "section": "2.6",
     "section_title": "Polarization; the Stokes vector 2.6.1 Linear and circular polarization",
@@ -606,7 +606,7 @@
     "token_count": 264
   },
   {
-    "chunk_id": "ch02_sec02_06_p01",
+    "chunk_id": "ch02_0032",
     "chapter": 2,
     "section": "2.6",
     "section_title": "Polarization; the Stokes vector 2.6.1 Linear and circular polarization",
@@ -616,7 +616,7 @@
     "token_count": 233
   },
   {
-    "chunk_id": "ch02_sec02_06_p02",
+    "chunk_id": "ch02_0033",
     "chapter": 2,
     "section": "2.6",
     "section_title": "Polarization; the Stokes vector 2.6.1 Linear and circular polarization",
@@ -626,7 +626,7 @@
     "token_count": 389
   },
   {
-    "chunk_id": "ch02_sec02_06_p03",
+    "chunk_id": "ch02_0034",
     "chapter": 2,
     "section": "2.6",
     "section_title": "Polarization; the Stokes vector 2.6.1 Linear and circular polarization",
@@ -636,7 +636,7 @@
     "token_count": 103
   },
   {
-    "chunk_id": "ch02_sec02_06_02_p00",
+    "chunk_id": "ch02_0035",
     "chapter": 2,
     "section": "2.6.2",
     "section_title": "The Jones and Stokes vectors",
@@ -654,7 +654,7 @@
     "token_count": 325
   },
   {
-    "chunk_id": "ch02_sec02_06_02_p01",
+    "chunk_id": "ch02_0036",
     "chapter": 2,
     "section": "2.6.2",
     "section_title": "The Jones and Stokes vectors",
@@ -668,7 +668,7 @@
     "token_count": 180
   },
   {
-    "chunk_id": "ch02_sec02_06_02_p02",
+    "chunk_id": "ch02_0037",
     "chapter": 2,
     "section": "2.6.2",
     "section_title": "The Jones and Stokes vectors",
@@ -678,7 +678,7 @@
     "token_count": 431
   },
   {
-    "chunk_id": "ch02_sec02_06_02_p03",
+    "chunk_id": "ch02_0038",
     "chapter": 2,
     "section": "2.6.2",
     "section_title": "The Jones and Stokes vectors",
@@ -700,7 +700,7 @@
     "token_count": 380
   },
   {
-    "chunk_id": "ch02_sec02_06_03_p00",
+    "chunk_id": "ch02_0039",
     "chapter": 2,
     "section": "2.6.3",
     "section_title": "Polarization",
