@@ -1,0 +1,102 @@
+[
+  {
+    "chunk_id": "ch01_sec00_p00",
+    "chapter": 1,
+    "section": "",
+    "section_title": "Introduction",
+    "text": "Then we shall rise and view ourselves with clearer eyes. *Henry King, bishop of Chichester (1592–1669)*",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 25
+  },
+  {
+    "chunk_id": "ch01_sec01_01_p00",
+    "chapter": 1,
+    "section": "1.1",
+    "section_title": "Scientific rationale",
+    "text": "All models are wrong, but some are useful.\n\n*George E. P. Box*\n\nThe subject of this book is remote sensing, that is, seeing \"with clearer eyes.\" In particular, it is concerned with how light is emitted and scattered by media composed of discrete particles and what can be learned about such a medium from its scattering properties.\n\nIf you stop reading now and look around, you will notice that most of the surfaces you see consist of particulate materials. Sometimes the particles are loose, as in soils or clouds. Sometimes they are embedded in a transparent matrix, as in paint, which consists of white particles in a colored binder. Or they may be fused together, as in rocks, or tiles which consist of sintered ceramic powder. Even vegetation is a kind of particulate medium in which the \"particles\" are leaves and stems. These examples show that if we wish to quantitatively interpret the electromagnetic radiation that reaches us, rather than simply form an image from it, it is necessary to consider the scattering and propagation of light within nonuniform media.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 268
+  },
+  {
+    "chunk_id": "ch01_sec01_01_p01",
+    "chapter": 1,
+    "section": "1.1",
+    "section_title": "Scientific rationale",
+    "text": "...tatively interpret the electromagnetic radiation that reaches us, rather than simply form an image from it, it is necessary to consider the scattering and propagation of light within nonuniform media.\n\nOne of the first persons to use remote sensing to learn about the surface of a planet was Galileo Galilei. Galileo (1638) noticed that the full Moon, as it rose over his garden wall opposite the setting Sun, was darker than the sunlit wall. He also noted that the bidirectional reflectance function (of course, he did not use that term) of the lunar surface was diffuse in nature, rather than specular. From those observations he argued that the Moon was not a smooth, perfectly reflecting, crystalline sphere, as the prevailing wisdom of the day supposed, but was a planet not unlike the Earth. 2 *Introduction*",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 204
+  },
+  {
+    "chunk_id": "ch01_sec01_01_p02",
+    "chapter": 1,
+    "section": "1.1",
+    "section_title": "Scientific rationale",
+    "text": "...e observations he argued that the Moon was not a smooth, perfectly reflecting, crystalline sphere, as the prevailing wisdom of the day supposed, but was a planet not unlike the Earth. 2 *Introduction*\n\nIn the intervening years since Galileo, remote sensing of planetary surfaces has become a quantitative science that has been used by two major groups of scientists. One is the community of planetary scientists. Virtually everything we know about the surfaces of the other bodies of the solar system comes to us through remote sensing. Most spacecraft missions are flybys or orbiters, and even landers, manned or unmanned, can sample only tiny portions of the surfaces of the bodies on which they set down. The second group consists of those scientists who are concerned with processes on the surface of the Earth, including geologists, meteorologists, geographers, and agronomists, who use remote sensing to study the Earth from balloons, aircraft, and satellites. However, the book is sufficiently general that it should be useful to any scientist or engineer who uses reflectance or emittance as an analytical tool.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 280
+  },
+  {
+    "chunk_id": "ch01_sec01_01_p03",
+    "chapter": 1,
+    "section": "1.1",
+    "section_title": "Scientific rationale",
+    "text": "... Earth from balloons, aircraft, and satellites. However, the book is sufficiently general that it should be useful to any scientist or engineer who uses reflectance or emittance as an analytical tool.\n\nIn addition, reflectance spectroscopy turns out to be a powerful method for quantitatively measuring the characteristic absorption spectrum of a material. It has several advantages over more conventional methods. The dynamic range of the technique is large, typically four or more orders of magnitude in the absorption coefficient. The method is effective when the imaginary component of the refractive index is in the range of $10^{-3}$ to $10^{-1}$, where both transmission and specular reflection techniques are difficult. Finally, sample preparation is convenient and simply requires grinding and sieving the material. Thus, this book should also be of interest to anyone who measures absorption coefficients.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 229
+  },
+  {
+    "chunk_id": "ch01_sec01_01_p04",
+    "chapter": 1,
+    "section": "1.1",
+    "section_title": "Scientific rationale",
+    "text": "...e difficult. Finally, sample preparation is convenient and simply requires grinding and sieving the material. Thus, this book should also be of interest to anyone who measures absorption coefficients.\n\nThe purpose of this book is to present quantitative models that describe the diffuse scattering and thermal emission of electromagnetic radiation from particulate media, such as planetary regoliths or powders in the laboratory. There are two general approaches to this problem. The first is to start from Maxwell's electromagnetic equations and attempt to find exact solutions. However, even with the use of modern high-speed compters this turns out to be impossible except for systems that are so simple as to have little resemblance to actual media, and the amount of computer time required is so long as to be impractical for most applications. Such solutions are useful primarily for illuminating some of the physical processes involved in light scattering by particulate media. However, at the present stage of our computational abilities they cannot justify the rather astonishing claim made by some persons that these processes are understood perfectly.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 291
+  },
+  {
+    "chunk_id": "ch01_sec01_01_p05",
+    "chapter": 1,
+    "section": "1.1",
+    "section_title": "Scientific rationale",
+    "text": "... by particulate media. However, at the present stage of our computational abilities they cannot justify the rather astonishing claim made by some persons that these processes are understood perfectly.\n\nThe second method, and the one used in this book, is based primarily on the equation of radiative transfer. This infamous equation is so notoriously intractable that most students have tried to stay as far away from it as possible. However, it will be seen that, by making appropriate approximations, solutions that are mathematically simple but surprisingly accurate can be obtained. (For example, see Figure 8.10.) Essentially, the radiative transfer equation assumes that photons of light can be treated as a gas diffusing between the particles of the medium. Even though the mathematical basis of this assumption has not been fully established, and some of the solutions presented in this book are not exact, this approach can be justified on several grounds:",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 242
+  },
+  {
+    "chunk_id": "ch01_sec01_01_p06",
+    "chapter": 1,
+    "section": "1.1",
+    "section_title": "Scientific rationale",
+    "text": "...Even though the mathematical basis of this assumption has not been fully established, and some of the solutions presented in this book are not exact, this approach can be justified on several grounds:\n\n- (1) In most remote-sensing measurements the accuracy with which *absolute* reflectances can be measured is usually relatively low, typical uncertainties being of the order of ±10%. Even in the laboratory, considerable effort must be expended to improve this figure substantially.\n- (2) Most applications deal with large, irregular particles whose scattering properties are poorly known, so that a detailed numerical calculation may give a misleading impression of high accuracy.\n- (3) Often in applications to planetary science a first-order estimate is sufficient to explain an observation or evaluate a hypothesis, and greater precision is unwarranted by the data.\n- (4) To evaluate the effect of varying a parameter, a numerical solution must be repeated many times, whereas if an analytic expression is available the effect can often be ascertained by inspection.\n\nThus, in most cases, exact numerical solutions are no more useful and are much less convenient than approximate analytic ones. The philosophy of this book is to be as rigorous as possible but, where necessary, to make approximations that retain the essential physics and at the same time are sufficiently simple that solutions to the problems of interest can be given by closed analytic functions.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 368
+  },
+  {
+    "chunk_id": "ch01_sec01_02_p00",
+    "chapter": 1,
+    "section": "1.2",
+    "section_title": "About this book",
+    "text": "The book is aimed at advanced undergraduate and beginning graduate students in the physical sciences. It is assumed that the reader has had at least an introductory course in physics, plus calculus through differential equations, and has a slight familiarity with vectors and complex variables. For those whose knowledge of mathematics is limited or rusty, brief reviews of those aspects of vector calculus, complex variables, and standard solutions of the wave equation that will be needed in this book have been included in AppendixesA–C.\n\nI have tried to use notations that are in wide use, but this is not always possible in a treatise that covers a large range of topics. A list of symbols is included as Appendix E. Occasionally I have had to use the same symbol for two different quantities; in that case the meaning should be obvious from the context.\n\nThe book is divided into four parts. The first part, consisting of Chapters 2–4, introduces the general subjects of wave propagation and absorption in continuous media, polarization, and specular reflection from boundaries. The second part, Chapters 5 and 6, describes the scattering of light by single particles. The 4 *Introduction*",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 298
+  },
+  {
+    "chunk_id": "ch01_sec01_02_p01",
+    "chapter": 1,
+    "section": "1.2",
+    "section_title": "About this book",
+    "text": "...nd absorption in continuous media, polarization, and specular reflection from boundaries. The second part, Chapters 5 and 6, describes the scattering of light by single particles. The 4 *Introduction*\n\nthird part, Chapters 7–14, treats diffuse reflectance and polarization by particulate media and applications to reflectance spectroscopy. Thermal emittance is treated in Chapters 15 and 16. The discussion of thermal emittance spectroscopy can be brief because Kirchhoff's laws show that the processes of emittance and reflectance are complementary. Hence, the results of the earlier chapters on reflectance can be carried over directly to emittance.\n\nFinally, an important warning must be issued to those who might want to use equations printed in this book to interpret reflectance or emittance data. I have tried to ensure that the important equations are correct, but I doubt that I have been completely successful. All practitioners of science know that Murphy's law is real, and in the context of this book the law can be phrased, \"The equation you need the most contains a typographical error.\" I have tried to give sufficient detail that a reader can readily reproduce most of the derivations. Always rederive a critical equation!",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 310
+  }
+]

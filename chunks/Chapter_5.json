@@ -1,0 +1,810 @@
+[
+  {
+    "chunk_id": "ch05_sec05_01_p00",
+    "chapter": 5,
+    "section": "5.1",
+    "section_title": "Introduction",
+    "text": "One of the fundamental interactions of electromagnetic radiation with a particulate medium is scattering by individual particles, and many of the properties of the light diffusely reflected from a particulate surface can be understood, at least qualitatively, in terms of single-particle scattering. This chapter considers scattering by a sphere. Although perfectly spherical particles are rarely encountered in the laboratory and never in planetary soils, they are found in nature in clouds composed of liquid droplets. For this reason alone, spheres are worth discussing. Even more important, however, is the fact that a sphere is the simplest three-dimensional object whose interaction with a plane electromagnetic wave can be calculated by exact solution of Maxwell's equations. Therefore, in developing various approximate methods for handling scattering by nonuniform, nonspherical particles, the insights afforded by uniform spheres are invaluable.\n\nIn the first part of this chapter some of the quantities in general use in treatments of diffuse scattering are defined. Next, the theory of scattering by a spherical particle is described qualitatively, and conclusions from the theory are discussed in detail. Finally, an analytic approximation to the scattering efficiency that is valid when the radius is large compared with the wavelength is derived.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 340
+  },
+  {
+    "chunk_id": "ch05_sec05_02_p00",
+    "chapter": 5,
+    "section": "5.2",
+    "section_title": "Concepts and definitions 5.2.1 Radiance",
+    "text": "In a radiation field where the light is uncollimated, the amount of power at position **r** crossing unit area perpendicular to the direction of propagation !, traveling into unit solid angle about !, is called the *radiance* and will be denoted by *I (***r***,*!*)*. Radiance is often also called *specific intensity,* or simply *intensity,* or *brightness.*\n\nNote the difference between irradiance *J* , which refers to power per unit area of a collimated beam, and radiance *I*, which is the uncollimated power per unit\n\nFigure 5.1 Irradiance and radiance.\n\narea per unit solid angle (Figure 5.1). The power per unit area traveling into a small range of solid angles  $\\Delta\\Omega$  about some direction  $\\Omega$ , is  $\\mathbf{I}(\\mathbf{r},\\Omega)\\Delta\\Omega$ . The irradiance may be considered to be the limit of a highly collimated radiance,  $J(\\mathbf{r},\\Omega_0) = \\lim_{\\Delta\\Omega\\to 0} [I(\\mathbf{r},\\Omega)\\Delta\\Omega] = I(\\mathbf{r},\\Omega)\\delta(\\Omega-\\Omega_0)$ , where  $\\delta(x)$  is the delta function.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 257
+  },
+  {
+    "chunk_id": "ch05_sec05_02_p01",
+    "chapter": 5,
+    "section": "5.2",
+    "section_title": "Concepts and definitions 5.2.1 Radiance",
+    "text": "... collimated radiance,  $J(\\mathbf{r},\\Omega_0) = \\lim_{\\Delta\\Omega\\to 0} [I(\\mathbf{r},\\Omega)\\Delta\\Omega] = I(\\mathbf{r},\\Omega)\\delta(\\Omega-\\Omega_0)$ , where  $\\delta(x)$  is the delta function.\n\nThe delta function, which was introduced by P. A. M. Dirac, is an extremely useful mathematical tool. It has the following properties:  $\\delta(x)=0$  everywhere except at x=0, where  $\\delta(0)$  is infinite in such a manner that its integral over an interval  $\\overline{ab}$  containing x=0 is  $\\int_a^b \\delta(x) dx=1$ . Then for any function f(x),  $\\int_a^b f(x) \\delta(x) dx=f(0)$  if  $\\overline{ab}$  contains x=0, but if not, the integral has the value zero. Thus, if a radiation field consisting of a collimated irradiance  $J(\\Omega_0)$  is examined by a directional detector with a solid angle of admittance  $\\Delta\\Omega$ , the response will be proportional to  $\\int_{\\Delta\\Omega} J(\\Omega_0) \\delta(\\Omega - \\Omega_0) d\\Omega$  which is equal to J if  $\\Delta\\Omega$  includes the direction from the source Q and is zero otherwise.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 263
+  },
+  {
+    "chunk_id": "ch05_sec05_02_p02",
+    "chapter": 5,
+    "section": "5.2",
+    "section_title": "Concepts and definitions 5.2.1 Radiance",
+    "text": "...se will be proportional to  $\\int_{\\Delta\\Omega} J(\\Omega_0) \\delta(\\Omega - \\Omega_0) d\\Omega$  which is equal to J if  $\\Delta\\Omega$  includes the direction from the source Q and is zero otherwise.\n\nIn this chapter a number of particle scattering parameters will be defined for the case where the particles are spherically symmetric. The definitions will be extended to nonspherical particles in Chapter 6, and to assemblages of irregular, randomly oriented particles in Chapter 7. The geometry of the single-particle scattering problem is shown schematically in Figure 5.2. In the discussions and definitions in this chapter the radiation incident on the particle will be referred to as if it is an irradiance J; however, it may also be considered to be an increment of radiance  $I\\Delta\\Omega$ . This incident radiation interacts with a particle whose refractive index relative to the surrounding medium is  $n = n_r + in_i$ .\n\nWhen an electromagnetic wave is incident on a particle, a certain amount of power is removed, or extinguished, from the incident wave and either is absorbed\n\nFigure 5.2 Scattering by a single particle. The plane containing *J* and *I* is the scattering plane.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 299
+  },
+  {
+    "chunk_id": "ch05_sec05_02_p03",
+    "chapter": 5,
+    "section": "5.2",
+    "section_title": "Concepts and definitions 5.2.1 Radiance",
+    "text": "Figure 5.2 Scattering by a single particle. The plane containing *J* and *I* is the scattering plane.\n\nor has its direction of propagation altered. In this book it will be assumed that the energy removed from the beam can be only scattered or absorbed; phenomena such as fluorescence and Raman scattering will be ignored. However, the energy may be re-emitted at a different wavelength as thermal radiation; this topic will be treated in Chapter 15. The scattered radiance is the power per unit area deflected into unit solid angle traveling radially away from the center of the particle and measured at a distance large compared with both the particle size and wavelength.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 168
+  },
+  {
+    "chunk_id": "ch05_sec05_02_02_p00",
+    "chapter": 5,
+    "section": "5.2.2",
+    "section_title": "Cross sections",
+    "text": "Let *J* = *upJ* , where *up* is a unit vector pointing in the direction of propagation of *J* . Let the total amount of power of *J* that is affected by the particle be *PE*. Then the *extinction cross section* is\n\n$$\\sigma_E = P_E/J. \\tag{5.1}$$\n\nAn amount *PS* of *PE* is *scattered* into all directions, and the remainder *PA* is absorbed by the particle. The *scattering cross section* is\n\n$$\\sigma_S = P_S/J,\\tag{5.2}$$\n\nand the *absorption cross section* is\n\n$$\\sigma_A = P_A/J. \\tag{5.3}$$\n\nThe cross sections have the units of area. Because *PE* = *PS* +*PA*, the cross sections are not independent, but must be related by σ*E* = σ*S* +σ*A*.",
+    "equations": [
+      "\\sigma_E = P_E/J. \\tag{5.1}",
+      "\\sigma_S = P_S/J,\\tag{5.2}",
+      "\\sigma_A = P_A/J. \\tag{5.3}"
+    ],
+    "equation_numbers": [
+      "(5.1)",
+      "(5.2)",
+      "(5.3)"
+    ],
+    "token_count": 162
+  },
+  {
+    "chunk_id": "ch05_sec05_02_03_p00",
+    "chapter": 5,
+    "section": "5.2.3",
+    "section_title": "Efficiencies and size parameter",
+    "text": "Denote the geometrical cross-sectional area of the particle by σ = Ψ*a*2, where *a* is the particle radius. The ratios of the various cross sections to the geometrical crosssectional area are the corresponding efficiencies. Thus, the *extinction, scattering,* and *absorption efficiencies* are, respectively,\n\n$$Q_E = \\sigma_E/\\sigma, \\tag{5.4}$$\n\n$$Q_S = \\sigma_S / \\sigma, \\tag{5.5}$$\n\n$$Q_A = \\sigma_A/\\sigma, \\tag{5.6}$$\n\nwhere these quantities must satisfy\n\n$$Q_E = Q_S + Q_A. (5.7)$$\n\nThe ratio of the circumference of the particle to the wavelength is called the *size parameter*,\n\n$$X = 2\\pi a/\\lambda = \\pi D/\\lambda, \\tag{5.8}$$\n\nwhere *D* = 2*a* is the particle diameter.",
+    "equations": [
+      "Q_E = \\sigma_E/\\sigma, \\tag{5.4}",
+      "Q_S = \\sigma_S / \\sigma, \\tag{5.5}",
+      "Q_A = \\sigma_A/\\sigma, \\tag{5.6}",
+      "Q_E = Q_S + Q_A. (5.7)",
+      "X = 2\\pi a/\\lambda = \\pi D/\\lambda, \\tag{5.8}"
+    ],
+    "equation_numbers": [
+      "(5.4)",
+      "(5.5)",
+      "(5.6)",
+      "(5.7)",
+      "(5.8)"
+    ],
+    "token_count": 170
+  },
+  {
+    "chunk_id": "ch05_sec05_02_04_p00",
+    "chapter": 5,
+    "section": "5.2.4",
+    "section_title": "Particle single-scattering albedo and espat function",
+    "text": "The ratio of the total amount of power scattered to the total power removed from the wave is the *particle single-scattering albedo*, '. From the definitions of the cross sections and efficiencies,\n\n$$\\varpi = P_S/P_E = \\sigma_S/\\sigma_E = Q_S/Q_E. \\tag{5.9}$$\n\nA related parameter, which will be studied and found to be useful later, is the *effective single-particle absorption thickness*, or *espat function*,\n\n$$W = Q_A/Q_S = \\frac{1-\\varpi}{\\varpi}. (5.10)$$\n\nIn general, the efficiencies and the single-scattering albedo are functions of wavelength.",
+    "equations": [
+      "\\varpi = P_S/P_E = \\sigma_S/\\sigma_E = Q_S/Q_E. \\tag{5.9}",
+      "W = Q_A/Q_S = \\frac{1-\\varpi}{\\varpi}. (5.10)"
+    ],
+    "equation_numbers": [
+      "(5.9)",
+      "(5.10)"
+    ],
+    "token_count": 138
+  },
+  {
+    "chunk_id": "ch05_sec05_02_05_p00",
+    "chapter": 5,
+    "section": "5.2.5",
+    "section_title": "Scattering and phase angles",
+    "text": "Consider the radiance scattered by a particle into some direction making an angle ( with the original direction of propagation of the incident irradiance; ( is the *scattering angle,* and the plane containing the incident and scattered propagation vectors is the *scattering plane*.\n\nThe complement of the scattering angle is called the *phase angle*,  $g = \\pi - \\theta$ . Historically the term comes from the astronomical lunar phase angle, which is the angle subtended by the Earth and the Sun as seen from the Moon. The phase angle is the angle between the directions to the source and detector of radiation as measured from the center of the particle. In the literature on scattering by a single particle, the scattering angle  $\\theta$  is usually used. However, in discussions of diffuse scattering by particulate media, including laboratory and remote-sensing applications, the phase angle g is often more convenient. The phase and scattering angles are shown in Figure 5.2.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 245
+  },
+  {
+    "chunk_id": "ch05_sec05_02_06_p00",
+    "chapter": 5,
+    "section": "5.2.6",
+    "section_title": "Particle phase function",
+    "text": "Suppose the power described by irradiance  $J(\\mathbf{r}, \\Omega_0)$  traveling into a direction  $\\Omega_0$  is scattered by a particle at position  $\\mathbf{r}$  into a radiance pattern  $I(\\mathbf{r}, \\Omega)$ . The particle phase function  $\\Pi(\\theta)$  describes the angular pattern into which the power  $P_S = J\\sigma Q_S$  is scattered. Let  $(dP_S/d\\Omega)(\\Omega_0, \\Omega)$  be the power scattered by the particle from direction  $\\Omega_0$  into unit solid angle centered about direction  $\\Omega$ , and let  $\\theta$  be the scattering angle between  $\\Omega_0$  and  $\\Omega$ . Then  $\\Pi(\\theta)$  is defined by the equation\n\n$$\\frac{dP_S}{d\\Omega}(\\Omega_0, \\Omega) = J(\\Omega_0)\\sigma Q_S \\frac{\\Pi(\\theta)}{4\\pi}.$$\n (5.11)\n\nThe particle phase function may be described equivalently by  $\\Pi(g) = \\Pi(\\pi - \\theta)$ . Because the area perpendicular to the incident radiation affected by the particle is  $\\sigma Q_E$ , the scattered radiance, or power per unit area scattered into unit solid angle, is\n\n$$I(\\Omega) = J(\\Omega_0) \\frac{\\sigma Q_S \\Pi(g)}{\\sigma O_F 4\\pi} = J\\varpi \\frac{\\Pi(g)}{4\\pi}.$$\n (5.12)\n\nIf the particle scatters isotropically,  $\\Pi(g) = 1$ .",
+    "equations": [
+      "\\frac{dP_S}{d\\Omega}(\\Omega_0, \\Omega) = J(\\Omega_0)\\sigma Q_S \\frac{\\Pi(\\theta)}{4\\pi}.",
+      "I(\\Omega) = J(\\Omega_0) \\frac{\\sigma Q_S \\Pi(g)}{\\sigma O_F 4\\pi} = J\\varpi \\frac{\\Pi(g)}{4\\pi}."
+    ],
+    "equation_numbers": [
+      "",
+      ""
+    ],
+    "token_count": 296
+  },
+  {
+    "chunk_id": "ch05_sec05_02_06_p01",
+    "chapter": 5,
+    "section": "5.2.6",
+    "section_title": "Particle phase function",
+    "text": "If the particle scatters isotropically,  $\\Pi(g) = 1$ .\n\nThe total power scattered in all directions is  $\\int_{4\\pi}^{dP_S} d\\Omega = P_S$ ; thus  $\\Pi(g)$  is required to satisfy the normalization condition:  $(1/4\\pi) \\int_{4\\pi} \\Pi(g) d\\Omega = 1$ . Because the particle is spherically symmetric, the scattered power is independent of azimuth; hence, the integration may be carried out over azimuth giving  $d\\Omega = 2\\pi \\sin g \\, dg$  or  $d\\Omega = 2\\pi \\sin \\theta \\, d\\theta$  as appropriate, and the normalization condition becomes\n\n$$\\frac{1}{2} \\int_{0}^{\\pi} \\Pi(g) \\sin g \\, dg = \\frac{1}{2} \\int_{0}^{\\pi} \\Pi(\\theta) \\sin \\theta \\, d\\theta = 1.$$\n (5.13)\n\nIn some references the factor  $4\\pi$  is omitted in the definition (5.11), in which case  $\\Pi(g)$  is normalized so that  $\\int_{4\\pi}^{\\pi} \\Pi(g)d\\Omega = 1$ . The particle phase function is sometimes also known by the unwieldy name of *single-particle angular scattering function*.",
+    "equations": [
+      "\\frac{1}{2} \\int_{0}^{\\pi} \\Pi(g) \\sin g \\, dg = \\frac{1}{2} \\int_{0}^{\\pi} \\Pi(\\theta) \\sin \\theta \\, d\\theta = 1."
+    ],
+    "equation_numbers": [
+      ""
+    ],
+    "token_count": 240
+  },
+  {
+    "chunk_id": "ch05_sec05_02_07_p00",
+    "chapter": 5,
+    "section": "5.2.7",
+    "section_title": "The asymmetry factor",
+    "text": "The particle angular scattering function may be characterized by various parameters, usually referred to as asymmetry factors. One such parameter is the *cosine* asymmetry factor  $\\xi$ , which is the average value of the cosine of the scattering angle  $\\theta$  weighted by the particle phase function,\n\n$$\\xi = \\langle \\cos \\theta \\rangle = \\left[ \\int_{4\\pi} \\cos \\theta \\Pi(\\theta) d\\Omega \\right] / \\left[ \\int_{4\\pi} \\Pi(\\theta) d\\Omega \\right] = \\frac{1}{2} \\int_{0}^{\\pi} \\cos \\theta \\Pi(\\theta) \\sin \\theta d\\theta$$\n$$= -\\langle \\cos g \\rangle = -\\frac{1}{2} \\int_{0}^{\\pi} \\cos g \\Pi(g) \\sin g \\, dg. \\tag{5.14}$$\n\nA positive value of  $\\xi$  implies that most of the light is scattered into the forward hemisphere, while a negative value of  $\\xi$  means that the particle is predominantly backscattering. For example, if  $\\Pi(g) = 1 + b\\cos g$ , then  $\\xi = -b/3$ . If the particle scatters light isotropically,  $\\xi = 0$ . Note, however, that the inverse may not be true:  $\\xi = 0$  implies only that the particle scatters symmetrically about the  $g = \\pi/2$  plane, but  $\\Pi(g)$  is not necessarily isotropic.",
+    "equations": [
+      "\\xi = \\langle \\cos \\theta \\rangle = \\left[ \\int_{4\\pi} \\cos \\theta \\Pi(\\theta) d\\Omega \\right] / \\left[ \\int_{4\\pi} \\Pi(\\theta) d\\Omega \\right] = \\frac{1}{2} \\int_{0}^{\\pi} \\cos \\theta \\Pi(\\theta) \\sin \\theta d\\theta",
+      "= -\\langle \\cos g \\rangle = -\\frac{1}{2} \\int_{0}^{\\pi} \\cos g \\Pi(g) \\sin g \\, dg. \\tag{5.14}"
+    ],
+    "equation_numbers": [
+      "",
+      "(5.14)"
+    ],
+    "token_count": 282
+  },
+  {
+    "chunk_id": "ch05_sec05_02_08_p00",
+    "chapter": 5,
+    "section": "5.2.8",
+    "section_title": "The scattering (Mueller) matrix",
+    "text": "The particle phase function  $\\Pi(g)$  defined by equation (5.12) refers to situations in which we are interested only in unpolarized light. If, instead, the incident irradiance and scattered radiance are partially polarized they can be described, respectively by the  $1 \\times 4$  column Stokes vectors  $\\mathbf{J}$  and  $\\mathbf{I}$  defined in Chapter 2. In this case the quantity analogous to the particle phase function is the *scattering matrix*  $\\mathbf{M}$  defined by\n\n$$\\mathbf{I} = \\frac{\\overline{\\omega}}{4\\pi} \\mathbf{M} \\mathbf{J}. \\tag{5.15}$$\n\nIn general, the scattering matrix, also known as the *Mueller matrix*, is a  $4 \\times 4$  matrix. However, if either the particles are spherically symmetric (that is, consist of concentric spherical shells), or are ensembles of randomly oriented nonspherical particles, each of which has a mirror-symmetric twin (which probably describes most laboratory and regolith powders reasonably well), then only 8 of the 16 elements of the scattering matrix are non-zero, and only 5 of these 8 are independent. In this case **M** has the form\n\n$$\\mathbf{M} = \\begin{bmatrix} M_{11} & M_{12} & 0 & 0 \\\\ M_{12} & M_{22} & 0 & 0 \\\\ 0 & 0 & M_{33} & M_{34} \\\\ 0 & 0 & -M_{34} & M_{44} \\end{bmatrix}, \\tag{5.16}$$\n\nAll elements of the matrix are functions of g. In particular,  $\\Pi(g) = M_{11}$ , and  $P(g) = -M_{12}/M_{11}$ .",
+    "equations": [
+      "\\mathbf{I} = \\frac{\\overline{\\omega}}{4\\pi} \\mathbf{M} \\mathbf{J}. \\tag{5.15}",
+      "\\mathbf{M} = \\begin{bmatrix} M_{11} & M_{12} & 0 & 0 \\\\ M_{12} & M_{22} & 0 & 0 \\\\ 0 & 0 & M_{33} & M_{34} \\\\ 0 & 0 & -M_{34} & M_{44} \\end{bmatrix}, \\tag{5.16}"
+    ],
+    "equation_numbers": [
+      "(5.15)",
+      "(5.16)"
+    ],
+    "token_count": 345
+  },
+  {
+    "chunk_id": "ch05_sec05_03_p00",
+    "chapter": 5,
+    "section": "5.3",
+    "section_title": "Scattering by a perfect, uniform sphere: Mie theory",
+    "text": "The simplest case of single-particle scattering is that of a plane electromagnetic wave scattered by a uniform spherical particle. This problem was independently solved by several persons, including Gustav Mie, and the result has come to be known as Mie theory; however, other individuals, especially Debye and Lorenz, also have legitimate claim to having been the first to obtain a solution. Bohren and Huffman (1983) discuss its history. Frequently in the remote-sensing literature the term *Mie theory* or *Mie scattering* is used to refer to scattering by a particle large compared with the wavelength of any shape. However, this is an incorrect and corrupt usage of the term, which refers *only* to scattering by an *isolated spherical* particle of *any* size. Mie theory is treated in greater or lesser detail in a number of books, including the work of Born and Wolf (1980), Stratton (1941), and Van de Hulst (1957). The most readable, especially for the novice, are the books by Bohren and Huffman (1983) and Kerker (1969).\n\nThe solution to the Mie problem is lengthy and complicated, and its details are not particularly instructive nor insightful. Hence, rather than force the reader to, in the words of Bohren and Huffman, \"acquire virtue through suffering,\" I will simply outline the mathematical procedure, referring the interested reader to the excellent treatments in the books mentioned earlier. Following this summary, the properties of the solution will be discussed in some detail.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 375
+  },
+  {
+    "chunk_id": "ch05_sec05_03_p01",
+    "chapter": 5,
+    "section": "5.3",
+    "section_title": "Scattering by a perfect, uniform sphere: Mie theory",
+    "text": "...ematical procedure, referring the interested reader to the excellent treatments in the books mentioned earlier. Following this summary, the properties of the solution will be discussed in some detail.\n\nThe same procedure is followed as in the derivation of the Fresnel equations in Chapter 4. First the wave equation is solved in a coordinate system appropriate to the problem, in this case spherical, and then the electric and magnetic fields are required to satisfy continuity conditions on the surface of the sphere. The resulting expressions give internal and external fields as a function of distance from the center of the sphere and scattering angle, along with the extinction and scattering efficiencies and the particle phase function.\n\nBecause the particle is a sphere, a spherical coordinate system is chosen whose origin is at the center of the particle and whose polar axis is parallel to the direction of the incident radiation. The general solution to the wave equation in spherical coordinates is derived in Appendix C and is of the form\n\n$$F(r, \\vartheta, \\psi, t) = \\sum_{l=0}^{\\infty} \\left[ C_l h_l^{(1)}(kr) + D_l h_l^{(2)}(kr) \\right] \\left[ A_{lm} \\Psi_{lm}^{(e)}(\\vartheta, \\psi) + B_{lm} \\Psi_{lm}^{(o)}(\\vartheta, \\psi) \\right] e^{-2\\pi i \\nu t}$$\n(5.17)\n\nwhere  $F(r, \\vartheta, \\psi, t)$  can refer to either the electric or magnetic field,  $k = 2\\pi/\\lambda$ ,  $\\lambda$  is the wavelength, r is the radial coordinate,  $\\vartheta$  is the polar coordinate,  $\\Psi$  is the azimuthal coordinate,  $h_I^{(1)}(kr)$  and  $h_I^{(2)}(kr)$  are spherical Hankel functions of",
+    "equations": [
+      "F(r, \\vartheta, \\psi, t) = \\sum_{l=0}^{\\infty} \\left[ C_l h_l^{(1)}(kr) + D_l h_l^{(2)}(kr) \\right] \\left[ A_{lm} \\Psi_{lm}^{(e)}(\\vartheta, \\psi) + B_{lm} \\Psi_{lm}^{(o)}(\\vartheta, \\psi) \\right] e^{-2\\pi i \\nu t}"
+    ],
+    "equation_numbers": [
+      ""
+    ],
+    "token_count": 400
+  },
+  {
+    "chunk_id": "ch05_sec05_03_p02",
+    "chapter": 5,
+    "section": "5.3",
+    "section_title": "Scattering by a perfect, uniform sphere: Mie theory",
+    "text": "...$  is the wavelength, r is the radial coordinate,  $\\vartheta$  is the polar coordinate,  $\\Psi$  is the azimuthal coordinate,  $h_I^{(1)}(kr)$  and  $h_I^{(2)}(kr)$  are spherical Hankel functions of\n\nthe first and second kind, respectively,  $\\Psi_{lm}^{(e)}(\\vartheta,\\psi)$  and  $\\Psi_{lm}^{(0)}(\\vartheta,\\psi)$  are even and odd spherical harmonic functions, respectively, l is an integer  $(l \\ge 0)$ , m is an integer  $(0 \\le m \\le l)$ , and the As, Bs, Cs, and Ds are constants that are determined by the specific problem. Hankel and spherical harmonic functions are tabulated, and their properties have been exhaustively studied. They are discussed in Appendix C. However, because the electric and magnetic fields are vectors the wave equations in vector form must be solved.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 197
+  },
+  {
+    "chunk_id": "ch05_sec05_03_p03",
+    "chapter": 5,
+    "section": "5.3",
+    "section_title": "Scattering by a perfect, uniform sphere: Mie theory",
+    "text": "..., and their properties have been exhaustively studied. They are discussed in Appendix C. However, because the electric and magnetic fields are vectors the wave equations in vector form must be solved.\n\nEquation (5.17) describes a series of spherical waves propagating radially inward and outward with respect to the particle. In order to complete the solution, the incident plane wave must also be expressed in a form similar to (5.17) as an infinite series of spherical wave functions. This can be done because the spherical Hankel and harmonic functions form complete, orthogonal sets (see Appendix C). The incident and scattered fields must satisfy various conditions, including that the fields be finite everywhere, that the only field traveling inward far from the particle be the incident irradiance, and that the usual conditions of continuity on the transverse and perpendicular components of the electric and magnetic fields (Chapter 4) at the surface of the particle be satisfied. If the distance r from the sphere is large the amplitude of the outwardly propagating wave is proportional to 1/r, which means that the power falls off as  $1/r^2$ , and the strength of this wave varies with direction. Within a wavelength or so of the surface other fields also exist that fall off faster than  $1/r^2$ , somewhat analgous to the evanescent waves associated with total internal reflection from a plane surface discussed in Chapter 4. However, these fields, known as *near fields*, are not propagating waves and do not carry energy away from the surface.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 390
+  },
+  {
+    "chunk_id": "ch05_sec05_03_p04",
+    "chapter": 5,
+    "section": "5.3",
+    "section_title": "Scattering by a perfect, uniform sphere: Mie theory",
+    "text": "...ated with total internal reflection from a plane surface discussed in Chapter 4. However, these fields, known as *near fields*, are not propagating waves and do not carry energy away from the surface.\n\nThe resulting expressions for the extinction, scattering, and absorption efficiencies and the particle phase function consist of slowly converging infinite series. Except when the particle is small compared with the wavelength a large number  $(\\sim X)$  of terms are necessary to evaluate the expressions, and a computer is virtually a necessity for the solution. Because these expressions do not yield particularly useful insights, they will not be written down explicitly here. Again, the interested reader is referred to the references cited earlier.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 189
+  },
+  {
+    "chunk_id": "ch05_sec05_04_p00",
+    "chapter": 5,
+    "section": "5.4",
+    "section_title": "Properties of the Mie solution 5.4.1 General properties",
+    "text": "The Mie solutions turn out to depend on only two parameters: the refractive index n of the particle relative to the surrounding medium and the *size parameter X*.\n\nThe solutions have different properties depending on whether *X* is small, comparable to, or large compared with unity. Each of these regimes will be discussed in detail in this section. The solutions also depend on whether the electric vector in the\n\nincident wave is perpendicular to (denoted by subscript \"\\perp \") or parallel to (denoted by subscript \"\\perp \") the scattering plane. It is found that the scattering process does not change the direction of polarization of the wave. Thus, if the incident light is polarized perpendicular to the scattering plane, the scattered light will be perpendicularly polarized also, and similarly for parallel-polarized incidence. However, the scattering coefficients are different for the two directions of polarization.\n\nThe general behavior of the extinction efficiency as the size of the sphere is varied is illustrated by the solid line in Figure 5.3 for the case of a real index of refraction,  $n = n_r = 1.50$ .\n\nIn this figure,  $Q_E$  is plotted versus the parameter  $(n_r - 1)X$ . Because  $n_i = 0$ ,  $Q_S = Q_E$ , and  $Q_A = 0$ . For small values of X the efficiency increases nonlinearly proportionally to  $X^4$  to a value near 2 at  $(n_r - 1)X \\simeq 1$ . As  $(n_r - 1)X$  increases,  $Q_E$  develops a series of large oscillations on which small ripples are superimposed. The first maximum of the large oscillations is roughly at  $Q_E \\simeq 4$  and  $(n_r - 1)X \\simeq 2$ ,",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 401
+  },
+  {
+    "chunk_id": "ch05_sec05_04_p01",
+    "chapter": 5,
+    "section": "5.4",
+    "section_title": "Properties of the Mie solution 5.4.1 General properties",
+    "text": "...reases,  $Q_E$  develops a series of large oscillations on which small ripples are superimposed. The first maximum of the large oscillations is roughly at  $Q_E \\simeq 4$  and  $(n_r - 1)X \\simeq 2$ ,\n\nFigure 5.3 Solid line: extinction efficiency of a sphere of refractive index n = 1.50 + i0 and size parameter X vs.  $(n_r - 1)X$ . Dashed line: extinction efficiency of a sphere of refractive index n = 1.50 + i0.25 vs.  $(n_r - 1)X$ .\n\nfollowed by a minimum of somewhat less than 2 at  $(n_r - 1)X \\simeq 3.8$ . Thereafter,  $Q_E$  oscillates about the value 2 with decreasing amplitude and with successive extrema separated by values of  $(n_r - 1)X$  differing by  $\\pi$ .\n\nThe dashed line in Figure 5.3 shows the extinction efficiency of an absorbing sphere with n=1.50+0.25i. This value of  $n_i$  corresponds to an absorption length  $\\alpha^{-1}=\\lambda/4\\pi n_i$  (Chapter 2) equal to the diameter of a sphere with X=1. For small values of X,  $Q_E$  is proportional to X. As X increases,  $Q_E$  goes through a maximum at  $(n_r-1)X\\simeq 2$  that is lower than the maximum for the nonabsorbing sphere and then slowly approaches  $Q_E=2$  with no oscillations or ripples.\n\nThe fact that the efficiencies can be greater than 1 may be surprising at first sight. Physically, this means that the particle affects a larger portion of the wave front than is obstructed by the geometrical cross-sectional area of the sphere.\n\nFrom the figures and discussion it is apparent that the scattering properties can be divided into three size regions: X << 1,  $X \\sim 1$ , and X >> 1. These will be discussed next.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 403
+  },
+  {
+    "chunk_id": "ch05_sec05_04_02_p00",
+    "chapter": 5,
+    "section": "5.4.2",
+    "section_title": "X=1: the Rayleigh region",
+    "text": "When X = 1 it is useful to expand the Mie expressions for the scattering parameters in powers of X. It is found that to terms of order  $X^4$ ,\n\n$$Q_E = 4X \\operatorname{Im} \\left\\{ \\frac{n^2 - 1}{n^2 + 2} \\left[ 1 + \\frac{X^2}{15} \\frac{n^2 - 1}{n^2 + 2} \\frac{n^4 + 27n^2 + 38}{2n^2 + 3} \\right], \\right\\}$$\n\n$$+ \\frac{8}{3} X^4 \\operatorname{Re} \\left\\{ \\left[ \\frac{n^2 - 1}{n^2 + 2} \\right]^2 \\right\\},$$\n(5.18)\n\n$$Q_S = \\frac{8}{3}X^4 \\left| \\frac{n^2 - 1}{n^2 + 2} \\right|^2, \\tag{5.19}$$\n\nand  $Q_A = Q_E - Q_S$ . If  $n_i = 0$ ,\n\n$$Q_S = Q_E = \\frac{8}{3}X^4 \\left| \\frac{n_r^2 - 1}{n_r^2 + 2} \\right|^2, \\tag{5.20}$$\n\n$Q_A = 0$ , and  $\\varpi = 1$ . In this region the scattered radiance is proportional to  $1/\\lambda^4$ , a result that was first obtained by Rayleigh (1871) using dimensional arguments. Thus, particles small compared with the wavelength are known as *Rayleigh scatterers*.\n\nIf  $n_i$  is not negligible, but |n|X = 1, so that higher powers of X can be ignored, then\n\n$$Q_A \\simeq Q_E \\simeq \\frac{24n_r n_i}{(n_r^2 + n_i^2)^2 + 4(n_r^2 - n_i^2) + 4}X,$$\n (5.21)\n\n$$Q_S \\simeq \\frac{8}{3} \\frac{[(n_r^2 + n_i^2)^2 + n_r^2 - n_i^2 - 2]^2 + 36n_r^2 n_i^2}{[(n_r^2 + n_i^2)^2 + 4(n_r^2 - n_i^2) + 4]^2} X^4.$$\n (5.22)",
+    "equations": [
+      "Q_E = 4X \\operatorname{Im} \\left\\{ \\frac{n^2 - 1}{n^2 + 2} \\left[ 1 + \\frac{X^2}{15} \\frac{n^2 - 1}{n^2 + 2} \\frac{n^4 + 27n^2 + 38}{2n^2 + 3} \\right], \\right\\}",
+      "+ \\frac{8}{3} X^4 \\operatorname{Re} \\left\\{ \\left[ \\frac{n^2 - 1}{n^2 + 2} \\right]^2 \\right\\},",
+      "Q_S = \\frac{8}{3}X^4 \\left| \\frac{n^2 - 1}{n^2 + 2} \\right|^2, \\tag{5.19}",
+      "Q_S = Q_E = \\frac{8}{3}X^4 \\left| \\frac{n_r^2 - 1}{n_r^2 + 2} \\right|^2, \\tag{5.20}",
+      "Q_A \\simeq Q_E \\simeq \\frac{24n_r n_i}{(n_r^2 + n_i^2)^2 + 4(n_r^2 - n_i^2) + 4}X,",
+      "Q_S \\simeq \\frac{8}{3} \\frac{[(n_r^2 + n_i^2)^2 + n_r^2 - n_i^2 - 2]^2 + 36n_r^2 n_i^2}{[(n_r^2 + n_i^2)^2 + 4(n_r^2 - n_i^2) + 4]^2} X^4."
+    ],
+    "equation_numbers": [
+      "",
+      "",
+      "(5.19)",
+      "(5.20)",
+      "",
+      ""
+    ],
+    "token_count": 310
+  },
+  {
+    "chunk_id": "ch05_sec05_04_02_p01",
+    "chapter": 5,
+    "section": "5.4.2",
+    "section_title": "X=1: the Rayleigh region",
+    "text": "$$Q_S \\simeq \\frac{8}{3} \\frac{[(n_r^2 + n_i^2)^2 + n_r^2 - n_i^2 - 2]^2 + 36n_r^2 n_i^2}{[(n_r^2 + n_i^2)^2 + 4(n_r^2 - n_i^2) + 4]^2} X^4.$$\n (5.22)\n\nIn this case  $\\varpi = Q_S/(Q_S + Q_A) \\simeq Q_S/Q_A \\propto X^3$ , so that if the particle is absorbing, its single-scattering albedo is very small. Small absorbing particles are called *Rayleigh absorbers*. The absorption efficiency is proportional to X, so that the absorption cross section  $\\sigma_A \\propto \\pi a^2 X$ , and the power absorbed is proportional to the volume or mass of the particle.\n\nThe intensity of the radiance scattered with the electric vector perpendicular to the scattering plane is proportional to 1, and parallel to the scattering plane is proportional to  $\\cos^2 g$ . If the incident light is unpolarized, the particle phase function is\n\n$$\\Pi(g) = \\frac{3}{4}(1 + \\cos^2 g). \\tag{5.23}$$\n\nNote from equations (5.18) and (5.19) that the denominators of  $Q_E$  and  $Q_S$  both contain the factor  $n^2 + 2$ . Thus, the efficiencies can become very large when  $n^2 = K_e \\simeq -2$ , which requires  $K_{ei} = 1$  and  $K_{er} \\simeq -2$ . Figure 3.1 shows that this can happen in the region of anomalous dispersion on the high-frequency side of a strong absorption band. This phenomenon is known as a *plasma resonance*, and it can be important in small particles, or asperities that behave as small particles on the surfaces of larger particles, in the infrared.",
+    "equations": [
+      "Q_S \\simeq \\frac{8}{3} \\frac{[(n_r^2 + n_i^2)^2 + n_r^2 - n_i^2 - 2]^2 + 36n_r^2 n_i^2}{[(n_r^2 + n_i^2)^2 + 4(n_r^2 - n_i^2) + 4]^2} X^4.",
+      "\\Pi(g) = \\frac{3}{4}(1 + \\cos^2 g). \\tag{5.23}"
+    ],
+    "equation_numbers": [
+      "",
+      "(5.23)"
+    ],
+    "token_count": 362
+  },
+  {
+    "chunk_id": "ch05_sec05_04_02_p02",
+    "chapter": 5,
+    "section": "5.4.2",
+    "section_title": "X=1: the Rayleigh region",
+    "text": "...n band. This phenomenon is known as a *plasma resonance*, and it can be important in small particles, or asperities that behave as small particles on the surfaces of larger particles, in the infrared.\n\nRefering to Chapter 4, the *linear polarization* of the radiance is defined relative to some special plane. In Mie theory the special plane is the scattering plane, so that the polarization is defined as\n\n$$P = (I_{\\perp} - I_{\\parallel})/(I_{\\perp} + I_{\\parallel}), \\tag{5.24}$$\n\nwhere the subscript \"\\perp \" denotes the electric vector perpendicular to the scattering plane, and the subscript \"\\perp \" denotes the electric vector parallel to this plane. Thus, the polarization of the scattered radiance is\n\n$$P(g) = (1 - \\cos^2 g)/(1 + \\cos^2 g) = \\sin^2 g/(1 + \\cos^2 g).$$\n (5.25)\n\nThe phase function and polarization are plotted in Figures 5.4a and 5.4b The polarization is always positive, and P = 1 at  $g = 90^{\\circ}$ .\n\nFigure 5.4 (a) Phase function of a Rayleigh particle. (b) Polarization of light scattered by a Rayleigh particle.",
+    "equations": [
+      "P = (I_{\\perp} - I_{\\parallel})/(I_{\\perp} + I_{\\parallel}), \\tag{5.24}",
+      "P(g) = (1 - \\cos^2 g)/(1 + \\cos^2 g) = \\sin^2 g/(1 + \\cos^2 g)."
+    ],
+    "equation_numbers": [
+      "(5.24)",
+      ""
+    ],
+    "token_count": 262
+  },
+  {
+    "chunk_id": "ch05_sec05_04_03_p00",
+    "chapter": 5,
+    "section": "5.4.3",
+    "section_title": "X∼1: the resonance region",
+    "text": "When the particle size is of the order of the wavelength, the behaviors of the efficiencies and phase function are complicated and vary from case to case. If the particle is not too absorbing, the extinction and scattering efficiencies tend to oscillate about the value 2, with decreasing amplitude and successive maxima or minima spaced such that the quantity  $(n_r-1)X$  changes by approximately  $\\pi$  between each. These broad oscillations are an interference phenomenon between the portion of the wave front that passes near the sphere and the portion transmitted through it. The part of the wave propagating outside the sphere undergoes a change in phase equal to  $2\\pi a/\\lambda$  in a distance equal to a, where  $\\lambda$  is the wavelength in the surrounding medium. The phase of that part of the wave traveling through the sphere changes by  $n_r 2\\pi a/\\lambda$  in this distance. Thus, destructive interference will occur if the difference in phases  $(n_r-1)X$  is an odd multiple of  $\\pi$ , and constructive interference if it is an even multiple of  $\\pi$ .\n\nThe smaller ripple structure superimposed on the broad oscillations is also obviously some sort of interference phenomenon, although its origin is obscure. It is thought to be caused by radiation in modes that travel close to the surface of the particle.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 333
+  },
+  {
+    "chunk_id": "ch05_sec05_04_03_p01",
+    "chapter": 5,
+    "section": "5.4.3",
+    "section_title": "X∼1: the resonance region",
+    "text": "... oscillations is also obviously some sort of interference phenomenon, although its origin is obscure. It is thought to be caused by radiation in modes that travel close to the surface of the particle.\n\nThe particle phase functions and linear polarizations for the cases n = 1.5 + i0 and n = 1.50 + i0.25, with X = 1, are shown in Figures 5.5a and 5.5b. Note that the phase function has become forward-scattering, but that the polarization is similar to that of a small particle.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 120
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p00",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": "$X \\gg 1$ : the geometric-optics region",
+    "text": "5.4.4.1 Introduction\n\nThe phase functions and polarizations of a nonabsorbing (n = 1.50 + i0) and absorbing sphere (n = 1.50 + i0.25) of X = 100 are shown in Figures 5.6a and 5.6b. The most notable features of these figures are the large number of sharp peaks and valleys. These are caused by constructive and destructive interference. They are highly specific to the exact size and refractive index of the spheres. As such they are of little interest to reflectance spectroscopy because all natural particles have a distribution of these properties that tend to average out the features. Figures 5.7a and 5.7b show the average phase function and polarization of a more realistic ensemble of spheres with size parameters between 67 < X < 133 and average X = 100.\n\nThe major features of Figure 5.7a are an extremely high, narrow peak centered around  $g=180^{\\circ}$  in the forward direction, a strong broad forward-scattering lobe, a weaker narrower lobe in the backscattering direction, and a low valley between the forward and backward lobes. When the sphere is large compared with the wavelength, the parts of the wave front separated by distances of the order of the radius are nearly independent, so that what happens to one part has very little effect on the other parts. That is, to a large extent the propagating wave can be treated as if it were made up of independent bundles of rays that are refracted and reflected by the sphere. Except for the high, narrow forward peak the features of Figure 5.7a can",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 378
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p01",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": "$X \\gg 1$ : the geometric-optics region",
+    "text": "...gating wave can be treated as if it were made up of independent bundles of rays that are refracted and reflected by the sphere. Except for the high, narrow forward peak the features of Figure 5.7a can\n\nFigure 5.5 (a) Phase functions of particles of X=1 with n=1.50+i0 (solid line) and n=1.50+i0.25 (dashed line). The single-scattering albedo of the particle with  $n_i=0$  is  $\\varpi=1.00$  and that of the particle with  $n_i=0.25$  is  $\\varpi=0.27$ . (b) Polarization of the particles of Figure 5.5a.\n\nbe understood in terms of geometric optics. The various phenomena that control different portions of the curves of this figure will now be discussed in detail.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 167
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p00",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".2 Diffraction",
+    "text": "At large values of X the extinction efficiency of an isolated sphere approaches the asymptotic value of 2, not 1, indicating that the sphere affects a portion of\n\nFigure 5.6 (a) Phase functions of a particle of X = 100 with n = 1.50 + i0 (solid line) and n = 1.50 + i0.25 (dashed line) calculated using Mie theory. The single-scattering albedo of the particle with  $n_i = 0$  is  $\\varpi = 1.00$ , and that of the particle with  $n_i = 0.25$  is  $\\varpi = 0.54$ . (b) Polarization of the particles of Figure 5.6a.\n\nthe incident wave front equal to twice its geometric cross section. Also, the phase curves of both the clear and absorbing particles exhibit a very strong, narrow peak in the forward-scattering direction. Both of these effects are caused by diffraction and occur because of the wave nature of light.\n\nFigure 5.7 (a) Mean phase functions of emsembles of particles with 63 *<X<* 133 having *n* = 1*.*50 + *i*0 (solid line) and *n* = 1*.*50 + *i*0*.*25 (dashed line) calculated using Mie theory. (b) Polarization of the particles of Figure 5.7a.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 264
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p01",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".2 Diffraction",
+    "text": "...sembles of particles with 63 *<X<* 133 having *n* = 1*.*50 + *i*0 (solid line) and *n* = 1*.*50 + *i*0*.*25 (dashed line) calculated using Mie theory. (b) Polarization of the particles of Figure 5.7a.\n\nThe diffraction pattern of a sphere is virtually identical to that of an opaque circular disk of the same radius. Suppose light from a distant point source is incident on such a disk from a direction perpendicular to the plane of the disk. If the phase function of the disk is measured using a distant detector that accepts light from only a small range of solid angles, the disk appears to be the source of a narrow cone of light concentric about the extension of the ray incident on the center of the disk. The pattern of the cone consists of a bright central peak surrounded by a series of faint light and dark rings. Paradoxically, the same pattern is seen if the disk is replaced by a hole of the same size in a large opaque wall. Hence, the diffraction peak of the sphere can be understood by calculating diffraction by the hole. This was first done by J. Fraunhofer in the eighteenth century and the phenomenon is known *as Fraunhofer diffraction*.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 290
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p02",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".2 Diffraction",
+    "text": "...ion peak of the sphere can be understood by calculating diffraction by the hole. This was first done by J. Fraunhofer in the eighteenth century and the phenomenon is known *as Fraunhofer diffraction*.\n\nLet the irradiance at the hole be *J* and the associated amplitude of the electric field be *Ee*0, and let the light from the hole fall onto a distant detector. Then according to the Huygens principle each point in the hole can be considered to generate a spherical wave proportional to (*Ee*0*/l)*exp[2Ψ /*(l/*ς−ν*t)*], where *l* is the distance from the point in the hole to the detector. The different points in the hole will be at a variety of distances *l* from the detector, so that some of the wavelets will reinforce each other constructively and some of the wavelets will interfere destructively. The net electric field seen by the detector can be found by summing the contribution of every point in the hole. The brightness will then be proportional to the square of the absolute value of the field. For those interested, the details of the calculation are given in Appendix D. The result is that the electric field at the detector is\n\n$$E_e(r,\\theta) = E_{e0}a \\frac{X}{r} \\frac{J_1(X\\sin\\theta)}{X\\sin\\theta} \\exp[2\\pi i (\\frac{r}{\\lambda} - \\nu t)], \\tag{5.26}$$\n\nand the corresponding radiance at the detector per unit solid angle measured from the center of the hole is\n\n$$\\frac{dP_d}{d\\Omega} = J \\frac{\\sigma}{4\\pi} X^2 \\left[ 2 \\frac{J_1(X \\sin \\theta)}{X \\sin \\theta} \\right]^2, \\tag{5.27}$$",
+    "equations": [
+      "E_e(r,\\theta) = E_{e0}a \\frac{X}{r} \\frac{J_1(X\\sin\\theta)}{X\\sin\\theta} \\exp[2\\pi i (\\frac{r}{\\lambda} - \\nu t)], \\tag{5.26}",
+      "\\frac{dP_d}{d\\Omega} = J \\frac{\\sigma}{4\\pi} X^2 \\left[ 2 \\frac{J_1(X \\sin \\theta)}{X \\sin \\theta} \\right]^2, \\tag{5.27}"
+    ],
+    "equation_numbers": [
+      "(5.26)",
+      "(5.27)"
+    ],
+    "token_count": 378
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p03",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".2 Diffraction",
+    "text": "$$\\frac{dP_d}{d\\Omega} = J \\frac{\\sigma}{4\\pi} X^2 \\left[ 2 \\frac{J_1(X \\sin \\theta)}{X \\sin \\theta} \\right]^2, \\tag{5.27}$$\n\nwhere *r* is the distance from the center of the hole, σ = Ψ*a*2 is the area of the hole, ( is the scattering angle, and *J*1*(Z)* is the Bessel function of the first kind of order 1 with argument *Z* = *X*sin (. Bessel functions are discussed in Appendix C. The Bessel function *J*1*(Z)* oscillates with an amplitude that decreases with increasing*Z*.\n\nThe function 2*J*1*(z)Z* and its square are graphed in Figure 5.8. It has the value unity at *Z* = ( = 0 and goes through zero at *Z* = 1*.*22Ψ, thereafter it oscillates with decreasing amplitude about zero at intervals of *Z* separated approximately by Ψ. Thus, the intensity pattern of the light transmitted through the hole does not have a sharp edge, as would be the case if geometric optics held exactly, but consists of a\n\nFigure 5.8 (a) Electric field and intensity in the Fraunhofer diffraction pattern of a hole in an opaque wall, normalized to the center of the pattern. (b) Enlargement of the intensity pattern of Figure 5.7a.\n\nbright central peak surrounded by a series of alternating dark and light rings. The angular width of the central peak is inversely proportional to the radius of the hole.\n\nNow consider the complementary situation. Remove the wall and replace it by an isolated opaque disk of the same size and at the same position as the hole. The field in the diffraction pattern of the disk can be found from *Babinet's principle*:",
+    "equations": [
+      "\\frac{dP_d}{d\\Omega} = J \\frac{\\sigma}{4\\pi} X^2 \\left[ 2 \\frac{J_1(X \\sin \\theta)}{X \\sin \\theta} \\right]^2, \\tag{5.27}"
+    ],
+    "equation_numbers": [
+      "(5.27)"
+    ],
+    "token_count": 383
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p04",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".2 Diffraction",
+    "text": "...move the wall and replace it by an isolated opaque disk of the same size and at the same position as the hole. The field in the diffraction pattern of the disk can be found from *Babinet's principle*:\n\nthe hole and the disk are exactly complementary. If the hole is plugged by the disk, all fields must disappear; that is, the sum of the two fields is zero. Hence, the field diffracted by the disk is exactly equal to the negative of the field diffracted by the hole. Because the intensity is proportional to the square of the field, the power per unit area in the diffraction pattern of the disk is exactly the same as that of the hole and is given by equation (5.27).\n\nThe diffracted component of the scattered light does not depend on the nature of the disk, or even the details of its shape, but only on constructive and destructive interference of the wavelets from the incident wave front in the vicinity of the disk. Thus, the power diffracted into the unit solid angle by a sphere is virtually the same as that diffracted by a circular hole of the same radius and is given by (5.27). Comparing (5.27) with (5.11), it is seen that as far as the diffracted light is concerned, a sphere behaves like a particle that scatters light with diffractive scattering efficiency *Qd* = 1 and diffractive phase function\n\n$$\\Pi_d(g) = X^2 \\left[ \\frac{2J_1(X\\sin\\theta)}{X\\sin\\theta} \\right]^2 = X^2 \\left\\{ \\frac{2J_1[X\\sin(\\pi - g)]}{X\\sin(\\pi - g)} \\right\\}^2.$$\n (5.28)",
+    "equations": [
+      "\\Pi_d(g) = X^2 \\left[ \\frac{2J_1(X\\sin\\theta)}{X\\sin\\theta} \\right]^2 = X^2 \\left\\{ \\frac{2J_1[X\\sin(\\pi - g)]}{X\\sin(\\pi - g)} \\right\\}^2."
+    ],
+    "equation_numbers": [
+      ""
+    ],
+    "token_count": 367
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p05",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".2 Diffraction",
+    "text": "$$\\Pi_d(g) = X^2 \\left[ \\frac{2J_1(X\\sin\\theta)}{X\\sin\\theta} \\right]^2 = X^2 \\left\\{ \\frac{2J_1[X\\sin(\\pi - g)]}{X\\sin(\\pi - g)} \\right\\}^2.$$\n (5.28)\n\nThe height of the diffraction peak is *X*2, and its angular half-width at half-maximum ζ( is given to a good approximation by *X*sin ζ( ≈ Ψ*/*2, or since *X* is large,\n\n$$\\Delta\\theta \\simeq \\pi/2X = \\lambda/4a. \\tag{5.29}$$\n\nA large particle may be considered as affecting an area of the wave front approximately equal to twice its geometric cross section. The portion of the wave that actually encounters the particle is absorbed or scattered by refraction and reflection, while the portion passing between the particle surface and a distance about √2*a* from the center contributes most of the diffracted light. This is the reason that a large isolated particle has an extinction efficiency *QE* - 2, instead of 1, and a phase function with a high, narrow peak in the forward direction.\n\nFor a nonconducting particle the scattered intensity is the same for both directions of polarization (Liou and Hansen, 1971). Hence, if the incident irradiance is unpolarized, the diffracted radiance is also unpolarized.",
+    "equations": [
+      "\\Pi_d(g) = X^2 \\left[ \\frac{2J_1(X\\sin\\theta)}{X\\sin\\theta} \\right]^2 = X^2 \\left\\{ \\frac{2J_1[X\\sin(\\pi - g)]}{X\\sin(\\pi - g)} \\right\\}^2.",
+      "\\Delta\\theta \\simeq \\pi/2X = \\lambda/4a. \\tag{5.29}"
+    ],
+    "equation_numbers": [
+      "",
+      "(5.29)"
+    ],
+    "token_count": 291
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p06",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".2 Diffraction",
+    "text": "...particle the scattered intensity is the same for both directions of polarization (Liou and Hansen, 1971). Hence, if the incident irradiance is unpolarized, the diffracted radiance is also unpolarized.\n\nAlthough the diffracted light appears to emanate from the particle we have seen that it actually comes from an annulus around the particle. Thus, if the space near a particle is partially blocked by other particles, as would be the case if it is part of a powder or soil, the diffraction pattern will be changed both quantitatively and qualitatively: quantitatively because some of the light that would have contributed to the diffraction has been removed, and qualitatively because the diffracting object now consists of several particles and the spaces between them instead of a simple sphere. We will return to this topic in Chapter 7, where it will be shown that the Fraunhofer diffraction of a single particle does not exist in a close packed powder\n\nFigure 5.9 Schematic diagram of the scattering processes in a sphere with *X* 2 1.\n\nor regolith. Hence, in such media *Qd* = 0. Any model of scattering by powder that ignores this blocking violates conservation of energy and is inherently incorrect.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 302
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p00",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".3 Scattering not caused by diffraction",
+    "text": "It will be useful to explicitly separate the part of the scattering that is associated with diffraction from that due to other effects. Denote the nondiffractive portion of the scattering efficiency by *Q* with a lowercase subscript *s* and define it by\n\n$$Q_s = Q_S - Q_d, (5.30)$$\n\nwhere *Qd* - 1. The nondiffractive interactions of the sphere with the incident wave can be described reasonably well by geometric optics. These interactions consist of rays that are specularly reflected from the surface and rays that are refracted and transmitted through the sphere. The latter may be internally reflected one or more times from the inside of the surface. The major phenomena are shown schematically in Figure 5.9. It is important to note that because of the symmetry of the sphere, the rays that are reflected or refracted by the sphere always remain in the same plane as that formed by the incident ray of interest and the axis of the sphere parallel to the incident rays.",
+    "equations": [
+      "Q_s = Q_S - Q_d, (5.30)"
+    ],
+    "equation_numbers": [
+      "(5.30)"
+    ],
+    "token_count": 244
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p00",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".4 Surface reflection",
+    "text": "If the sphere is large, the portion of the surface encountered by a ray can be considered as locally flat and effectively infinite, and the Fresnel equations for reflection by a plane interface may be used to calculate the amounts and directions of the light reflected and transmitted. The geometry of the surface-reflected light is shown in Figure 5.10.\n\nLet a sphere of radius *a* be illuminated by irradiance *J*+, , where the subscript \"+ ,\" is to be interpreted as \"+\" if the incident irradiance is polarized with the\n\nFigure 5.10 Specular reflection from the surface of a large sphere.\n\nelectric vector perpendicular to the scattering plane, and as \"||\" if the electric vector is parallel to the plane. The rays are incident at points where the radius vector makes an angle  $\\vartheta$  with the direction of propagation. (For clarity only one such ray is shown; however, the rays are distributed symmetrically in azimuth all around the axis of the sphere.) These rays are then reflected through a phase angle  $g = 2\\vartheta$ .\n\nConsider a second set of rays incident at points making angles  $\\vartheta + d\\vartheta$  with the radius vector and reflected through phase angles  $g + dg = 2\\vartheta + 2d\\vartheta$ . The area of surface between all those rays whose intersections with the sphere are bounded by the angles  $\\vartheta$  and  $\\vartheta + d\\vartheta$  is  $dA = 2\\pi a \\sin\\vartheta \\cdot ad\\vartheta$ . Because the projection of dA onto the plane perpendicular to the direction of incident irradiance is  $dA\\cos\\vartheta$ , the power  $dP_R$  specularly reflected by dA is",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 399
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p01",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".4 Surface reflection",
+    "text": "...vartheta \\cdot ad\\vartheta$ . Because the projection of dA onto the plane perpendicular to the direction of incident irradiance is  $dA\\cos\\vartheta$ , the power  $dP_R$  specularly reflected by dA is\n\n$$dP_{R\\perp\\parallel} = J_{\\perp\\parallel} dA \\cos \\vartheta R_{\\perp\\parallel}(\\vartheta) = 2\\pi a^2 J_{\\perp\\parallel} R_{\\perp\\parallel}(\\vartheta) \\sin \\vartheta \\cos \\vartheta d\\vartheta, \\qquad (5.31)$$\n\nwhere  $R_{\\perp}(\\vartheta)$  and  $R_{\\parallel}(\\vartheta)$  are the Fresnel reflectivities derived in Chapter 4.\n\nAt a large distance from the sphere this light passes through an incremental solid angle  $d\\Omega = 2\\pi \\sin(2\\vartheta) d(2\\vartheta) = 8\\pi \\sin\\vartheta \\cos\\vartheta d\\vartheta$ . Hence, the power per unit solid\n\nangle specularly reflected from the surface of the sphere through an angle g is\n\n$$\\frac{dP_{R\\perp\\parallel}}{d\\Omega} = \\frac{J_{\\perp\\parallel} 2\\pi a^2 R_{\\perp\\parallel}(\\vartheta) \\sin\\vartheta \\cos\\vartheta d\\vartheta}{8\\pi \\sin\\vartheta \\cos\\vartheta d\\vartheta} = J_{\\perp\\parallel} \\sigma \\frac{R_{\\perp\\parallel}(g/2)}{4\\pi}.$$\n (5.32)\n\nThe curvature of the spherical surface has a defocusing effect, which causes the radiation incident on the sphere through a range of angles  $d\\vartheta$  to be reflected through a range of angles  $2d\\vartheta$ . Because  $R_{\\perp} \\geq R_{\\parallel}$ , if the incident irradiance is unpolarized, the light reflected from the surface always has a net positive polarization.\n\nThe total amount of light reflected from the surface of the sphere is, from (5.32),",
+    "equations": [
+      "dP_{R\\perp\\parallel} = J_{\\perp\\parallel} dA \\cos \\vartheta R_{\\perp\\parallel}(\\vartheta) = 2\\pi a^2 J_{\\perp\\parallel} R_{\\perp\\parallel}(\\vartheta) \\sin \\vartheta \\cos \\vartheta d\\vartheta, \\qquad (5.31)",
+      "\\frac{dP_{R\\perp\\parallel}}{d\\Omega} = \\frac{J_{\\perp\\parallel} 2\\pi a^2 R_{\\perp\\parallel}(\\vartheta) \\sin\\vartheta \\cos\\vartheta d\\vartheta}{8\\pi \\sin\\vartheta \\cos\\vartheta d\\vartheta} = J_{\\perp\\parallel} \\sigma \\frac{R_{\\perp\\parallel}(g/2)}{4\\pi}."
+    ],
+    "equation_numbers": [
+      "(5.31)",
+      ""
+    ],
+    "token_count": 390
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p02",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".4 Surface reflection",
+    "text": "The total amount of light reflected from the surface of the sphere is, from (5.32),\n\n$$P_{R\\perp\\parallel} = \\int_{4\\pi} \\frac{dP_{R\\perp\\parallel}}{d\\Omega} d\\Omega = \\int_{\\vartheta=0}^{\\pi/2} dP_{R\\perp\\parallel} = J_{\\perp\\parallel} 2\\pi a^2 \\int_0^{\\pi/2} R_{\\perp\\parallel} (\\vartheta) \\sin\\vartheta \\cos\\vartheta d\\vartheta.$$\n(5.33)\n\nIf the incident light is unpolarized, so that  $J_{\\perp} = J_{\\parallel} = J/2$ , then the contribution to  $Q_s$  and  $\\Pi(g)$  from surface reflection is\n\n$$Q_R \\Pi_R(g) = [R_{\\perp}(g/2) + R_{\\parallel}(g/2)]/2, \\tag{5.34}$$\n\nwhere\n\n$$Q_R = S_e, (5.35)$$\n\nand  $S_e$  is the total fraction of the light externally incident on the surface of the particle that is specularly reflected\n\n$$S_e = \\int_0^{\\pi/2} [R_{\\perp}(\\vartheta) + R_{\\parallel}(\\vartheta)] \\cos \\vartheta \\sin \\vartheta d\\vartheta = 2 \\int_0^{\\pi/2} R(\\vartheta) \\cos \\vartheta \\sin \\vartheta d\\vartheta, \\quad (5.36)$$\n\nwhere  $R(\\vartheta) = [R_{\\perp}(\\vartheta) + R_{\\rm P}(\\vartheta)]/2$  is the average of the polarized reflectivities.\n\nValues of  $S_e$  have been calculated numerically and tabulated by Kerker (1969) for  $1.2 \\le n_r \\le 4$  and  $0 \\le n_i \\le 4$ . They are plotted in Figure 5.11. A useful approximate expression for  $S_e$  can be derived by plotting  $S_e$  against R(0), where\n\n$$R(0) = \\frac{(n_r - 1)^2 + n_i^2}{(n_r + 1)^2 + n_i^2}$$\n\nis the specular reflection coefficient for normal incidence. Thus is done in Figure 5.12, in which the dots are the values calculated by Kerker. Except very close to R(0) = 0, the points can all be well represented by the second-order polynomial",
+    "equations": [
+      "P_{R\\perp\\parallel} = \\int_{4\\pi} \\frac{dP_{R\\perp\\parallel}}{d\\Omega} d\\Omega = \\int_{\\vartheta=0}^{\\pi/2} dP_{R\\perp\\parallel} = J_{\\perp\\parallel} 2\\pi a^2 \\int_0^{\\pi/2} R_{\\perp\\parallel} (\\vartheta) \\sin\\vartheta \\cos\\vartheta d\\vartheta.",
+      "Q_R \\Pi_R(g) = [R_{\\perp}(g/2) + R_{\\parallel}(g/2)]/2, \\tag{5.34}",
+      "Q_R = S_e, (5.35)",
+      "S_e = \\int_0^{\\pi/2} [R_{\\perp}(\\vartheta) + R_{\\parallel}(\\vartheta)] \\cos \\vartheta \\sin \\vartheta d\\vartheta = 2 \\int_0^{\\pi/2} R(\\vartheta) \\cos \\vartheta \\sin \\vartheta d\\vartheta, \\quad (5.36)",
+      "R(0) = \\frac{(n_r - 1)^2 + n_i^2}{(n_r + 1)^2 + n_i^2}"
+    ],
+    "equation_numbers": [
+      "",
+      "(5.34)",
+      "(5.35)",
+      "(5.36)",
+      ""
+    ],
+    "token_count": 407
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p03",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".4 Surface reflection",
+    "text": "...rmal incidence. Thus is done in Figure 5.12, in which the dots are the values calculated by Kerker. Except very close to R(0) = 0, the points can all be well represented by the second-order polynomial\n\n$$S_e = 0.0587 + 0.8543R(0) + 0.0870R(0)^2, (5.37)$$\n\nwhere the coefficients were chosen as the best fit that is forced to go through the point (R(0) = 1,  $S_e = 1$ ). Equation (5.37) is plotted as the line in Figure 5.12 and provides a convenient approximation for  $S_e$ .\n\nFigure 5.11 Surface reflection coefficient of a large sphere for various values of the complex refractive index. (The dots are the values from Kerker [1969]; the lines are interpolated using a polynomial fit.)",
+    "equations": [
+      "S_e = 0.0587 + 0.8543R(0) + 0.0870R(0)^2, (5.37)"
+    ],
+    "equation_numbers": [
+      "(5.37)"
+    ],
+    "token_count": 172
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p00",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".5 Refracted rays",
+    "text": "The remainder of the light scattered by the sphere consists of rays that are refracted into the sphere and back out after making one or more internal traverses of the particle, and are illustrated in Figure 5.13. For these rays it may be assumed that  $n_i \\ll 1$ , because otherwise the particle would be opaque and the contribution of the refracted rays would be negligible.\n\nConsider first a ray of irradiance  $J_{\\perp\\parallel}$  that makes only one pass through the sphere after encountering the surface at the point where the radius vector makes an angle  $\\vartheta$  with the direction of propagation. A fraction  $R_{\\perp\\parallel}(\\vartheta)$  is reflected by the first surface, and the remainder enters the particle as  $[1-R_{\\perp\\parallel}(\\vartheta)]\\cos\\vartheta/\\cos\\vartheta'$ , making an angle  $\\vartheta'$  with the radius vector, where  $\\vartheta'$  is given by Snell's law (Chapter 4). As the ray traverses the sphere it is attenuated by absorption according to  $\\exp(-\\alpha x) = \\exp(-4an_i\\cos\\vartheta')$ , where  $\\alpha = 4\\pi n_i/\\lambda$  is the absorption coefficient and  $x = 2a\\cos\\vartheta'$  is the path length through the sphere. Because  $n_i \\ll 1$ , equations (4.32) and (4.33) may be used to calculate  $R_{\\perp\\parallel}(\\vartheta)$ .",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 320
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p01",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".5 Refracted rays",
+    "text": "...bsorption coefficient and  $x = 2a\\cos\\vartheta'$  is the path length through the sphere. Because  $n_i \\ll 1$ , equations (4.32) and (4.33) may be used to calculate  $R_{\\perp\\parallel}(\\vartheta)$ .\n\nAt the far side of the sphere a fraction  $R_{\\perp \\parallel}(\\vartheta')$  of the ray is reflected. It was shown in Chapter 4 that the reflection coefficient for rays incident internally on a surface at angle  $\\vartheta'$  is the same as the reflection coefficient for rays incident externally at angle  $\\vartheta$ . Hence, at the forward surface, a fraction  $R_{\\perp \\parallel}(\\vartheta)$  of the energy is reflected, and\n\nFigure 5.12 Surface reflection coefficient of a large sphere with  $n_r > 1$  versus the specular reflectivity of a plane interface at normal incidence. (The dots are the calculated values from Kerker [1969]; the line is equation [5.37].)\n\nfraction  $[1 - R_{\\perp \\parallel}(\\vartheta)] \\cos \\vartheta' / \\cos \\vartheta$  is transmitted. At all positions the ray remains in the same plane.",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 256
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p02",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".5 Refracted rays",
+    "text": "fraction  $[1 - R_{\\perp \\parallel}(\\vartheta)] \\cos \\vartheta' / \\cos \\vartheta$  is transmitted. At all positions the ray remains in the same plane.\n\nFigure 5.13 shows that the once-transmitted ray exits the sphere in a direction making an angle  $\\Upsilon = \\pi + 2\\vartheta - 2\\vartheta'$  with the direction to the source. The phase angle of the exiting ray is  $g = 2\\pi - \\Upsilon = \\pi - 2(\\vartheta - \\vartheta')$ . The minimum value of g occurs when  $\\vartheta = \\pi/2$ , so that  $\\vartheta' = \\vartheta_c = \\sin^{-1}(1/n_r)$ , or  $g = \\pi - 2(\\pi/2 - \\vartheta_c) = 2\\vartheta_c$ . Hence, the angular width of the forward-refracted peak is  $\\pi - 2\\vartheta_c$ , where  $\\vartheta_c$  is the critical angle for total internal reflection.\n\nOf the power incident on the sphere at all points on the surface between angles  $\\vartheta$  and  $\\vartheta + d\\vartheta$  through the area  $dA\\cos\\vartheta = 2\\pi\\alpha\\sin\\vartheta ad\\vartheta\\cos\\vartheta$ , an amount\n\n$$dP_{1\\perp \\parallel} = J_{\\perp \\parallel} dA \\cos \\vartheta \\left[ 1 - R_{\\perp \\parallel}(\\vartheta) \\right]^2 e^{-\\alpha x}$$\n\nemerges between angles g and g + dg, where the subscript 1 on dP indicates the power emerging after one transit of the sphere. At a large distance from the particle this light passes through an incremental solid angle  $d\\Omega = 2\\pi \\sin g dg$ . Hence, the\n\nFigure 5.13 Internally refracted and reflected rays in a large sphere.\n\npower per unit solid angle of light transmitted once through the sphere is",
+    "equations": [
+      "dP_{1\\perp \\parallel} = J_{\\perp \\parallel} dA \\cos \\vartheta \\left[ 1 - R_{\\perp \\parallel}(\\vartheta) \\right]^2 e^{-\\alpha x}"
+    ],
+    "equation_numbers": [
+      ""
+    ],
+    "token_count": 379
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p03",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".5 Refracted rays",
+    "text": "power per unit solid angle of light transmitted once through the sphere is\n\n$$\\frac{dP_{1\\perp\\parallel}}{d\\Omega} = \\frac{J_{\\perp\\parallel} 2\\pi a^2 \\left[1 - R_{\\perp\\parallel}(\\vartheta)\\right]^2 e^{-4n_i X \\cos \\vartheta'} \\sin \\vartheta \\cos \\vartheta d\\vartheta}{2\\pi \\sin g \\, dg}.$$\n (5.38)\n\nThe remaining power is internally reflected, passes through the sphere a second time, and is partially transmitted out of the sphere; the rest is again internally reflected, and the process continues. Because of the particle symmetry, at each reflection  $\\vartheta'$  and x are the same, and the ray stays in the same plane. From Figure 5.13 it is seen that light emerging from the sphere after each subsequent internal reflection and transmission differs from  $dP_{1\\perp\\parallel}/d\\Omega$  in three ways. (1) Each internal reflection attenuates the intensity by  $R_{\\perp\\parallel}(\\vartheta)$ . (2) Each transmission attenuates the intensity by  $\\exp(-4n_iX\\cos\\vartheta')$ . (3) Each internal reflection increases the deflection angle  $\\Upsilon$  by an additional amount  $\\pi-2\\vartheta'$ . Hence, rays that have passed through the particle q times and scattered into phase angle g have power per unit solid angle\n\n$$\\frac{dP_{q\\perp\\parallel}}{d\\Omega} = J_{\\perp\\parallel} \\frac{\\alpha}{4\\pi} [1 - R_{\\perp\\parallel}(\\vartheta)]^2 R_{\\perp\\parallel}(\\vartheta)^{q-1} e^{-4qn_i X \\cos \\vartheta'} F_q(g, \\vartheta, \\vartheta'), \\quad (5.39)$$\n\nwhere  $F_q = (g, \\vartheta, \\vartheta')$  is the focusing factor,",
+    "equations": [
+      "\\frac{dP_{1\\perp\\parallel}}{d\\Omega} = \\frac{J_{\\perp\\parallel} 2\\pi a^2 \\left[1 - R_{\\perp\\parallel}(\\vartheta)\\right]^2 e^{-4n_i X \\cos \\vartheta'} \\sin \\vartheta \\cos \\vartheta d\\vartheta}{2\\pi \\sin g \\, dg}.",
+      "\\frac{dP_{q\\perp\\parallel}}{d\\Omega} = J_{\\perp\\parallel} \\frac{\\alpha}{4\\pi} [1 - R_{\\perp\\parallel}(\\vartheta)]^2 R_{\\perp\\parallel}(\\vartheta)^{q-1} e^{-4qn_i X \\cos \\vartheta'} F_q(g, \\vartheta, \\vartheta'), \\quad (5.39)"
+    ],
+    "equation_numbers": [
+      "",
+      "(5.39)"
+    ],
+    "token_count": 380
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p04",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".5 Refracted rays",
+    "text": "where  $F_q = (g, \\vartheta, \\vartheta')$  is the focusing factor,\n\n$$F_{q}(g,\\vartheta,\\vartheta') = \\left| \\frac{4\\sin\\vartheta\\cos\\vartheta}{\\sin g(dg/d\\vartheta)} \\right| = \\left| \\frac{4\\sin\\vartheta\\cos\\vartheta}{\\sin\\Upsilon(d\\Upsilon/d\\vartheta)} \\right|, \\tag{5.40}$$\n\n$$\\Upsilon = q\\pi + 2\\vartheta - 2q\\vartheta',\\tag{5.41}$$\n\n$$g = |\\Upsilon - 2N\\pi|, \\tag{5.42}$$\n\nwhere N is the integer ( $N \\ge 0$ ) that makes  $0 \\le g \\le \\pi$ ,  $\\vartheta$  and  $\\vartheta'$  are related by Snell's law,  $\\sin \\vartheta = n_r \\sin \\vartheta'$ , so that\n\n$$d\\Upsilon/d\\vartheta = 2(1 - qd\\vartheta'/d\\vartheta) = 2\\left\\{1 - q\\left[(1 - \\sin^2\\vartheta)/(n^2 - \\sin^2\\vartheta)\\right]^{1/2}\\right\\}. \\quad (5.43)$$\n\nEquation (5.40) predicts that the intensity becomes infinite at certain angles where rays incident on the sphere over a range of entrance angles  $\\vartheta$  are focused into the same direction  $\\Upsilon$ . These resonances are another situation where geometric optics breaks down. Although the particle phase function is sharply peaked at these angles, the actual intensity remains finite, and its value must be calculated by Mie theory. However, ray theory does correctly predict the angles at which the peaks occur.\n\nAccording to equation (5.41), a peak occurs when  $d\\Upsilon/d\\vartheta = 0$ , or\n\n$$\\sin \\vartheta = [(q^2 - n^2)/(q^2 - 1)]^{1/2}.$$\n (5.44)",
+    "equations": [
+      "F_{q}(g,\\vartheta,\\vartheta') = \\left| \\frac{4\\sin\\vartheta\\cos\\vartheta}{\\sin g(dg/d\\vartheta)} \\right| = \\left| \\frac{4\\sin\\vartheta\\cos\\vartheta}{\\sin\\Upsilon(d\\Upsilon/d\\vartheta)} \\right|, \\tag{5.40}",
+      "\\Upsilon = q\\pi + 2\\vartheta - 2q\\vartheta',\\tag{5.41}",
+      "g = |\\Upsilon - 2N\\pi|, \\tag{5.42}",
+      "d\\Upsilon/d\\vartheta = 2(1 - qd\\vartheta'/d\\vartheta) = 2\\left\\{1 - q\\left[(1 - \\sin^2\\vartheta)/(n^2 - \\sin^2\\vartheta)\\right]^{1/2}\\right\\}. \\quad (5.43)",
+      "\\sin \\vartheta = [(q^2 - n^2)/(q^2 - 1)]^{1/2}."
+    ],
+    "equation_numbers": [
+      "(5.40)",
+      "(5.41)",
+      "(5.42)",
+      "(5.43)",
+      ""
+    ],
+    "token_count": 346
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p05",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".5 Refracted rays",
+    "text": "$$\\sin \\vartheta = [(q^2 - n^2)/(q^2 - 1)]^{1/2}.$$\n (5.44)\n\nThe ray corresponding to q=2 (two transits plus one internal reflection) is responsible for the primary *rainbow* in water droplets. Taking the refractive index of water in visible light as n=1.33, these equations show that the rainbow ray enters the sphere at  $\\vartheta=59.4^\\circ$ , with  $\\vartheta'=40.2^\\circ$ , and exits at deflection angle  $\\Upsilon=318^\\circ$  or phase angle  $g=42^\\circ$ . Fainter rainbows that are produced by rays making more than two transits of the sphere may also be observed. For substances other than water the generic term *cloudbow* is used instead of rainbow.\n\nAnother situation in which a singularity in  $F_q(g,\\vartheta,\\vartheta')$  occurs is if g=0, but  $\\vartheta\\neq 0$  or  $\\pi/2$ . The resulting peak is called the *glory*. (A glory can frequently be seen from an airplane flying above a cloud of water droplets as a bright glow around the shadow of the aircraft on the cloud. However, in water the refractive index is too small for the q=2 ray to cause a glory, which in this case is thought to arise from rays with  $q\\gg 2$  that enter the sphere at nearly glancing incidence and are multiply internally reflected or guided around the surface of the particle.)\n\nHence, the total contribution of the refracted rays to the scattering is the sum of all terms of the form of (5.34),\n\n$$\\frac{dP_{r\\perp\\parallel}}{d\\Omega} = \\sum_{q=1}^{\\infty} \\frac{dP_{q\\perp\\parallel}}{d\\Omega} = J_{\\perp\\parallel} \\frac{\\sigma}{4\\pi} [1 - R_{\\perp\\parallel}(\\vartheta)]^2$$",
+    "equations": [
+      "\\sin \\vartheta = [(q^2 - n^2)/(q^2 - 1)]^{1/2}.",
+      "\\frac{dP_{r\\perp\\parallel}}{d\\Omega} = \\sum_{q=1}^{\\infty} \\frac{dP_{q\\perp\\parallel}}{d\\Omega} = J_{\\perp\\parallel} \\frac{\\sigma}{4\\pi} [1 - R_{\\perp\\parallel}(\\vartheta)]^2"
+    ],
+    "equation_numbers": [
+      "",
+      ""
+    ],
+    "token_count": 393
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p06",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".5 Refracted rays",
+    "text": "$$\\frac{dP_{r\\perp\\parallel}}{d\\Omega} = \\sum_{q=1}^{\\infty} \\frac{dP_{q\\perp\\parallel}}{d\\Omega} = J_{\\perp\\parallel} \\frac{\\sigma}{4\\pi} [1 - R_{\\perp\\parallel}(\\vartheta)]^2$$\n\n$$\\times \\sum_{q=1}^{\\infty} R_{\\perp\\parallel}(\\vartheta)^{q-1} e^{-4qn_i X \\cos \\vartheta'} F_q(g, \\vartheta, \\vartheta'). \\tag{5.45}$$\n\nIn order to illustrate the behavior of the refracted rays, the q=1 and q=2 terms will be discussed in detail. When q=1,  $\\Upsilon=\\pi+2(\\vartheta-\\vartheta')$ . For the axial ray,  $\\vartheta=0$ ,  $\\Upsilon=g=\\pi$ , and  $F_1(\\pi,0,0)=(1-1/n_r)^{-2}$ . As  $\\vartheta$  increases,  $\\Upsilon$  increases to a maximum value of  $\\Upsilon=2\\pi-2\\vartheta_c'$ , where  $\\vartheta_c'=\\sin^{-1}(1/n_r)$  is the critical angle for total internal reflection, corresponding to the ray that enters the sphere at  $\\vartheta=\\pi/2$ . At the same time, g decreases from  $\\pi$  to  $2\\vartheta_c'$ . The result is a bright lobe of forward-refracted light. The sphere acts as a thick lens to focus the incident light into a beam of angular half-width  $2\\vartheta_c'$ .",
+    "equations": [
+      "\\frac{dP_{r\\perp\\parallel}}{d\\Omega} = \\sum_{q=1}^{\\infty} \\frac{dP_{q\\perp\\parallel}}{d\\Omega} = J_{\\perp\\parallel} \\frac{\\sigma}{4\\pi} [1 - R_{\\perp\\parallel}(\\vartheta)]^2",
+      "\\times \\sum_{q=1}^{\\infty} R_{\\perp\\parallel}(\\vartheta)^{q-1} e^{-4qn_i X \\cos \\vartheta'} F_q(g, \\vartheta, \\vartheta'). \\tag{5.45}"
+    ],
+    "equation_numbers": [
+      "",
+      "(5.45)"
+    ],
+    "token_count": 269
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p07",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".5 Refracted rays",
+    "text": "...m  $\\pi$  to  $2\\vartheta_c'$ . The result is a bright lobe of forward-refracted light. The sphere acts as a thick lens to focus the incident light into a beam of angular half-width  $2\\vartheta_c'$ .\n\nWhen q=2,  $\\Upsilon=2\\pi+2\\vartheta-4\\vartheta'$ . For the axial ray,  $\\vartheta=0$ ,  $\\Upsilon=2\\pi$ , g=0, and  $F_2(0,0,0)=(1-2/n_r)^{-2}$ . As  $\\vartheta$  increases,  $\\Upsilon$  first decreases, and g increases to the cloudbow angle. As  $\\vartheta$  continues to increase, the rays are prevented by Snell's law and by the curvature of the sphere from exiting at any lesser deflection angle  $\\Upsilon$ , but instead pile up, causing the cloudbow. Then  $\\Upsilon$  increases to a maximum angle of  $3\\pi-4\\sin^{-1}(1/n_r)$  corresponding to  $\\vartheta=\\pi/2$  and  $\\sin\\vartheta'=1/n_r$ . If  $n_r$  is large enough, this maximum  $\\Upsilon$  may exceed  $2\\pi$ . In this case there will be a glory when  $\\Upsilon=2\\pi$ ; according to (5.41), this occurs when  $\\vartheta=2\\vartheta'$ , or  $\\sin\\vartheta=n_r(1-n_r^2/4)^{1/2}$ .",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 262
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p00",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".6 Total light scattered by a large sphere",
+    "text": "Combining the equations developed in this section, the total power, including diffraction, scattered into unit solid angle by an isolated sphere, large compared with the wavelength, is\n\n$$dP_{\\perp \\parallel}/d\\Omega = dP_d/d\\Omega + dP_{R\\perp \\parallel}/d\\Omega + dP_{r\\perp \\parallel}/d\\Omega,$$\n\nwhere the terms on the right-hand side of this equation are given by (5.27), (5.32), and (5.45). Hence,\n\n$$[Q_{S}\\Pi_{S}(g)]_{\\perp \\parallel} = \\frac{1}{J_{\\perp \\parallel}\\sigma} \\frac{dP_{\\perp \\parallel}}{d\\Omega} = X^{2} \\left\\{ \\frac{2J_{1}[X\\sin(\\pi - g)]}{X\\sin(\\pi - g)} \\right\\}^{2} + R_{\\perp \\parallel}(g/2)$$\n\n$$+ [1 - R_{\\perp \\parallel}(\\vartheta)]^{2} \\times \\sum_{q=1}^{\\infty} R_{\\perp \\parallel}(\\vartheta)^{q-1} e^{-4qn_{i}X\\cos\\vartheta'} F_{q}(g, \\vartheta, \\vartheta').$$\n(5.46)\n\nThe scattering efficiency can be found by integrating  $[Q_S\\Pi(g)]_{\\perp\\parallel}$  over all solid angles:\n\n$$Q_{S\\perp\\parallel} = \\frac{1}{4\\pi} \\int_{4\\pi} [Q_S \\Pi_S(g)]_{\\perp\\parallel} / d\\Omega, \\qquad (5.47)$$\n\nand the particle phase function from\n\n$$\\Pi_{s\\perp\\parallel}(g) = [Q_S \\Pi_s(g)]_{\\perp\\parallel}/Q_S. \\tag{5.48}$$\n\nAs a check on computations,  $Q_S$  must equal 2 when  $n_i = 0$ , because the only loss occurs by absorption of the refracted rays.\n\nApproximately 99% of the light scattered by a large nonabsorbing particle is included in the terms up to and including two transits of the particle. Hence, the infinite sums in (5.45) may usually be truncated at q = 2 or 3.\n\nIf the incident irradiance is unpolarized, so that  $J_{\\perp} = J_{\\parallel} = J/2$ , then",
+    "equations": [
+      "dP_{\\perp \\parallel}/d\\Omega = dP_d/d\\Omega + dP_{R\\perp \\parallel}/d\\Omega + dP_{r\\perp \\parallel}/d\\Omega,",
+      "[Q_{S}\\Pi_{S}(g)]_{\\perp \\parallel} = \\frac{1}{J_{\\perp \\parallel}\\sigma} \\frac{dP_{\\perp \\parallel}}{d\\Omega} = X^{2} \\left\\{ \\frac{2J_{1}[X\\sin(\\pi - g)]}{X\\sin(\\pi - g)} \\right\\}^{2} + R_{\\perp \\parallel}(g/2)",
+      "+ [1 - R_{\\perp \\parallel}(\\vartheta)]^{2} \\times \\sum_{q=1}^{\\infty} R_{\\perp \\parallel}(\\vartheta)^{q-1} e^{-4qn_{i}X\\cos\\vartheta'} F_{q}(g, \\vartheta, \\vartheta').",
+      "Q_{S\\perp\\parallel} = \\frac{1}{4\\pi} \\int_{4\\pi} [Q_S \\Pi_S(g)]_{\\perp\\parallel} / d\\Omega, \\qquad (5.47)",
+      "\\Pi_{s\\perp\\parallel}(g) = [Q_S \\Pi_s(g)]_{\\perp\\parallel}/Q_S. \\tag{5.48}"
+    ],
+    "equation_numbers": [
+      "",
+      "",
+      "",
+      "(5.47)",
+      "(5.48)"
+    ],
+    "token_count": 398
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p01",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".6 Total light scattered by a large sphere",
+    "text": "If the incident irradiance is unpolarized, so that  $J_{\\perp} = J_{\\parallel} = J/2$ , then\n\n$$[Q_{s}\\Pi_{s}(g)] = X^{2} \\left\\{ \\frac{2J_{1}[X\\sin(\\pi - g)]}{X\\sin(\\pi - g)} \\right\\}^{2} + \\frac{R_{\\perp}(g/2) + R_{\\parallel}(g/2)}{2}$$\n\n$$+ \\frac{1}{2} \\sum_{q=1}^{\\infty} \\left\\{ [1 - R_{\\perp}(\\vartheta)]^{2} R_{\\perp}(\\vartheta)^{q-1} + [1 - R_{\\parallel}(\\vartheta)]^{2} R_{\\parallel}(\\vartheta)^{q-1} \\right\\}$$\n\n$$\\times e^{-4qn_{i}X\\cos\\vartheta'} F_{q}(g, \\vartheta, \\vartheta').$$\n(5.49)\n\nThe phase function of an isolated sphere with m = 1.50 + 0i and X = 100 calculated from geometric optics is shown in Figure 5.14a, where the different contributions are shown explicitly.\n\nThe sum has been carried out to three transits. Comparing this figure with the exact Mie-theory calculation shown in Figure 5.7, it is seen that the two results are qualitatively similar.\n\nHodkinson and Greenleaves (1963), and Ungut *et al.* (1981) have shown that in the forward-scattering portion of the phase diagram where the scattering angle is smaller than  $20^{\\circ}$  there is good agreement between Mie theory and geometric optics for X as small as 6. However, according to Liou and Hansen (1971), satisfactory agreement over the complete range of phase angles is not reached until X exceeds about 400.",
+    "equations": [
+      "[Q_{s}\\Pi_{s}(g)] = X^{2} \\left\\{ \\frac{2J_{1}[X\\sin(\\pi - g)]}{X\\sin(\\pi - g)} \\right\\}^{2} + \\frac{R_{\\perp}(g/2) + R_{\\parallel}(g/2)}{2}",
+      "+ \\frac{1}{2} \\sum_{q=1}^{\\infty} \\left\\{ [1 - R_{\\perp}(\\vartheta)]^{2} R_{\\perp}(\\vartheta)^{q-1} + [1 - R_{\\parallel}(\\vartheta)]^{2} R_{\\parallel}(\\vartheta)^{q-1} \\right\\}",
+      "\\times e^{-4qn_{i}X\\cos\\vartheta'} F_{q}(g, \\vartheta, \\vartheta')."
+    ],
+    "equation_numbers": [
+      "",
+      "",
+      ""
+    ],
+    "token_count": 325
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p02",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".6 Total light scattered by a large sphere",
+    "text": "... theory and geometric optics for X as small as 6. However, according to Liou and Hansen (1971), satisfactory agreement over the complete range of phase angles is not reached until X exceeds about 400.\n\nWe are now in a position to understand the various parts of Figures 5.7a and 5.14a. The sharp, narrow peak at  $g = \\pi$  is due to diffraction. The broad forward-scattered lobe is primarily due to the refracted ray that has made one traverse of the sphere. The backscattered lobe, the rainbow at 21°, and the glory are all due to the internally scattered rays. Note that there is a gap between the maximum value of g at which the internally reflected ray emerges and the minimum phase angle at which the forward-refracted ray emerges. In this gap, the only contribution to the scattered light is from surface Fresnel reflection, so that  $\\Pi(g)$  is small there.\n\nFigure 5.14 (a) Phase function of a large sphere with n=1.50+i0 calculated according to geometric optics. Compare with the solid curve of Figure 5.7a calculated using Mie theory. (b) Polarization of a large sphere with n=1.50+i0 calculated according to geometric optics. Compare with the solid curve of Figure 5.7b calculated using Mie theory.\n\nThe diffracted light is independent of  $n_i$ , and if  $n_i << 1$ , the surface reflectivity is nearly independent of  $n_i$ . However, the intensities of the refracted rays depend exponentially on  $n_i$ . As  $n_i$  increases, the refracted component decreases, and the twice-transmitted lobe scattered in the backward direction decreases more rapidly",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 392
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p03",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".6 Total light scattered by a large sphere",
+    "text": "...f the refracted rays depend exponentially on  $n_i$ . As  $n_i$  increases, the refracted component decreases, and the twice-transmitted lobe scattered in the backward direction decreases more rapidly\n\nthan the once-transmitted forward-scattered light. If  $n_i X >> 1$ , but  $n_i << 1$ , the particle is opaque, but the surface reflectivity remains small, so that  $Q_s \\simeq S_e = 1$ . When  $n_i >\\sim 0.1$ , the surface reflectivity behaves like  $[(n_r - 1)^2 + n_i^2]/[(n_r + 1)^2 + n_i^2]$ , and  $Q_s$  increases with  $n_i$ .",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 134
+  },
+  {
+    "chunk_id": "ch05_sec05_04_04_p00",
+    "chapter": 5,
+    "section": "5.4.4",
+    "section_title": ".7 Polarization",
+    "text": "The linear polarization for unpolarized incident irradiance may be calculated from\n\n$$P(g) = \\frac{[Q_s \\Pi_s(g)]_{\\perp} - [Q_s \\Pi_s(g)]_{\\parallel}}{[Q_s \\Pi_s(g)]_{\\parallel} + [Q_s \\Pi_s(g)]_{\\parallel}},$$\n(5.50)\n\nwhere the  $[Q_s\\Pi_s(g)]_{\\perp\\parallel}$  are given by (5.46). The polarization for a sphere with n=1.50+i0 and X=100 calculated from geometric optics is shown in Figure 5.14b. The forward-scattered lobe involves two refractions and is negatively polarized. At intermediate angles the major contribution is light reflected from the surface, and thus is positively polarized. The backward-scattered lobe consists of a mixture of light that enters the sphere at small ( $\\vartheta <<\\pi/2$ ) angles, which tends to be positively polarized, and large ( $\\vartheta \\approx \\pi/2$ ) angles, which tends to be negatively polarized, so that the polarization is complicated. The cloudbow is positively polarized, while the glory may be positively or negatively polarized. The polarization tends to be negative close to g=0.",
+    "equations": [
+      "P(g) = \\frac{[Q_s \\Pi_s(g)]_{\\perp} - [Q_s \\Pi_s(g)]_{\\parallel}}{[Q_s \\Pi_s(g)]_{\\parallel} + [Q_s \\Pi_s(g)]_{\\parallel}},"
+    ],
+    "equation_numbers": [
+      ""
+    ],
+    "token_count": 259
+  },
+  {
+    "chunk_id": "ch05_sec05_05_p00",
+    "chapter": 5,
+    "section": "5.5",
+    "section_title": "Other regular particles",
+    "text": "The general principles on which Mie theory is based can be extended to other relatively simple geometries, including layered spheres, right circular cylinders of infinite length, and ellipsoids of revolution. For cylinders, the size parameter refers to the radius of the cylinder. The equations for cylinders and coated spheres are derived in the standard references, including those by Van de Hulst (1957), Kerker (1969), and Bohren and Huffman (1983). The Bohren and Huffman book contains FORTRAN programs for calculating scattering by a coated sphere and infinite circular cylinder. Scattering by oblate and prolate ellipsoids of revolution is treated in Asano and Yamamoto (1975).\n\nThe properties of the solutions are qualitatively similar to those of a sphere with similar size parameter X. Although different in detail, the scattering exhibits Rayleigh behavior when X is small, and diffraction, interference, and cloudbow-like resonance phenomena when  $X \\gg 1$ .",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 242
+  },
+  {
+    "chunk_id": "ch05_sec05_06_p00",
+    "chapter": 5,
+    "section": "5.6",
+    "section_title": "The equivalent-slab approximation",
+    "text": "When the particle is large compared with the wavelength and the incident light is unpolarized, an analytic approximation for the nondiffractive component of the\n\nFigure 5.15 Schematic diagram of the equivalent-slab model for  $Q_s$ .\n\nscattering and absorption efficiencies that is sufficiently accurate for many applications may be derived by replacing the sphere by a slab with appropriate optical properties. The equivalent-slab model is illustrated schematically in Figure 5.15.\n\nThe total fraction of incident light specularly reflected into all directions from the surface of the equivalent slab is  $S_e$ , where  $S_e$  is the integral of the Fresnel reflection coefficients, equation (5.36). As shown in Section 5.4.4, this is the same as the fraction of light reflected from the outer surface of a sphere. A fraction  $1-S_e$  of the incident light then enters the slab and is attenuated by a factor  $\\Theta$  by absorption, where  $\\Theta$  is the *internal-transmission factor*, defined as the total fraction of light entering the particle that reaches another surface after one transit. Following the first passage through the particle, a fraction  $S_i$  is internally reflected, and the remainder  $1-S_i$  is refracted through the surface, where  $S_i$  is the reflection factor for light internally incident on the surface of the particle. The process continues, as indicated schematically in Figure 5.15.\n\nThe total fraction of incident light that is reflected or emerges from the back surface of the slab (the surface facing the source) is the backscattering efficiency",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 397
+  },
+  {
+    "chunk_id": "ch05_sec05_06_p01",
+    "chapter": 5,
+    "section": "5.6",
+    "section_title": "The equivalent-slab approximation",
+    "text": "The total fraction of incident light that is reflected or emerges from the back surface of the slab (the surface facing the source) is the backscattering efficiency\n\n$$Q_{SB} = S_e + (1 - S_e)(1 - S_i)S_i\\Theta^2 + (1 - S_e)(1 - S_i)S_i^2\\Theta^4 + \\dots -$$\n\n$$= S_e + (1 - S_e)(1 - S_i)\\frac{S_i\\Theta^2}{1 - S_i^2\\Theta^2},$$\n(5.51a)\n\nand that emerging from the forward surface of the slab (the surface facing away from the source) is the forward-scattering efficiency\n\n$$Q_{SF} = (1 - S_e)(1 - S_i)\\Theta + (1 - S_e)(1 - S_i)S_i^2\\Theta^3 + (1 - S_e)(1 - S_i)S_i^4\\Theta^5 + \\dots - \\dots = (1 - S_e)(1 - S_i)\\frac{\\Theta}{1 - S_i^2\\Theta^2}.$$\n (5.51b)\n\nThe sum of the two efficiencies is the nondiffractive scattering efficiency. The backand forward-scattering efficiencies can be conveniently expressed by two quantities, the scattering efficiency  $Q_s$  and the scattering difference  $\\Delta_s$ , where\n\n$$Q_{s} = Q_{sB} + Q_{sF} = S_{e} + (1 - S_{e})(1 - S_{i})\\frac{\\Theta + S_{i}\\Theta^{2}}{1 - S_{i}^{2}\\Theta^{2}} = S_{e} + (1 - S_{e})(1 - S_{i})\\frac{\\Theta}{1 - S_{i}\\Theta}$$\n(5.52a)\n\nand\n\n$$\\Delta Q_s = Q_{sB} - Q_{sF} = S_e + (1 - S_e)(1 - S_i) \\frac{S_i \\Theta^2 - \\Theta}{1 - S_i^2 \\Theta^2} = S_e + (1 - S_e)(1 - S_i) \\frac{-\\Theta}{1 + S_i \\Theta}.$$\n(5.52b)\n\nThen\n\n$$Q_{sB} = \\frac{Q_s + \\Delta Q_s}{2},\\tag{5.53a}$$\n\nand\n\n$$Q_{sF} = \\frac{Q_s - \\Delta Q_s}{2}.\\tag{5.53b}$$",
+    "equations": [
+      "Q_{SB} = S_e + (1 - S_e)(1 - S_i)S_i\\Theta^2 + (1 - S_e)(1 - S_i)S_i^2\\Theta^4 + \\dots -",
+      "= S_e + (1 - S_e)(1 - S_i)\\frac{S_i\\Theta^2}{1 - S_i^2\\Theta^2},",
+      "Q_{SF} = (1 - S_e)(1 - S_i)\\Theta + (1 - S_e)(1 - S_i)S_i^2\\Theta^3 + (1 - S_e)(1 - S_i)S_i^4\\Theta^5 + \\dots - \\dots = (1 - S_e)(1 - S_i)\\frac{\\Theta}{1 - S_i^2\\Theta^2}.",
+      "Q_{s} = Q_{sB} + Q_{sF} = S_{e} + (1 - S_{e})(1 - S_{i})\\frac{\\Theta + S_{i}\\Theta^{2}}{1 - S_{i}^{2}\\Theta^{2}} = S_{e} + (1 - S_{e})(1 - S_{i})\\frac{\\Theta}{1 - S_{i}\\Theta}",
+      "\\Delta Q_s = Q_{sB} - Q_{sF} = S_e + (1 - S_e)(1 - S_i) \\frac{S_i \\Theta^2 - \\Theta}{1 - S_i^2 \\Theta^2} = S_e + (1 - S_e)(1 - S_i) \\frac{-\\Theta}{1 + S_i \\Theta}.",
+      "Q_{sB} = \\frac{Q_s + \\Delta Q_s}{2},\\tag{5.53a}",
+      "Q_{sF} = \\frac{Q_s - \\Delta Q_s}{2}.\\tag{5.53b}"
+    ],
+    "equation_numbers": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "(5.53a)",
+      "(5.53b)"
+    ],
+    "token_count": 350
+  },
+  {
+    "chunk_id": "ch05_sec05_06_p02",
+    "chapter": 5,
+    "section": "5.6",
+    "section_title": "The equivalent-slab approximation",
+    "text": "$$Q_{sF} = \\frac{Q_s - \\Delta Q_s}{2}.\\tag{5.53b}$$\n\nIt remains to find  $S_i$  and  $\\Theta$ . Because of the spherical symmetry of the particle, a ray encounters each internal surface at the same angle at which it entered the interior; hence, the reflection coefficients are the same for each order of internal reflection and  $S_i = S_e$ . From the discussion in Section 5.4.4.5, the factor  $\\Theta$  is given by  $\\Theta = 2\\int_{\\vartheta=0}^{\\pi/2} e^{-4n_i X \\cos \\vartheta'} \\sin \\vartheta \\cos \\vartheta \\, d\\vartheta$ . Differentiating Snell's law gives  $\\sin \\vartheta \\cos \\vartheta \\, d\\vartheta = n_r^2 \\sin \\vartheta' \\cos \\vartheta' \\, d\\vartheta'$ . Also,  $4n_i X = \\alpha D$ , hence,  $\\Theta = 2n^2 \\int_{\\vartheta'=0}^{\\vartheta'_c} e^{-\\alpha D \\cos \\vartheta'} \\sin \\vartheta' \\cos \\vartheta' \\, d\\vartheta'$ , where  $\\vartheta'_c = \\sin^{-1}(1/n_r)$  is the critical angle for total internal reflection. This integral is readily evaluated to give\n\n$$\\Theta = \\frac{2n_r^2}{(\\alpha D)^2} \\left\\{ e^{-\\alpha D \\left(1 - 1/n_r^2\\right)^{1/2}} \\left[ 1 + \\alpha D \\left(1 - 1/n_r^2\\right)^{1/2} \\right] - e^{-\\alpha D} \\left[1 + \\alpha D\\right] \\right\\}. \\tag{5.54}$$\n\nDefine the mean ray path length through the interior  $\\langle D \\rangle$  as the thickness of a slab that will have the same value of  $\\Theta$  as (5.54) as  $\\alpha \\to 0$ . For the slab,  $\\Theta = e^{-\\alpha \\langle D \\rangle} \\simeq 1 - \\alpha \\langle D \\rangle$ . Expanding (5.54) in powers of  $\\alpha D$  gives  $\\Theta \\simeq 1 - \\frac{2}{3} [n_r^2 - (1/n_r)(n_r^2 - 1)^{3/2}] \\alpha D$ . Hence,",
+    "equations": [
+      "Q_{sF} = \\frac{Q_s - \\Delta Q_s}{2}.\\tag{5.53b}",
+      "\\Theta = \\frac{2n_r^2}{(\\alpha D)^2} \\left\\{ e^{-\\alpha D \\left(1 - 1/n_r^2\\right)^{1/2}} \\left[ 1 + \\alpha D \\left(1 - 1/n_r^2\\right)^{1/2} \\right] - e^{-\\alpha D} \\left[1 + \\alpha D\\right] \\right\\}. \\tag{5.54}"
+    ],
+    "equation_numbers": [
+      "(5.53b)",
+      "(5.54)"
+    ],
+    "token_count": 399
+  },
+  {
+    "chunk_id": "ch05_sec05_06_p03",
+    "chapter": 5,
+    "section": "5.6",
+    "section_title": "The equivalent-slab approximation",
+    "text": "...-\\alpha \\langle D \\rangle} \\simeq 1 - \\alpha \\langle D \\rangle$ . Expanding (5.54) in powers of  $\\alpha D$  gives  $\\Theta \\simeq 1 - \\frac{2}{3} [n_r^2 - (1/n_r)(n_r^2 - 1)^{3/2}] \\alpha D$ . Hence,\n\n$$\\langle D \\rangle = \\frac{2}{3} \\left[ n_r^2 - \\frac{1}{n_r} \\left( n_r^2 - 1 \\right)^{3/2} \\right] D.$$\n (5.55)\n\nThis quantity is the average distance traveled by all rays during a single transit of the particle. The value of  $\\langle D \\rangle/D$  ranges from 0.85 to 0.93 as  $n_r$  increases from 1.3 to 2.0.\n\nFigure 5.16 Scattering efficiency of a large sphere vs.  $\\alpha D$  calculated according to geometric optics and from the equivalent-slab model, equation (5.55); n = 1.50 + i0. The two curves are indistinguishable on the scale of this figure. The maximum error is 0.002.\n\nWhen  $\\alpha\\langle D\\rangle \\ll 1$ ,  $\\Theta=1-\\alpha\\langle D\\rangle \\simeq \\exp(-\\alpha < D>)$ . If  $\\exp(-\\alpha < D>)$  is compared with equation (5.54) for  $n_r$  between 1.3 and 2.0, the two quantities are found to be within 0.002 of each other for all values of  $\\alpha\\langle D\\rangle$ . Hence, to a good approximation,\n\n$$\\Theta \\simeq e^{-\\alpha \\langle D \\rangle},\\tag{5.56}$$\n\nwhere  $\\langle D \\rangle$  is given by (5.55), so that the thickness of the equivalent slab is set equal to  $\\langle D \\rangle$ .\n\nInserting these values into (5.52), the equivalent-slab approximation for the scattering efficiency of a spherical particle much larger than the wavelength is\n\n$$Q_{s} = S_{e} + (1 - S_{e}) \\frac{1 - S_{e}}{1 - S_{e}\\Theta}\\Theta,$$\n (5.57a)\n\nand for the scattering difference,",
+    "equations": [
+      "\\langle D \\rangle = \\frac{2}{3} \\left[ n_r^2 - \\frac{1}{n_r} \\left( n_r^2 - 1 \\right)^{3/2} \\right] D.",
+      "\\Theta \\simeq e^{-\\alpha \\langle D \\rangle},\\tag{5.56}",
+      "Q_{s} = S_{e} + (1 - S_{e}) \\frac{1 - S_{e}}{1 - S_{e}\\Theta}\\Theta,"
+    ],
+    "equation_numbers": [
+      "",
+      "(5.56)",
+      ""
+    ],
+    "token_count": 400
+  },
+  {
+    "chunk_id": "ch05_sec05_06_p04",
+    "chapter": 5,
+    "section": "5.6",
+    "section_title": "The equivalent-slab approximation",
+    "text": "and for the scattering difference,\n\n$$\\Delta Q_s = S_e - (1 - S_e) \\frac{1 - S_e}{1 - S_e(-\\Theta)} (\\Theta), \\tag{5.57b}$$\n\nwhere  $S_e$  is given by (5.35) and  $\\Theta$  by (5.56).\n\nThe scattering efficiency versus  $\\alpha\\langle D\\rangle$  calculated using the exact geometric-optics expressions and the equivalent-slab approximation is shown in Figure 5.16, where the approximation is seen to be excellent.\n\nSince *X >>* 1, we assume that *QE* = 2, while *Qd* = 1, so *QA* + *Qs* = 1. Then to the same accuracy as (5.57a) the absorption efficiency is\n\n$$Q_A = 1 - Q_S \\simeq (1 - S_e) \\frac{1 - \\Theta}{1 - S_e \\Theta}.$$\n (5.58)\n\nNote that when .\\$*D*% 3 1*,QA* - .\\$*D*% ∝ .*D*, so that the total amount of light absorbed *J* σ*QA* is proportional to the volume of the particle. However, as .*D* increases, *QA* approaches the lower limit 1–*Se*, and the power absorbed is proportional to the cross-sectional area of the particle.",
+    "equations": [
+      "\\Delta Q_s = S_e - (1 - S_e) \\frac{1 - S_e}{1 - S_e(-\\Theta)} (\\Theta), \\tag{5.57b}",
+      "Q_A = 1 - Q_S \\simeq (1 - S_e) \\frac{1 - \\Theta}{1 - S_e \\Theta}."
+    ],
+    "equation_numbers": [
+      "(5.57b)",
+      ""
+    ],
+    "token_count": 234
+  },
+  {
+    "chunk_id": "ch05_sec05_07_p00",
+    "chapter": 5,
+    "section": "5.7",
+    "section_title": "Computer programs",
+    "text": "Bohren and Huffman (1983) contains a fortran computer program for numerical calculation of the intensity and polarization of light scattered from a sphere. Michael Mishchenko maintains a website from which a computer program that calculates the average scattering parameters for spheres with a distribution of sizes may be downloaded at [www.giss.nasa.gov/](http://www.giss.nasa.gov/%E2%88%BCcrimm)∼[crimm.](http://www.giss.nasa.gov/%E2%88%BCcrimm)",
+    "equations": [],
+    "equation_numbers": [],
+    "token_count": 112
+  }
+]
