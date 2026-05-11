@@ -1,0 +1,100 @@
+# <span id="page-0-0"></span>Single-particle scattering: perfect spheres
+
+### **5.1 Introduction**
+
+One of the fundamental interactions of electromagnetic radiation with a particulate medium is scattering by individual particles, and many of the properties of the light diffusely reflected from a particulate surface can be understood, at least qualitatively, in terms of single-particle scattering. This chapter considers scattering by a sphere. Although perfectly spherical particles are rarely encountered in the laboratory and never in planetary soils, they are found in nature in clouds composed of liquid droplets. For this reason alone, spheres are worth discussing. Even more important, however, is the fact that a sphere is the simplest three-dimensional object whose interaction with a plane electromagnetic wave can be calculated by exact solution of Maxwell's equations. Therefore, in developing various approximate methods for handling scattering by nonuniform, nonspherical particles, the insights afforded by uniform spheres are invaluable.
+
+In the first part of this chapter some of the quantities in general use in treatments of diffuse scattering are defined. Next, the theory of scattering by a spherical particle is described qualitatively, and conclusions from the theory are discussed in detail. Finally, an analytic approximation to the scattering efficiency that is valid when the radius is large compared with the wavelength is derived.
+
+### **5.2 Concepts and definitions** *5.2.1 Radiance*
+
+In a radiation field where the light is uncollimated, the amount of power at position **r** crossing unit area perpendicular to the direction of propagation !, traveling into unit solid angle about !, is called the *radiance* and will be denoted by *I (***r***,*!*)*. Radiance is often also called *specific intensity,* or simply *intensity,* or *brightness.*
+
+Note the difference between irradiance *J* , which refers to power per unit area of a collimated beam, and radiance *I*, which is the uncollimated power per unit
+
+![](_page_1_Picture_2.jpeg)
+
+Figure 5.1 Irradiance and radiance.
+
+area per unit solid angle (Figure 5.1). The power per unit area traveling into a small range of solid angles  $\Delta\Omega$  about some direction  $\Omega$ , is  $\mathbf{I}(\mathbf{r},\Omega)\Delta\Omega$ . The irradiance may be considered to be the limit of a highly collimated radiance,  $J(\mathbf{r},\Omega_0) = \lim_{\Delta\Omega\to 0} [I(\mathbf{r},\Omega)\Delta\Omega] = I(\mathbf{r},\Omega)\delta(\Omega-\Omega_0)$ , where  $\delta(x)$  is the delta function.
+
+The delta function, which was introduced by P. A. M. Dirac, is an extremely useful mathematical tool. It has the following properties:  $\delta(x)=0$  everywhere except at x=0, where  $\delta(0)$  is infinite in such a manner that its integral over an interval  $\overline{ab}$  containing x=0 is  $\int_a^b \delta(x) dx=1$ . Then for any function f(x),  $\int_a^b f(x) \delta(x) dx=f(0)$  if  $\overline{ab}$  contains x=0, but if not, the integral has the value zero. Thus, if a radiation field consisting of a collimated irradiance  $J(\Omega_0)$  is examined by a directional detector with a solid angle of admittance  $\Delta\Omega$ , the response will be proportional to  $\int_{\Delta\Omega} J(\Omega_0) \delta(\Omega - \Omega_0) d\Omega$  which is equal to J if  $\Delta\Omega$  includes the direction from the source Q and is zero otherwise.
+
+In this chapter a number of particle scattering parameters will be defined for the case where the particles are spherically symmetric. The definitions will be extended to nonspherical particles in Chapter 6, and to assemblages of irregular, randomly oriented particles in Chapter 7. The geometry of the single-particle scattering problem is shown schematically in Figure 5.2. In the discussions and definitions in this chapter the radiation incident on the particle will be referred to as if it is an irradiance J; however, it may also be considered to be an increment of radiance  $I\Delta\Omega$ . This incident radiation interacts with a particle whose refractive index relative to the surrounding medium is  $n = n_r + in_i$ .
+
+When an electromagnetic wave is incident on a particle, a certain amount of power is removed, or extinguished, from the incident wave and either is absorbed
+
+![](_page_2_Picture_2.jpeg)
+
+Figure 5.2 Scattering by a single particle. The plane containing *J* and *I* is the scattering plane.
+
+or has its direction of propagation altered. In this book it will be assumed that the energy removed from the beam can be only scattered or absorbed; phenomena such as fluorescence and Raman scattering will be ignored. However, the energy may be re-emitted at a different wavelength as thermal radiation; this topic will be treated in Chapter [15.](#page--1-0) The scattered radiance is the power per unit area deflected into unit solid angle traveling radially away from the center of the particle and measured at a distance large compared with both the particle size and wavelength.
+
+### *5.2.2 Cross sections*
+
+Let *J* = *upJ* , where *u<sup>p</sup>* is a unit vector pointing in the direction of propagation of *J* . Let the total amount of power of *J* that is affected by the particle be *PE*. Then the *extinction cross section* is
+
+$$\sigma_E = P_E/J. \tag{5.1}$$
+
+An amount *PS* of *PE* is *scattered* into all directions, and the remainder *PA* is absorbed by the particle. The *scattering cross section* is
+
+$$\sigma_S = P_S/J,\tag{5.2}$$
+
+and the *absorption cross section* is
+
+$$\sigma_A = P_A/J. \tag{5.3}$$
+
+The cross sections have the units of area. Because *PE* = *PS* +*PA*, the cross sections are not independent, but must be related by σ*<sup>E</sup>* = σ*<sup>S</sup>* +σ*A*.
+
+### *5.2.3 Efficiencies and size parameter*
+
+Denote the geometrical cross-sectional area of the particle by <sup>σ</sup> <sup>=</sup> <sup>Ψ</sup>*a*2, where *<sup>a</sup>* is the particle radius. The ratios of the various cross sections to the geometrical crosssectional area are the corresponding efficiencies. Thus, the *extinction, scattering,* and *absorption efficiencies* are, respectively,
+
+$$Q_E = \sigma_E/\sigma, \tag{5.4}$$
+
+$$Q_S = \sigma_S / \sigma, \tag{5.5}$$
+
+$$Q_A = \sigma_A/\sigma, \tag{5.6}$$
+
+where these quantities must satisfy
+
+$$Q_E = Q_S + Q_A. (5.7)$$
+
+The ratio of the circumference of the particle to the wavelength is called the *size parameter*,
+
+$$X = 2\pi a/\lambda = \pi D/\lambda, \tag{5.8}$$
+
+where *D* = 2*a* is the particle diameter.
+
+### *5.2.4 Particle single-scattering albedo and espat function*
+
+The ratio of the total amount of power scattered to the total power removed from the wave is the *particle single-scattering albedo*, '. From the definitions of the cross sections and efficiencies,
+
+$$\varpi = P_S/P_E = \sigma_S/\sigma_E = Q_S/Q_E. \tag{5.9}$$
+
+A related parameter, which will be studied and found to be useful later, is the *effective single-particle absorption thickness*, or *espat function*,
+
+$$W = Q_A/Q_S = \frac{1-\varpi}{\varpi}. (5.10)$$
+
+In general, the efficiencies and the single-scattering albedo are functions of wavelength.
+
+### *5.2.5 Scattering and phase angles*
+
+Consider the radiance scattered by a particle into some direction making an angle ( with the original direction of propagation of the incident irradiance; ( is the *scattering angle,* and the plane containing the incident and scattered propagation vectors is the *scattering plane*.
+
+The complement of the scattering angle is called the *phase angle*,  $g = \pi - \theta$ . Historically the term comes from the astronomical lunar phase angle, which is the angle subtended by the Earth and the Sun as seen from the Moon. The phase angle is the angle between the directions to the source and detector of radiation as measured from the center of the particle. In the literature on scattering by a single particle, the scattering angle  $\theta$  is usually used. However, in discussions of diffuse scattering by particulate media, including laboratory and remote-sensing applications, the phase angle g is often more convenient. The phase and scattering angles are shown in Figure 5.2.
+
+### 5.2.6 Particle phase function
+
+Suppose the power described by irradiance  $J(\mathbf{r}, \Omega_0)$  traveling into a direction  $\Omega_0$  is scattered by a particle at position  $\mathbf{r}$  into a radiance pattern  $I(\mathbf{r}, \Omega)$ . The particle phase function  $\Pi(\theta)$  describes the angular pattern into which the power  $P_S = J\sigma Q_S$  is scattered. Let  $(dP_S/d\Omega)(\Omega_0, \Omega)$  be the power scattered by the particle from direction  $\Omega_0$  into unit solid angle centered about direction  $\Omega$ , and let  $\theta$  be the scattering angle between  $\Omega_0$  and  $\Omega$ . Then  $\Pi(\theta)$  is defined by the equation
+
+$$\frac{dP_S}{d\Omega}(\Omega_0, \Omega) = J(\Omega_0)\sigma Q_S \frac{\Pi(\theta)}{4\pi}.$$
+ (5.11)
+
+The particle phase function may be described equivalently by  $\Pi(g) = \Pi(\pi - \theta)$ . Because the area perpendicular to the incident radiation affected by the particle is  $\sigma Q_E$ , the scattered radiance, or power per unit area scattered into unit solid angle, is
+
+$$I(\Omega) = J(\Omega_0) \frac{\sigma Q_S \Pi(g)}{\sigma O_F 4\pi} = J\varpi \frac{\Pi(g)}{4\pi}.$$
+ (5.12)
+
+If the particle scatters isotropically,  $\Pi(g) = 1$ .
+
