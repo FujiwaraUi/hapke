@@ -1,0 +1,561 @@
+## <span id="page-0-0"></span>A miscellany of bidirectional reflectances and related quantities
+
+#### **10.1 Introduction**
+
+Expressions for the bidirectional reflectance of a particulate medium were derived in Chapter [8.](#page--1-0) In this chapter several quantities that are frequently encountered in applications of bidirectional reflectance are discussed, including some variants in other geometries. Equations are also derived for the calculation of the reflectances of media consisting of two layers with different properties and mixtures of different kinds of particles.
+
+#### **10.2 Some commonly encountered bidirectional reflectance quantities**
+
+The *bidirectional reflectance r(i,e,g)* is the ratio of the radiance scattered from the surface of a medium into a given direction to the collimated power incident per unit area perpendicular to the direction of incidence. The following equations omit the opposition effect. It may be added using the formalism of equation [\(9.47\)](#page--1-0).
+
+The *bidirectional-reflectance distribution function* (BRDF) is defined as the ratio of the radiance scattered from the surface of a medium into a given direction to the collimated power incident on a unit area of the surface. The incident radiant power per unit area of surface is *Jµ*0, and the scattered radiance is *J r(i, e, g)*. Thus,
+
+BRDF
+$$(i, e, g) = r(i, e, g)/\mu_0.$$
+ (10.1)
+
+If *r* is described by [\(8.70\)](#page--1-0),
+
+BRDF
+$$(i, e, g) = K \frac{w}{4\pi} \frac{1}{\mu_0 + \mu} [p(g) + H(\mu_0/K)H(\mu/K) - 1]$$
+ (10.2)
+
+The *reflectance factor*, denoted by REFF, of a surface is defined as the ratio of the reflectance of the surface to that of a perfectly diffuse surface under the same conditions of illumination and measurement. The reflectance factor is sometimes also called the *reflectance coefficient*. The bidirectional reflectance of a perfect Lambert surface is *r*<sup>L</sup> = *µ*0*/*π, so the reflectance factor of a surface with bidirectional reflectance *r(i, e, g)* is
+
+REFF
+$$(i, e, g) = \pi r(i, e, g)/\mu_0.$$
+ (10.3)
+
+If *r* is given by [\(8.70a\)](#page--1-0), then
+
+REFF
+$$(i, e, g) = K \frac{w}{4\pi} \frac{1}{\mu_0 + \mu} [p(g) + H(\mu_0/K)H(\mu/K) - 1].$$
+ (10.4)
+
+The *radiance factor*, denoted by RADF, is similar to the reflectance factor, except that it is defined as the ratio of the bidirectional reflectance of a surface to that of a perfectly diffuse surface illuminated at *i* = 0*, r*L*(*0*)* = 1*/*π, rather than at the same angle of illumination as the sample. In his classic treatise on radiative transfer Chandrasekhar [\(1960](#page--1-0)) introduced the notation *F = J/*π*.* Hence, a commonly used symbol for the radiance factor is *I/F*. The radiance factor is given by
+
+RADF
+$$(i, e, g) = \frac{I}{F}(i, e, g) = \pi r(i, e, g),$$
+  
+=  $K \frac{w}{4} \frac{\mu_0}{\mu_0 + \mu} [p(g) + H(\mu_0/k)H(\mu/k) - 1].$  (10.5)
+
+The *relative reflectance*, denoted by ζ, of a particulate sample is defined as the reflectance relative to that of standard surface consisting of an infinitely thick particulate medium of nonabsorbing, isotropic scatterers, with negligible opposition effect, and illuminated and viewed at the same geometry as the sample.
+
+If the bidirectional reflectances of the sample and the standard are given by [\(8.70\)](#page--1-0), the relative bidirectional reflectance is
+
+$$\Gamma(i, e, g) = \frac{K_{Sa}}{K_{St}} w \frac{p(g) + H(\mu_0/K_{Sa}, w) H(\mu/K_{Sa}, w) - 1}{H(\mu_0/K_{St}, w = 1) H(\mu/K_{St}, w = 1)}.$$
+ (10.6)
+
+where *KSa* and *KSt* are the porosity coefficients for the sample and standard, respectively. If *KSa* = *KSt* ≈ 1, the relative bidirectional reflectance of a sample of isotropic scatterers measured outside of the opposition peak is given by
+
+$$\Gamma(i, e, g \gg h) = \frac{w}{(1 + 2\gamma\mu_0)(1 + 2\gamma\mu)}$$
+ (10.7)
+
+where approximation [\(8.53\)](#page--1-0) has been used for the *H* functions.
+
+The reduced reflectance, denoted by *rr(i,e, g)*, is defined as the radiance factor divided by the Lomme I–Seeliger factor: *rR(i,e, g)* = *(I/F )/*[*µ*0*(µ*<sup>0</sup> +*µ)*].
+
+#### **10.3 Reciprocity**
+
+A powerful and useful theorem in reflectance work is the *principle of reciprocity*, which was first formulated by Helmholtz [\(Minnaert](#page--1-0), [1941](#page--1-0)). The principle may be stated as follows: suppose a uniform surface is illuminated by light from a collimated source making an angle *i* with the surface normal, and observed by a detector that measures the light emerging from a small part of the illuminated surface at an angle *e* from the normal. Let the bidirectional reflectance of the surface under these conditions be *r(i, e, g)*. Next, interchange the positions of the source and detector, and denote the new reflectance by *r(e, i, g)*. The reciprocity principle states that the reflectances must satisfy the following relation:
+
+$$r(i, e, g)/\cos i = r(e, i, g)/\cos e, \qquad (10.8)$$
+
+The proof is intuitive. Note that *J r(i, e, g)*cos*e* is the radiance scattered by unit area of the surface when the source is at angle *i* and the detector at angle *e* with the normal. Similarly, *Jr(e, i,*g*)*cos*i* is the radiance scattered by a unit area in the reciprocal geometry. Imagine that the source and detector are connected by ray bundles of light, which emerge from the source, pass through this unit area of surface, are scattered within the medium, and pass into the detector. Although the rays follow a multitude of complex paths within the medium, these paths remain the same when the positions of the source and detector are interchanged. The property of reciprocity follows from the fact that photons can travel in either direction along the ray paths.
+
+Equivalent statements of the principle of reciprocity are
+
+$$BRDF(i, e, g) = BRDF(e, i, g), \qquad (10.9a)$$
+
+or
+
+$$REFF(i, e, g) = REFF(e, i, g).$$
+ (10.9b)
+
+The principle of reciprocity is useful for testing proposed scattering laws. If they do not obey reciprocity, they are incorrect. Note that [\(8.70\)](#page-0-0) is reciprocal, as are the Lambert and Minnaert laws. Equation [\(10.8\)](#page-0-0) may also be used to calculate the brightness of a surface at a given set of angles from measurements made at the reciprocal angles.
+
+One caveat must be emphasized: an important assumption underlying the principle is that the surface is laterally uniform. If the measured brightness of a surface is found to actually violate reciprocity, the likely cause is a lateral inhomogeneity, which causes the detector to view two different kinds of surfaces when source and detector are interchanged.
+
+#### **10.4 Diffuse reflectance from a medium with a specularly reflecting surface**
+
+The upper surfaces of many particulate materials may be sufficiently smooth on a scale comparable to the wavelength that light is scattered both specularly from the surface and diffusely from below the surface. The specular component is known as *regular reflection*. Because a surface effectively becomes more optically smooth at large angles of incidence (Chapter [6\)](#page-0-0), the regular component may become especially important at large phase angles.
+
+The most familiar example of the combination of diffuse reflection and regular reflection is water containing suspended solids, as in rivers, lakes, and oceans. If a body of water is examined in the geometry for specular reflection of sunlight from the surface, a bright glare is seen, which is the reflected image of the Sun. However, if the same body is examined in an off-specular configuration, it looks dark and may be colored blue, brown, or green, depending on the nature of the suspended solids. Combinations of specular and diffuse reflectances are encountered in many other materials, including glossy paints, glazed ceramic tiles, glazed paper, polished wood, and leaves with waxy surfaces. In some commercial reflectance spectrometers the sample is held vertically or upside down, necessitating the use of a specularly reflecting cover glass if the material is a powder.
+
+A first-order expression for the specular-diffuse, bidirectional reflectance *rsd (i,e,*ψ*)* of such types of surfaces may be obtained by simply combining the specular- and bidirectional-reflectance laws, after correcting for transmission through the specular surface:
+
+$$r_{sd}(i, e, \psi) = R(i)\delta(e - i)\delta(\psi - \pi) + [1 - R(i)][1 - R(e')]r(i', e', \psi).$$
+(10.10)
+
+Here *R(x)* is the Fresnel reflection coefficient averaged over the two directions of polarization; Ψ*(x)* is the delta function, *r(i*\$ *, e*\$ *,*ψ*)* is the bidirectional reflectance of the scattering medium under the smooth surface, and *i*\$ and *e*\$ are given by the Snell relations, sin *i* = *n*sin *i*\$ and sin *e* = *n*sin *e*\$ , where *n* is the index of refraction.
+
+Equation [\(10.10\)](#page-0-0) is an oversimplification in several respects. First, it assumes that the regular component remains collimated after reflection, whereas most natural surface have some roughness structure, in which to first order the surface may be treated as made of up smooth facets tilted in a variety of directions. The roughness spreads the specularly reflected light out into an elliptical cone whose angular halfwidth in the principal plane is approximately equal to twice the mean surface tilt.
+
+Second, at small phase angles the radiance reflected from a rough surface is maximum at the specular angle, but at large angles of incidence and reflection the maximum intensity is skewed toward phase angles larger than specular. The reason for this is that the Fresnel reflection coefficients are rising rapidly and nonlinearly at large angles, so that light reflected from surface facets tilted away from the source makes a much larger contribution to the radiance than that from the facets tilted toward the source.
+
+Third, equation [\(10.10\)](#page-0-0) ignores the diffuse light that is multiply internally scattered between the surface and the scatterers. However, the lowest-order term of this component is of order [1!*R*] <sup>2</sup>*Rr*<sup>2</sup> and, because *R* is usually small, can be ignored in most applications.
+
+A particularly interesting application of combined specular and diffuse reflectances is the scattering of radar waves from a planetary surface. If an inner planet, such as the Moon, is illuminated by radar, most of the power is scattered back to the antenna by specular reflection from the surface, which is relatively smooth on the scale of radar wavelengths (Evans, [1962;](#page-0-0) Evans and Hagfors, [1971](#page-0-0)). However, the return also displays a diffuse background (Figure [10.1\)](#page-0-0) whose size, relative to the specular component, depends on the planet and the wavelength. The nature of this diffuse component is uncertain. It is often attributed to specular reflection from surface facets tilted towards the antenna on exceptionally rough portions of the planet. However, if the regolith is sufficiently inhomogeneous, then some or all of the diffuse component must come from radiation that has been transmitted through the surface and diffusely scattered by the inhomogeneities (Thompson *et al.*, [1970;](#page-0-0) Pollack and Whitehill, [1972\)](#page-0-0). Certain satellites of the outer planets have strong
+
+![](_page_4_Figure_5.jpeg)
+
+Figure 10.1 Typical radar signals received from solar system objects in circularly polarized light. The inner bodies, such as the Moon, have a strong specular component and weak diffuse component, whereas the situation is reversed for outer satellites, such as Europa. The terms "expected" and "unexpected" refer to the circular polarization ratios defined in Chapter [9.](#page-0-0) (Reproduced from Ostro [\[1982\]](#page-0-0), copyright [1982](#page-0-0) with permission of the University of Arizona Press.)
+
+![](_page_5_Picture_2.jpeg)
+
+Figure 10.2 Geometry of radar scattering from a planet.
+
+diffuse components (Ostro, 1982) and it has been suggested that subsurface scattering is the dominant process in the reflectance of radar waves from these bodies (Hapke, 1990; Ostro and Shoemaker, 1990).
+
+If the diffuse radar component is due to subsurface scattering then equation (10.10) should apply. Monostatic radar observes an area on a planet at g=0 and  $i=e=\vartheta$ , where  $\vartheta$  is the angular distance between the area and the sub-radar point subtended at the center of the planet (Figure 10.2). Then the combined specular-diffuse reflectance per unit area is
+
+$$r_{sd}(\vartheta,\vartheta,0)\cos\vartheta = R(\vartheta)\delta(\vartheta) + [1 - R(\vartheta)][1 - R(\vartheta)']r(\vartheta',\vartheta',0)\cos\vartheta', (10.11)$$
+
+where  $\sin \vartheta = n \sin \vartheta'$ . In practice, the regular component is not exactly a  $\delta$  function, but has a finite angular width, which can be related to the mean tilt of the surface (Hagfors, 1964; Evans and Hagfors, 1971; Simpson and Tyler, 1982). If the sizes of the subsurface inhomogeneities are comparable to the wavelength, then coherent backscatter will occur. This phenomenon is important in radar scattering by outer satellites (Hapke, 1990).
+
+#### 10.5 Oriented scatterers: applications to vegetation canopies
+
+Some media consist of asymmetric particles with orientations in a preferred direction. An important example is vegetation, in which the "particles" are leaves, which are flattened structures whose faces are sometimes oriented with respect to the direction of sunlight or prevailing wind. A second example is a sediment in which the deposition process has preferentially oriented the particles. A third example occurs when a powder is subjected to such a high pressure that the grains are reoriented or even deformed so that they tend to lie with flat sides parallel to the surface of the medium. Such a medium will have a strong specular component. Kortum [\(1969\)](#page-0-0) gives several examples of pressure-induced specular reflection.
+
+If the particles are not randomly oriented, all of the scattering parameters defined in Chapter [7](#page-0-0) will depend on the mean orientations of the particles with respect to the directions of incidence and emergence. In general, preferentially orienting the particles will completely change the angular pattern of the singly scattered component of the reflectance. Instead of the bidirectional reflectance being described by [\(8.47\)](#page-0-0) or [\(8.70\)](#page-0-0), the single-scattering term preserves the angular-scattering properties of the individual scatterers. For example, a semi-infinite medium consisting of parallel mirrors would have a specular, rather than diffuse, single-scattering law. It is only the multiply scattered component that tends to diffuse and randomize the light scattered by the individual particles.
+
+Scattering by vegetation canopies is a major topic in terrestrial remote sensing. It has been discussed by many authors using a variety of approaches, including Suits [\(1972](#page-0-0)), Kimes and Kerchner [\(1982](#page-0-0)), Otterman [\(1983\)](#page-0-0), Ross and Marshak [\(1984\)](#page-0-0), Gerstl and Zardecki [\(1985b\)](#page-0-0), Camillo [\(1987](#page-0-0)), Dickinson *et al.* [\(1990\)](#page-0-0), and Pinty *et al.* [\(1989,](#page-0-0) [1990](#page-0-0)). See also Smith [\(1983\)](#page-0-0).
+
+Woessner and Hapke [\(1987\)](#page-0-0) found that the IMSA model, which was derived for soils, gave a reasonably good fit to observational data on clover (Figure [10.3\)](#page-0-0). Verstraete *et al.* [\(1990\)](#page-0-0) and Pinty *et al.* [\(1990](#page-0-0)) have extended the IMSA model to the case of preferentially oriented scatterers. Although their model was derived specifically for applications to vegetation, a similar analysis applies to any medium in which the scatterers are not randomly oriented.
+
+Suppose the particles are not equant, but are relatively flattened disks with mean cross-sectional area σ and with a preferred orientation. For instance, the disk could represent leaves or portions of leaves. Then, in the terms involving the incident light in the radiative-transfer equation, σ must be replaced by σ*i*, where σ*<sup>i</sup>* is the average of the projected cross-sectional areas of the particles onto a plane perpendicular to the direction of incidence. Let
+
+$$\mu_i = \sigma_i / \sigma. \tag{10.12}$$
+
+Similarly, in the terms involving the emerging rays, σ must be replaced by σ*e,* the mean projected area of the scatterers onto a plane perpendicular to the direction to
+
+![](_page_7_Figure_2.jpeg)
+
+Figure 10.3 Scattering by clover. The crosses are values measured in the principal plane as a function of *e* with *i* = 0; the line is the theoretical IMSA bidirectional-reflectance function, equation [\(8.47\)](#page-0-0). (Reproduced from Woessner and Hapke [\[1987](#page-0-0)], copyright [1987](#page-0-0) with permission of Elsevier.)
+
+the detector. Let
+
+$$\mu_e = \sigma_e / \sigma. \tag{10.13}$$
+
+In vegetation, *µi* and *µe* involve the *leaf droop*, which is a measure of the tilt of the average leaf surface from horizontal.
+
+The multiple-scattering contribution to the scattered radiance inside the medium is much less sensitive to both the particle angular-scattering function and orientation. Hence, the same simplifying approximation may be made as in the derivation of [\(8.47\)](#page-0-0), namely, that the radiance multiply scattered within the medium is similar to that which would occur if the particles were randomly oriented, isotropic scatterers. Then it is straightforward to show that these modifications result in an equation almost identical with [\(8.47\)](#page-0-0), except that *µ*<sup>0</sup> and *µ* are replaced by *µ*0*/µi* and *µ/µe*, respectively.
+
+As with other particulate media, a vegetation canopy exhibits a strong opposition effect, which is known as the *hot spot*. Hapke *et al.* [\(1996](#page-0-0)) measured the circularly polarized reflectances of a number of types of vegetation and found that in most cases the hot spot is dominated by shadow hiding. Hence, the hot spot may be described by an equation of the form of [\(9.22\)](#page-0-0), except that the interpretation of some of the parameters is changed.
+
+With these modifications, the generalization of the bidirectional-reflectance model to the case of oriented scatterers, including vegetation canopies, is
+
+$$r(i, e, g) = \frac{w}{4^{1}} \frac{\mu_{0}/\mu_{i}}{\mu_{0}/\mu_{i} + \mu/\mu_{e}} \times \{ [1 + B_{S}oB_{S}(g)]p(i, e, g) + H(\mu_{0}/\mu_{i})H(\mu/\mu_{e}) - 1 \}.$$
+ (10.14)
+
+Leaves have complex structures that act as internal scatterers. Hence, much of the light backscattered at small phase angles comes from the parts of the leaf surfaces close to the points at which the rays entered, so that the opposition-effect amplitude parameter  $B_{S0}$  should not be very different from 1. In the angular-width parameter  $h_s = KN\sigma_E a_E/2$  the leaf filling factor is sufficiently low that K=1. Because the leaves are large and have a fairly narrow size distribution,  $a=(\sigma/\pi)^{1/2}$  and  $\sigma a=\sigma^{3/2}/\pi^{1/2}$ . However,  $\sigma$  must be corrected for leaf orientation. Within the opposition peak,  $\mu_i \simeq \mu_e$ ; hence, to a sufficient approximation,  $\sigma$  may be replaced by  $\sigma \overline{\mu}$ , where  $\overline{\mu}=(\mu_i+\mu_e)/2$ . Thus,
+
+$$h_s \simeq \frac{(N\sigma\bar{\mu})^{3/2}}{2^{1/2}}.$$
+ (10.15)
+
+Note that the angular width of the hot spot decreases as the leaves get farther apart and that  $h_s$  also depends on the leaf droop.
+
+The *leaf-area index* LAI(z) at an altitude z is defined as the total fraction of the area above that altitude occupied by leaves:
+
+$$LAI(z) = \int_{z}^{\infty} N\sigma \mu_{h} dz', \qquad (10.16)$$
+
+where  $\mu_h$  is the cosine of the angle between the perpendicular to  $\sigma$  and the vertical. Hence, for horizontally oriented leaves the leaf-area index equals the optical depth: LAI $(z) = \tau(z)$ . If the integrand is approximately constant, LAI $(z) = N\sigma\mu_h z$ , where z is the depth below the top of the vegetation canopy. Thus, the hot-spot angular-width parameter is proportional to the leaf-area index:
+
+$$h_s = \text{LAI}\Delta z,$$
+ (10.17a)
+
+where
+
+$$\Delta z = \frac{\sigma^{1/2} \bar{\mu}^{3/2}}{2^{1^{1/2}} \mu_h}.$$
+ (10.17b)
+
+For example, if the leaves all lie horizontally and the canopy is illuminated vertically, h is equal to the leaf-area index of a layer whose thickness  $\Delta z$  is approximately one-quarter of the mean leaf diameter.
+
+Verstraete *et al.* (1990) have suggested an alternative expression to describe the hot spot. However, it is not clear that their expression is more accurate than (10.17).
+
+Before leaving this topic, it must be emphasized that these equations are only a beginning. The general problem of the scattering of radiation by vegetation is formidable indeed, and it requires treating at least four layers of materials: the atmosphere, the vegetation canopy, the floor litter, and the soil. Additionally, the plants may not be randomly positioned, but aligned in rows. The treatment of these problems is beyond the scope of this book.
+
+#### 10.6 Reflectance of a layered medium
+
+#### 10.6.1 The diffusive reflectance and transmittance of layered systems
+
+10.6.1.1 The diffusive radiance in a layer of finite thickness
+
+In this section we will use the diffusive reflectance formalism of Section 8.6 to find approximate solutions for the reflectance and transmittance of layered media. We begin by considering a layer consisting of isotropically scattering particles with density N, and volume-average cross-sectional area  $\sigma$ , extinction efficiency  $Q_E$ , single-scattering albedo w and albedo factor  $\gamma = \sqrt{1-w}$ . As is usual in the diffusive-reflectance approximation, any light crossing the top or bottom surface of the layer is assumed to be immediately converted into an isotropic radiance. Let the total radiant power incident per unit area on the top surface be  $\pi I_0$  so that the radiance (power per unit area per unit solid angle) entering the top surface and illuminating the medium is  $I_0$ .
+
+Let the optical thickness of the layer be  $\tau_0 = \int_{-\infty}^{\infty} E dz$ , where  $E = N\sigma Q_E$  is the extinction coefficient, and z is the altitude. Obviously, in order that  $\tau_0$  be finite, N must approach zero above and below certain altitudes that may be described as the top and bottom of the layer, respectively.
+
+In the diffusive two-stream solution to the equation of radiative transfer the radiance was shown to have the general solution of the form given by equations (8.23),
+
+$$I_1(\tau) = A(1 - \gamma)e^{-2\gamma} + B(1 + \gamma)e^{2\gamma\tau},$$
+ (10.18a)
+
+$$I_2(\tau) = A(1+\gamma)e^{-2\gamma} + B(1-\gamma)e^{2\gamma\tau},$$
+ (10.18b)
+
+where  $I_1$  and  $I_2$  are, respectively, the upward- and downward-going radiances in the layer,  $\tau$  is the optical depth, and A and B are constants to be determined by appropriate boundary conditions. Approximate solutions for nonisotropic scatterers may be found by replacing w and  $\tau$  by  $w^*$  and  $\tau^*$ , respectively, using equations (8.59).
+
+We will find the solutions to these equations for several layered problems of interest in the sections below.
+
+#### *10.6.1.2 Diffusive reflectance of an optically thick layer*
+
+Equations [\(10.18\)](#page-0-0) were solved in Chapter [8](#page-0-0) for the case of an infinitely thick layer. The reflectance was shown to be the diffusive expression [\(8.25\)](#page-0-0), which is repeated here for completeness,
+
+$$r_0 = \frac{1 - \gamma}{1 + \gamma}.\tag{10.19}$$
+
+#### *10.6.1.3 Diffusive reflectances of two-layer media*
+
+Consider the case where one layer with albedo factor γ lies on top of a second material that is infinitely thick and has diffusive reflectance *rL* = *(*1!γ*L)/(*1+γ*L)* in the absence of the upper layer. This might describe, for instance, a cloud over the ground or a snow pack over soil. If the upper layer is infinitely thick it has a reflectance *rU* = *(*1 ! γ *)/(*1 + γ *)*. The boundary conditions are that the radiance must be continuous across the top and bottom surfaces of the upper layer. At the top of this layer, this requires that
+
+$$I_2(0) = A(1+\gamma) + B(1-\gamma) = I_0.$$
+ (10.20)
+
+At the interface between the two layers, ( = (0, the upwelling radiance must be equal to the fraction of the downwelling radiance reflected back up from the lower layer:
+
+$$I_1(\tau_0) = A(1 - \gamma)e^{-2\gamma\tau_0} + B(1 + \gamma)e^{2\gamma\tau_0}.$$
+  
+=  $r_L I_2(\tau_0) = r_L [A(1 + \gamma)e^{-2\gamma\tau_0} + B(1 - \gamma)e^{2\gamma\tau_0}]$  (10.21)
+
+Solving equations [\(10.20\)](#page-0-0) and [\(10.22\)](#page-0-0) for *A* and *B* gives
+
+$$A = \frac{I_0}{1+\gamma} \frac{1 - r_L r_U}{(1 - r_L r_U) + r_U (r_L - r_U) e^{-4\gamma \tau_0}},$$
+ (10.22a)
+
+$$B = \frac{I_0}{1 - \gamma} \frac{r_U (r_L - r_U)^{-4\gamma \tau_0}}{(1 - r_L r_U) + r_U (r_L - r_U) e^{-4\gamma \tau_0}}$$
+(10.22b)
+
+The diffusive reflectance *r*<sup>0</sup> of the system is the fraction of the incident power emerging from the upper layer,
+
+$$r_0 = \frac{\pi I_1(0)}{\pi I_0} = \frac{A(1-\gamma) + B(1+\gamma)}{I_0},$$
+
+which can be put into the form
+
+$$r_0 = r_U \left[ \left( 1 + \frac{1}{r_U} \frac{r_L - r_U}{1 - r_L r_U} e^{-4\gamma \tau_0} \right) \middle/ \left( 1 + r_U \frac{r_L - r_U}{1 - r_L r_U} e^{-4\gamma \tau_0} \right) \right]$$
+(10.23)
+
+Let us explore some of the properties of this solution for  $r_0$ . The radiance in the upper layer and the degree to which the reflectance of the lower layer influences the total reflectance are governed by the quantity  $4\gamma \tau_0$ . As  $\tau_0 \to \infty$ ,  $r_0 \to r_U$ , the diffusive reflectance of the upper layer, but the layer may be considered to be optically thick when  $\gamma \tau_0 \gtrsim r_1$ . When  $\tau_0 \to 0$ ,  $r_0 \to r_L$ , the diffusive reflectance of the lower layer.
+
+The diffusive transmittance  $t_0$  of the upper layer in the system is the fraction of the incident power incident on the bottom surface of the upper layer,
+
+$$t_0 = \frac{\pi I_2(\tau_0)}{\pi I_0} = \frac{A(1+\gamma)e^{-2\gamma\tau_0} + B(1-\gamma)e^{-2\gamma\tau_0}}{I_0},$$
+
+which gives
+
+$$t_0 = \left[ \left( 1 + r_U \frac{r_L - r_U}{1 - r_L r_U} \right) e^{2\gamma \tau_0} \right] / \left[ 1 + r_U \frac{r_L - r_U}{1 - r_L r_U} e^{-4\gamma \tau_0} \right].$$
+ (10.24)
+
+Values of the transmittance range from  $t_0 = 1$  at  $\tau_0 = 0$  to  $t_0 = 0$  as  $\tau_0 \to \infty$ . Equation (10.24) is useful for estimating the radiance at the interface between two media, such as at the base of an atmosphere.
+
+An interesting situation occurs when there is negligible absorption in the upper layer. This might approximate clouds or snow covering the surface of a planet. When  $w \simeq 1$ ,  $\gamma = 1$ . Assume that  $\gamma$  is so small that  $e^{-4\gamma\tau_0} \approx 1 - 4\gamma\tau_0$ . Then expression (10.23) becomes
+
+$$r_0 = \frac{r_L(1 - r_U^2) - 4\gamma \tau_0(r_L - r_U)}{(1 - r_U^2) - 4\gamma \tau_0 r_U(r_L - r_U)}.$$
+
+To first order in  $\gamma$ ,  $r_U \simeq 1 - 2\gamma$  and  $1 - r_U^2 = 4\gamma/(1 + \gamma)^2 \simeq 4\gamma$ , so that
+
+$$r_0 \simeq \frac{r_L + (1 - r_L)\tau_0}{1 + (1 - r_L)\tau_0}. (10.25)$$
+
+Similarly,
+
+$$t_0 \simeq \frac{1}{1 + (1 - r_I)\tau_0}. (10.26)$$
+
+When  $\tau_0 = 0$ ,  $r_0 = r_L$ , and  $\tau_0 = 1$ ; when  $\tau_0 \gg 1$ ,  $r_0 \simeq 1$ ; and  $t_0 \simeq 0$ ; when  $t_0 \simeq 0$ ; and  $r_L = 0$ ,  $r_0 = \tau_0/(1 + \tau_0)$  and  $t_0 = 1/(1 + \tau_0)$ .
+
+Although the diffusive-reflectance model is not exact, nevertheless it is capable of giving answers that are sufficiently accurate for many applications. This is illustrated by Figure 10.4, which shows the two-layer diffusive-reflectance model, equation (10.23), fitted to a series of measurements by Wells *et al.* (1984). Thin layers of fine volcanic dust  $1-5\,\mu m$  in diameter were deposited on top of surfaces covered with white paint and black paint. The bidirectional reflectance  $r(6^{\circ}, 0^{\circ}, 6^{\circ})$ 
+
+![](_page_12_Figure_2.jpeg)
+
+Figure 10.4 Reflectances of thin uniform layers of fine volcanic ash on bright and dark substrates plotted against the thicknesses of the layers. The points are values measured by Wells *et al.* (1984); the lines are equation (10.23) with the particle sizes that give the best fits.
+
+was measured as a function of dust thickness in units of mass per unit area,  $M \text{ in mg/cm}^2$ .
+
+Now, for a uniform upper layer of thickness L,  $\tau_0 = N\sigma Q_E L$ . For equant particles of diameter  $D \gg \lambda$  and density  $\rho$ ,  $Q_E = 1$   $M = N(\pi/6)D^3\rho L$ , and  $\sigma = (\pi/4)D^2$ . Hence,  $\tau_0 = \frac{3}{2}(M/\rho D)$ . The only adjustable parameter in these fits is the mean dust-particle diameter. The sizes that gave the best fits were  $2.0-3.5\,\mu\text{m}$ , which are comfortably within the measured size range.
+
+The effects of layering on spectra are discussed in Chapter 14.
+
+#### 10.6.1.4 Diffusive reflectance and transmittance of an isolated layer
+
+The reflectance and transmittance of a layer suspended in space or lying on a material of very low albedo may be found from (10.23) and (10.24) by setting  $r_L = 0$ . This gives
+
+$$r_0 = r_U \frac{1 - e^{-4\gamma \tau_0}}{1 - r_U^2 e^{-4\gamma \tau_0}},$$
+(10.27a)
+
+$$t_0 = \frac{(1 - r_U^2)e^{-2\gamma\tau_0}}{1 - r_U^2 e^{-4\gamma\tau_0}}. (10.27b)$$
+
+The total fraction of incident light scattered by the layer is the sum of the reflectance and transmittance.
+
+$$r_0 + t_0 = \frac{r_U + e^{-2\gamma \tau_0}}{1 + r_U e^{-2\gamma \tau_0}}. (10.28)$$
+
+# 10.6.1.5 Diffusive reflectance and transmittance of an absorbing and scattering slab with specularly reflecting surfaces
+
+In the equivalent-slab model of particle scattering derived in Chapter 6 the scattering properties of an absorbing layer containing embedded scatterers and with specularly reflecting top and bottom surfaces were needed. This problem will now be solved by using the diffusive two-stream approximation. Diffuse radiance  $I_0$  is uniformly incident from the hemisphere above a plane, smooth-surfaced slab of material having real refractive index n, absorption coefficient  $\alpha$ , and distributed internal scattering coefficient s. The thickness of the slab is s. The reflection coefficients of the surface of the slab for diffuse light externally incident is s, and for diffuse light internally incident is s, where s and s are functions of s and were defined in Chapter 6. The light is assumed to be scattered isotropically by the distributed internal scatterers and by the surfaces of the slab.
+
+Inside the slab,  $A = \alpha$ , S = s and  $E = \alpha + s$ ; hence,  $w = S/E = s/(\alpha + s)$  and  $\gamma = \sqrt{1-w} = \sqrt{\alpha/(\alpha+s)}$ . The general solution for the radiation field inside the slab is given by equations (8.23), where  $\tau = -Ez = -(\alpha + s)z$ . Let the upper surface of the slab be at z = 0, and the lower surface at z = -L. The optical thickness of the slab is  $\tau_0 = (\alpha + s)L$ , and  $2\gamma \tau_0 = 2\sqrt{\alpha(\alpha + s)L}$ . The boundary conditions are as follows: at the lower surface,  $\tau = \tau_0$ , of the slab a fraction  $S_i$  of the downgoing radiance is reflected by the interface back into the upward direction. That is,
+
+$$I_1(\tau_0) = S_i I_2(\tau_0),$$
+
+or
+
+$$A(1-\gamma)e^{-2\sqrt{\alpha(\alpha+s)}L} + B(1-\gamma)e^{2\sqrt{\alpha(\alpha+s)}L}$$
+
+$$= S_i[A(1+\gamma)e^{-2\sqrt{\alpha(\alpha+s)}L} + B(1-\gamma)e^{2\sqrt{\alpha(\alpha+s)}L}].$$
+
+At the upper surface, a fraction  $(1 - S_e)$  of the incident radiance  $I_0$  is transmitted through the surface into the slab, and a fraction  $S_i$  of the upgoing radiance is reflected by the surface back into the downward direction inside the slab. Thus,
+
+$$I_2(0) = (1 - S_e)I_0 + S_iI_1(0)$$
+
+or
+
+$$A(1+\gamma) + B(1-\gamma) = (1-S_e)I_0 + S_i[A(1-\gamma) + B(1+\gamma)].$$
+
+Solving these equations for A and B gives
+
+$$A = \frac{1 - S_e}{1 + \gamma} \frac{1 - S_i r_i}{(1 - S_i r_i)^2 - (S_i - r_i)^2 \exp(-4\sqrt{\alpha(\alpha + s)L})} I_0, \quad (10.29a)$$
+
+$$B = \frac{1 - S_e}{1 + \gamma} \frac{(S_i - r_i) \exp(-4\sqrt{\alpha(\alpha + s)}L)}{(1 - S_i r_i)^2 - (S_i - r_i)^2 \exp(-4\sqrt{\alpha(\alpha + s)}L)} I_0, \quad (10.29b)$$
+
+where
+
+$$r_i = \frac{1 - \gamma}{1 + \gamma} = \frac{1 - \sqrt{\alpha/(\alpha + S)}}{1 + \sqrt{\alpha/(\alpha + S)}}$$
+
+is the equivalent diffusive reflectance of a medium with  $A = \alpha$ , S = s, and  $E = \alpha + s$ . The external radiant power incident per unit area on the upper surface of the slab is  $\pi I_0$ . The power per unit area emerging from the upper surface is  ${}^1[S_eI_0 + (1 - S_i)I_1(0)]$ , and that from the lower surface is  $\pi (1 - S_i)I_2(\tau_0)$ . Hence, the reflectance of the slab is
+
+$$r_{0} = S_{e} + (1 - S_{i})I_{1}(0)/I_{0} = S_{e} + (1 - S_{i})[A(1 - \gamma) + B(1 + \gamma)]/I_{0}$$
+
+$$= S_{e} + (1 - S_{e})(1 - S_{i})\frac{r_{i}(1 - S_{i}r_{i}) + (S_{i} - r_{i})\exp(-4\sqrt{\alpha(\alpha + S)}L)}{(1 - S_{i}r_{i}) + (S_{i} - r_{i})^{2}\exp(-4\sqrt{\alpha(\alpha + S)}L)}.$$
+ (10.30)
+
+and the transmittance is
+
+$$t_{0} = (1 - S_{i})I_{2}(\tau_{0})/I_{0}$$
+
+$$= (1 - S_{i})\left[A(1 + \gamma)e^{-2\sqrt{\alpha(\alpha + S)}L} + B(1 - \gamma)e^{2\sqrt{\alpha(\alpha + S)}L}\right]/I_{0}$$
+
+$$= (1 - S_{i})\left[A(1 + \gamma)e^{-2\sqrt{\alpha(\alpha + S)}L} + B(1 - \gamma)e^{2\sqrt{\alpha(\alpha + S)}L}\right]/I_{0}$$
+
+$$= (1 - S_{e})(1 - S_{i})$$
+
+$$\times \frac{(1 - S_{i}r_{i})\exp(-2\sqrt{\alpha(\alpha + S)}L) + r_{i}(S_{i} - r_{i})\exp(-2\sqrt{\alpha(\alpha + S)}L)}{(1 - S_{i}r_{i})^{2} - (S_{i} - r_{i})^{2}\exp(-4\sqrt{\alpha(\alpha + S)}L)}.$$
+(10.31)
+
+The total fraction of incident light scattered by the slab is
+
+$$r_0 + t_0 = S_e + (1 - S_e)(1 - S_i) \frac{r_i + \exp(-2\sqrt{\alpha(\alpha + s)L})}{(1 - S_i r_i) + (r_i - S_i)\exp(-2\sqrt{\alpha(\alpha + S)L})}.$$
+
+If these expressions are taken to represent scattering by a particle, then  $r_0 + t_0 = Q_s$ , the nondiffractive part of the scattering efficiency. After a little algebra, the last equation may be written in the form
+
+$$Q_s = S_e + (1 - S_e) \frac{(1 - S_i)\Theta}{1 - S_i\Theta},$$
+ (10.32a)
+
+where
+
+$$\Theta = \frac{r_i + \exp(-2\sqrt{\alpha(\alpha + s)L})}{1 + r_i \exp(-2\sqrt{\alpha(\alpha + s)L})}.$$
+ (10.32b)
+
+Define the scattering difference )*QS* as the difference between the reflectance and transmittance,. Then )*Qs* = *r*<sup>0</sup> !*t*<sup>0</sup> can be put into the form
+
+$$\Delta Q_S = S_e + (1 - S_e)(1 - S_i) \frac{\Psi}{1 - S_i \Psi},$$
+ (10.33a)
+
+where
+
+$$\Psi = \frac{r_i - \exp(-2\sqrt{\alpha(\alpha+s)}L)}{1 - r_i \exp(-2\sqrt{\alpha(\alpha+s)}L)}$$
+(10.33b)
+
+Then
+
+$$r_0 = (Q_S + \Delta Q_s)/2,$$
+
+and
+
+$$t_0 = (Q_S - \Delta Q_s)/2.$$
+
+Equations [\(10.32\)](#page-0-0) and [\(10.33\)](#page-0-0) were the expressions used in the equivalent-slab model of a particle in Chapter [6.](#page-0-0)
+
+If the slab is optically thick, <sup>√</sup>2,*(*, <sup>+</sup>*s)L* # 1, and
+
+$$r_0 = S_e + (1 - S_e)(1 - S_i) \frac{r_i}{1 - S_i r_i}.$$
+ (10.34)
+
+If we allow (<sup>0</sup> → ∞*,* equation [\(10.34\)](#page-0-0) is the diffusive reflectance of an optically thick layer of powder underneath a cover glass.
+
+If the internal scatterers are not isotropic, but can be described by the asymmetry factor / , the reflectance and transmittance of the slab can be found to a rough approximation from the similarity equations [\(8.30\)](#page-0-0) by substituting*w*<sup>∗</sup> =*(*1!/ *)w/(*1!/*w)* and *<sup>L</sup>*<sup>∗</sup> = *(*1!/*w)<sup>L</sup>* for *w* and *<sup>L</sup>*, respectively.
+
+#### *10.6.2 The bidirectional reflectance of a two-layer medium*
+
+Although the diffusive reflectance is convenient for estimating the radiance in a double-layer geometry, a more accurate model for the bidirectional reflectance is desirable. In this section we will find the two-stream solution for the combined bidirectional reflectance of an optically thin layer overlying an optically thick medium. For simplicity it will be assumed that *K* = 1 and the opposition effect will be ignored.
+
+Consider an optically thin layer that contains particles of single-scattering albedo *w<sup>U</sup>* and angular phase function *pU(g)*, and with extinction coefficient *EU*, lying on top of a second material of very large optical thickness, and containing particles of single-scattering albedo *w<sup>L</sup>* and phase function *pL(g)*, and with extinction
+
+![](_page_16_Figure_2.jpeg)
+
+Figure 10.5 Schematic diagram of the two-layer bidirectional-reflectance problem.
+
+coefficient *E<sup>L</sup>* (see Figure [10.5\)](#page-0-0). The optical thickness of the top layer is (0, and *z*<sup>0</sup> is the altitude of the interface. The medium is illuminated from above by a distant collimated source of irradiance *J* incident from a direction making an angle *i* with the vertical, and viewed by a distant detector from a direction making an angle *e* with the vertical.
+
+Using the same procedure as in Chapter [8,](#page-0-0) the exact expression will be found for the singly scattered radiance for particles of arbitrary phase function. An approximate expression for the multiply scattered radiance will be found using the two-stream approximation with collimated source, and assuming that the particles scatter isotropically. From equation [\(8.34\)](#page-0-0), the radiance at the detector can be written in the form
+
+$$I_D(\Omega) = -\int_{\infty}^{0} \frac{1}{\mu} \left[ F(\tau, \Omega) + \frac{w(\tau)}{4\pi} \int_{4\pi} p(\tau, \Omega', \Omega) I(\tau, \Omega') d\Omega' \right] e^{-\tau/\mu} d\tau.$$
+(10.35)
+
+For this problem,
+
+$$F(\tau, \Omega) = J \frac{w(\tau)}{4\pi} p(\tau, g) e^{-\tau/\mu_0},$$
+ (10.36a)
+
+where
+
+$$w(\tau), p(\tau, g) = \begin{cases} w_{U}, P_{U}(g)(\tau < \tau_{0}) \\ w_{L}, P_{L}(g)(\tau > \tau_{0}). \end{cases}$$
+(10.36b)
+
+Using the same assumptions and procedures as in the derivation of the bidirectional reflectance of a semi-infinite layer in Chapter 8, the integral inside the brackets is approximated by the two-stream solution to the radiative-transfer equation
+
+$$\int_{4\pi} p(\tau, \Omega', \Omega) I(\tau, \Omega') d\Omega' \simeq 4\pi \varphi(\tau), \tag{10.37}$$
+
+where  $\varphi(\tau)$  is the solution of (8.38) and is of the form of (8.39), except that the constants have different values in the two layers:
+
+$$\varphi(\tau) = \begin{cases} A_{U}e^{-2\gamma_{U}\tau} + B_{U}e^{2\gamma_{U}\tau} + C_{U}e^{-\tau/\mu_{0}}(\tau > \tau_{0}) \\ A_{L}e^{-2\gamma_{U}\tau} + B_{L}e^{2\gamma_{U}\tau} + C_{L}e^{-\tau/\mu_{0}}(\tau > \tau_{0}). \end{cases}$$
+(10.38)
+
+In addition, the solution requires the quantity
+
+$$\Delta\varphi(\tau) = \frac{1}{2} \frac{d\varphi(\tau)}{d\tau}.$$
+
+The constants  $C_U$  and  $C_L$  can be found by inserting (10.38) into the differential equation for  $\varphi(\tau)$  and equating coefficients of  $e^{-\tau/\mu_0}$ . The remaining four constants are found from the boundary conditions as follows: (1)  $\varphi(\tau)$  must remain finite as  $\tau \to \infty$ . This requires that  $B_L = 0$ . (2) The upward- and downward-going radiances must be continuous across the interface at  $\tau_0$ . This is equivalent to requiring that  $\varphi$  and  $\Delta \varphi$  be continuous at  $\tau = \tau_0$ . (3) At the top surface, from equation (8.44),  $\varphi(0) = \frac{1}{2}d\varphi(0)/d\tau$ . Conditions (2) and (3) give three simultaneous equations that can be solved for  $A_U$ ,  $B_U$ , and  $C_L$ . The algebra is straightforward, but tedious.
+
+The final result for the bidirectional reflectance is
+
+$$r(i, e, g) = I_D/J = r_s(i, e, g) + r_m(i, e, g),$$
+ (10.39)
+
+where  $r_s$  and  $r_m$ , are, respectively, the singly and multiply scattered components of the reflectance and are given by the following expressions:
+
+$$r_{s}(i, e, g) = \frac{\mu_{0}}{\mu_{0} + \mu} \times \left\{ \frac{W_{U}}{4\pi} p_{U}(g) \left[1 - e^{-1(1/\mu_{0} + 1/\mu)\tau_{0}}\right] + \frac{w_{L}}{4\pi} P_{L}(g) e^{-(1/\mu_{0} + 1/\mu)\tau_{0}} \right\},$$
+(10.40a)
+
+$$r_{m}(i, e, g) = \frac{W_{U}}{4\pi} \left\{ \frac{A_{U}}{1 + 2\gamma_{U}\mu} \left[ 1 - e^{-(1/\mu + 2\gamma_{U})\tau_{0}} \right] + \frac{B_{U}}{1 - 2\gamma_{U}\mu} \left[ 1 - e^{-(1/\mu + 2\gamma_{U})\tau_{0}} \right] + \frac{C_{U}}{1 + \mu/\mu_{0}} \left[ 1 - e^{-(1/\mu_{0} + 1/\mu)\tau_{0}} \right] \right\} + \frac{w_{L}}{4^{1}} \left\{ \frac{A_{L}}{1 + 2\gamma_{L}\mu} e^{-(1/\mu + 2\gamma_{L})\tau_{0}} + \frac{C_{L}}{1 + \mu/\mu_{0}} e^{-(1/\mu_{0} + 1/\mu)\tau_{0}} \right\},$$
+
+$$(10.40b)$$
+
+$$C_U = \frac{1 - \gamma_U^2}{1/4\mu_0^2 - \gamma_U^2},\tag{10.41a}$$
+
+$$C_L = -\frac{1 - \gamma_U^2}{1/4\mu_0^2 - \gamma_U^2},\tag{10.41b}$$
+
+$$B_{U} = \left\{ \left[ \frac{C_{U}}{1 + \gamma_{U}} \right] \left( 1 + \frac{1}{2\mu_{0}} \right) (\gamma_{L} - \gamma_{U}) e^{-2\gamma \mu I_{0}} + (C_{L} - C_{U}) \left( \gamma_{L} - \frac{1}{2\mu_{0}} \right) e^{-2\tau_{0}/\mu_{0}} \right\}$$
+
+$$X\left\{ (\gamma_L + \gamma_U)e^{2\gamma_U\tau_0} - [(1 - \gamma_U)/(1 + \gamma_U)](\gamma_L + \gamma_U)e^{2\gamma_U\tau_0} \right\}^{-1}$$
+ (10.41c)
+
+$$A_{U} = -[(1 - \gamma_{U})/(1 - \gamma_{U})]B_{U} - [(1 + 1/2\mu_{0})/(1 + \gamma_{U})]C_{U}, \qquad (10.41d)$$
+
+$$A_{L} = -\frac{2\gamma_{U}e^{2\gamma_{U}}\tau_{0}B_{U} - (C_{L} - C_{U})(\gamma_{U} - 1/2\mu_{0})e^{-\tau_{0}/\mu_{0}}}{\gamma_{L} - \gamma_{U}}e^{2\gamma_{L}L\tau_{0}}.$$
+ (10.41e)
+
+Note that equations (10.40) and (10.41) for r(i, e, g) include the specific bidirectional scattering properties of both the lower and upper layers, all orders of multiple scattering within both the lower and upper layers, and all orders of multiple scattering between the two layers.
+
+Johnson *et al.* (2004) used the equations developed in this section to model dust-covered rocks on Mars and compared predictions of the model with laboratory measurements, with generally good agreement. These expressions should also be useful for calculating the combined bidirectional reflectance of such systems as a hazy atmosphere over a planetary regolith and the reflectance of a vegetation canopy over soil. For the latter application, the fact that the scatterers may not be randomly oriented may have to be taken into account, as discussed in Section 9.3.
+
+### **10.7 Mixing formulas** *10.7.1 Area mixtures*
+
+Few materials encountered in nature consist of only one type of particle. Hence, it is necessary to be able to calculate the reflectances of mixture of different particle types. In remote-sensing applications two kinds of mixtures are of interest: areal and intimate. *Areal mixtures* are also known as *inhomogeneous*, *linear*, *macroscopic*, and *checkerboard mixtures*. In an areal mixture, the surface area viewed by the detector consists of several unresolved, smaller patches, each of which consists of a pure material. In this case the total reflectance is simply the linear sum of each reflectance weighted by area. That is,
+
+$$r = \Sigma_j F_j r_j \tag{10.42}$$
+
+Here *r* may represent any type of reflectance, as appropriate, *rj* is the same type of reflectance for the *j* th area, and *Fj* is the fraction of the area viewed by the detector that is occupied by the *j* th area.
+
+#### *10.7.2 Intimate mixtures*
+
+*Intimate mixtures* are also called *homogeneous*, *microscopic,* and *nonlinear mixtures*. In an intimate mixture the medium consists of different types of particles mixed homogeneously together in close proximity. In this case the averaging process is on the level of the individual particle, and the parameters that appear in the equation of radiative transfer are the volume averages of the properties of the various types of particles in the mixture weighted by cross-sectional area. Because the parameters appear in the reflectance equation nonlinearly, the reflectance of an intimate mixture is a nonlinear function of the reflectances of the pure end members, as has been noted empirically by several authors (e.g., Nash and Conel, [1974](#page-0-0)).
+
+The formulas for intimate mixtures have another important use: calculating the effects on the reflectance of small asperities and subsurface fractures at the surfaces of grains. It was shown in Chapter [6](#page-0-0) that such structures may be treated as small particles mixed with the large ones. If the surface structures are smaller than the wavelength, they can act as Rayleigh scatterers and absorbers. If the imaginary part of the refractive index is small, they act primarily as scatterers and increase the reflectance. However, if *k* is large, as for a metal, the asperities are efficient Rayleigh absorbers and decrease the reflectance.
+
+The mixing formula for each parameter follows from the definition of that parameter, as given in Chapter [7.](#page-0-0) Because these formulae follow from the definitions in the radiative-transfer equation, they are independent of the method or type of approximation used to solve that equation.
+
+Mixtures are often specified by the fractional mass of each component, rather than by the number of particles. Assume that the particles are equant, and let the subscript *j* refer to any property of the particles, such as size, shape, or composition. Then the cross-sectional area of the *j*th type of particle is
+
+$$\sigma_j = \pi a_j^2 \tag{10.43}$$
+
+where *aj* is the radius of the *j*th type of particle. The bulk density of the *j* th component is
+
+*M<sup>j</sup>* = *Nj* 4 3 π*a*<sup>3</sup> *<sup>j</sup>* ρ*<sup>j</sup>* (10.44)
+
+where *Nj* is the number of particles of type *j* per unit volume, and ρ*<sup>j</sup>* is their solid density. Then
+
+$$N_{j}\sigma_{j} = \frac{3}{4} \frac{M_{j}}{\rho_{j} a_{j}} = \frac{3}{2} \frac{M_{j}}{\rho_{j} D_{j}}$$
+ (10.45)
+
+where *Dj* = 2*aj* is the average size of the *<sup>j</sup>*th type of particle.
+
+From the definitions is Section [7.3](#page-0-0) the volume average single scattering albedo is
+
+$$w = \frac{S}{E} = \frac{\sum_{j} N_{j} \sigma_{j} Q_{sj}}{\sum_{j} N_{j} \sigma_{j} Q_{Ej}} = \left(\sum_{j} \frac{M_{j} Q_{Sj}}{\rho_{j} D_{j}}\right) / \left(\sum_{j} \frac{M_{j} Q_{Ej}}{\rho_{j} D_{j}}\right), \quad (10.46)$$
+
+and the volume-average particle scattering function is
+
+$$p(g) = \frac{G(g)}{S} = \frac{\sum_{j} N_{j} Q_{sj} p(g)}{\sum_{j} N_{j} \sigma_{j} Q_{sj}}$$
+$$= \left(\sum_{j} \frac{M_{j} Q_{sj}}{\rho_{j} D_{j}} p_{j}(g)\right) / \left(\sum_{j} \frac{M_{j} Q_{sj}}{\rho_{j} D_{j}}\right). \tag{10.47}$$
+
+Because, *w<sup>j</sup>* = *QSj /QEj* the last two expressions may be written in the alternative forms
+
+$$w = \frac{\sum_{j} N_{j} \sigma_{j} Q_{Ej} w_{j}}{\sum_{j} N_{j} \sigma_{j} Q_{Ej}} = \left(\sum_{i} \frac{M_{j} Q_{Ej}}{\rho_{j} D_{j}} w_{j}\right) / \left(\sum_{i} \frac{M_{j} Q_{Ej}}{p \rho_{j} D_{j}}\right).$$
+
+$$(10.48)$$
+
+$$p(g) = \frac{\sum_{j} N_{j} \sigma_{j} Q_{Ej} w_{j} p_{j}(g)}{\sum_{j} N_{j} \sigma_{j} Q_{Ej} w_{j}} = \left(\sum_{i} \frac{M_{j} Q_{Ej}}{\rho_{j} D_{j}} w_{j} p_{j}(g)\right) / \left(\sum_{i} \frac{M_{j} Q_{Ej}}{\rho_{j} D_{j}} w_{j}\right).$$
+
+$$(10.49)$$
+
+If there is a continuous distribution of properties, the summations in these definitions are replaced by integrations.
+
+![](_page_21_Figure_2.jpeg)
+
+Figure 10.6 Comparison of the measured (solid lines) and calculated (dotted lines) spectra of 0.25/0.75, 0.5/0.5, and 0.75/0.25 intimate mixtures of olivine (OL) and hypersthene (HYP). The spectra are vertically offset to avoid confusion. (Reproduced from Johnson *et al.* [\[1983](#page-0-0)], copyright [1983](#page-0-0) by the American Geophysical Union.)
+
+If [\(10.49\)](#page-0-0) is multiplied by *(*1*/*4π*)*cos*g* and integrated over solid angle, the following equation for the volume-average cosine asymmetry factor is obtained:
+
+$$\xi = \frac{\sum_{j} N_{j} \sigma_{j} Q_{Ej} w_{j} \xi_{j}}{\sum_{j} N_{j} \sigma_{j} Q_{Ej} w_{j}} = \left(\sum_{j} \frac{\mathsf{M}_{j} Q_{Ej}}{\rho_{j} D_{j}} w_{j} \xi_{j}\right) / \left(\sum_{j} \frac{\mathsf{M}_{j} Q_{Ej}}{\rho_{j} D_{j}} w_{j}\right) \quad (10.50)$$
+
+where /*<sup>j</sup>* is the cosine asymmetry factor of the *j*th type of particle. The SHOE and CBOE parameters are
+
+$$B_{so} = \frac{S(0)}{wp(0)} = \frac{\sum_{j} N_{j} \sigma_{j} Q_{Ej} S_{j}(0)}{\sum_{j} N_{j} \sigma_{j} Q_{Ej} w_{j} P_{j}(0)}$$
+
+$$= \left(\sum_{j} \frac{M_{j} Q_{Ej}}{\rho_{j} D_{j}} S_{j}(0)\right) / \left(\sum_{j} \frac{M_{j} Q_{Ej}}{\rho_{j} D_{j}} w_{j} P_{j}(0)\right), \tag{10.51}$$
+
+![](_page_22_Figure_2.jpeg)
+
+Figure 10.7 Reflectances of intimate mixtures of montmorillonite and charcoal. The points are the measured values. The line shows the values calculated from mixing theory. (Reproduced from Clark [1983], copyright 1983 by the American Geophysical Union.)
+
+where  $S_j(0)$  is the amount of light scattered into zero phase from the back surface of the *j*th particle, and
+
+$$h_s = \frac{1}{2}K(\phi)Ea_E = \frac{3}{8}K(\phi)\left(\sum_j \frac{M_j Q_{Ej}}{\rho_j D_j}\right)^{3/2} / \left(\sum_j \frac{M_j}{\rho_j D_j^3}\right)^{1/2}, \quad (10.52a)$$
+
+where the filling factor is
+
+$$\phi = \sum_{j} N_{j} \frac{4}{3} \pi a_{j}^{3} = \sum_{j} \frac{M_{j}}{\rho_{j}},$$
+ (10.52b)
+
+$$h_C = \frac{\lambda}{4\pi \Lambda_T} = \frac{\lambda}{4\pi} S(1 - \xi). \tag{10.53}$$
+
+If the mixture is a binary one, a useful formula due to Helfenstein and Veverka (private communication, 1990) may be derived as follows. For a mixture of two types of particles, equations (10.50) and (10.51) may be written
+
+$$w = \frac{A_1w_1 + A_2w_2}{A_1 + A_2}$$
+ and  $\xi = \frac{A_1w_1\xi_1 + A_2w_2\xi_2}{A_1w_1 + A_2w_2}$ ,
+
+where  $A_1 = N_1 \sigma_1 Q_{E1}$  and  $A_2 = N_2 \sigma_2 Q_{E2}$ . These equations can be solved for  $A_1$  and  $A_2$ , and the resulting expressions substituted back into the expression for  $\xi$ , to
+
+give
+
+$$\xi = \frac{(w - w_2)w_1\xi_1 - (w - w_1)w_1\xi_2}{(w_1 - w_2)w}$$
+(10.54)
+
+Finally, the espat function of a mixture is
+
+$$W = \frac{1 - w}{w} = \frac{k}{E} = \frac{\sum_{j} N_{j} \sigma_{j} Q_{Aj}}{\sum_{j} N_{j} \sigma_{j} Q_{Sj}} = \left(\sum_{j} \frac{M_{j} Q_{AJ}}{\rho_{j} D_{j}}\right) / \left(\sum_{j} \frac{M_{j} Q_{Sj}}{\rho_{j} D_{j}}\right)$$
+(10.55)
+
+If the particles are large and closely packed, so that  $Q_{Ej} = 1$ , and  $Q_{sj} = w_j$ 
+
+$$w = \left(\sum_{j} \frac{M_{j}(1 - w_{j})}{\rho_{j}D_{j}}\right) / \left(\sum_{j} \frac{M_{j}w_{j}}{\rho_{j}D_{j}}\right) = \left(\sum_{j} \frac{M_{j}w_{j}}{\rho_{j}D_{j}}W_{j}\right) / \left(\sum_{j} \frac{M_{j}w_{j}}{\rho_{j}D_{j}}\right), \tag{10.56}$$
+
+where  $W_j = (1 - w_j)/w_j$  is the espat function of the jth type of particle. Note that the weighting parameter of  $W_j$  in W is  $M_j w_j/\rho_j D_j$ , not  $M_j/\rho_j D_j$ .
+
+The mixing equations have been verified experimentally by several workers. Clark (1983) and Johnson *et al.* (1983) measured the reflectances of mixtures and compared them with the values predicted from the end members. Comparisons between their predicted and measured reflectances are given in Figures 10.6 and 10.7.

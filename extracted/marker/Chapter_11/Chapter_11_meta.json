@@ -1,0 +1,1072 @@
+{
+  "table_of_contents": [
+    {
+      "title": "11",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          238.5,
+          53.66009521484375
+        ],
+        [
+          255.44384765625,
+          53.66009521484375
+        ],
+        [
+          255.44384765625,
+          71.590087890625
+        ],
+        [
+          238.5,
+          71.590087890625
+        ]
+      ]
+    },
+    {
+      "title": "Integrated reflectances and planetary photometry",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          90.27099609375,
+          83.273681640625
+        ],
+        [
+          402.78704833984375,
+          83.273681640625
+        ],
+        [
+          402.78704833984375,
+          99.21368408203125
+        ],
+        [
+          90.27099609375,
+          99.21368408203125
+        ]
+      ]
+    },
+    {
+      "title": "11.1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          205.39999389648438,
+          222.16796875
+        ],
+        [
+          288.64117431640625,
+          222.16796875
+        ],
+        [
+          288.64117431640625,
+          233.87222290039062
+        ],
+        [
+          205.39999389648438,
+          233.87222290039062
+        ]
+      ]
+    },
+    {
+      "title": "11.2 Integrated reflectances",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          181.0234375,
+          471.03562927246094
+        ],
+        [
+          312.17230224609375,
+          471.03562927246094
+        ],
+        [
+          312.17230224609375,
+          487.060546875
+        ],
+        [
+          181.0234375,
+          487.060546875
+        ]
+      ]
+    },
+    {
+      "title": "11.2.1 Biconical reflectances",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          180.5419921875,
+          486.0105743408203
+        ],
+        [
+          312.66552734375,
+          486.0105743408203
+        ],
+        [
+          312.66552734375,
+          496.9705810546875
+        ],
+        [
+          180.5419921875,
+          496.9705810546875
+        ]
+      ]
+    },
+    {
+      "title": "11.2.2 The hemispherical reflectance (directional\u2013hemispherical reflectance)\n11.2.2.1 Introduction",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.25390625,
+          69.384765625
+        ],
+        [
+          420.4068908691406,
+          69.384765625
+        ],
+        [
+          420.4068908691406,
+          95.51153564453125
+        ],
+        [
+          71.25390625,
+          95.51153564453125
+        ]
+      ]
+    },
+    {
+      "title": "11.2.2.2 The hemispherical reflectance of a medium of isotropic scatterers",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          82.08642578125,
+          478.2615203857422
+        ],
+        [
+          409.6255798339844,
+          478.2615203857422
+        ],
+        [
+          409.6255798339844,
+          489.2215270996094
+        ],
+        [
+          82.08642578125,
+          489.2215270996094
+        ]
+      ]
+    },
+    {
+      "title": "11.2.2.4 The modified IMSA model for the hemispherical reflectance",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          95.326171875,
+          369.82421875
+        ],
+        [
+          397.8465045592705,
+          369.82421875
+        ],
+        [
+          397.8465045592705,
+          379.97858672376873
+        ],
+        [
+          95.326171875,
+          379.97858672376873
+        ]
+      ]
+    },
+    {
+      "title": "11.2.3 The hemispherical-directional reflectance",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          133.60107421875,
+          514.8822269807281
+        ],
+        [
+          357.38753799392094,
+          514.8822269807281
+        ],
+        [
+          357.38753799392094,
+          525.341796875
+        ],
+        [
+          133.60107421875,
+          525.341796875
+        ]
+      ]
+    },
+    {
+      "title": "11.2.4 The spherical reflectance (bihemispherical reflectance)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          105.64285714285714,
+          423.486328125
+        ],
+        [
+          387.35714285714283,
+          423.486328125
+        ],
+        [
+          387.35714285714283,
+          435.107421875
+        ],
+        [
+          105.64285714285714,
+          435.107421875
+        ]
+      ]
+    },
+    {
+      "title": "11.3 Planetary photometry\n11.3.1 Introduction",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          182.4677734375,
+          555.7374267578125
+        ],
+        [
+          310.4328918457031,
+          555.7374267578125
+        ],
+        [
+          310.4328918457031,
+          581.6723098754883
+        ],
+        [
+          182.4677734375,
+          581.6723098754883
+        ]
+      ]
+    },
+    {
+      "title": "11.3.2 The normal albedo",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          186.3193359375,
+          280.2734375
+        ],
+        [
+          305.3548278808594,
+          280.2734375
+        ],
+        [
+          305.3548278808594,
+          291.38543701171875
+        ],
+        [
+          186.3193359375,
+          291.38543701171875
+        ]
+      ]
+    },
+    {
+      "title": "11.3.3 The photometric function",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          171.57598784194528,
+          69.70021413276231
+        ],
+        [
+          321.4240121580547,
+          69.70021413276231
+        ],
+        [
+          321.4240121580547,
+          80.322265625
+        ],
+        [
+          171.57598784194528,
+          80.322265625
+        ]
+      ]
+    },
+    {
+      "title": "11.3.4 The hemispherical albedo (plane albedo)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          137.1109422492401,
+          482.65524625267665
+        ],
+        [
+          355.13981762917933,
+          482.65524625267665
+        ],
+        [
+          355.13981762917933,
+          491.6488222698073
+        ],
+        [
+          137.1109422492401,
+          491.6488222698073
+        ]
+      ]
+    },
+    {
+      "title": "11.3.5 The physical albedo (geometric albedo)",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          140.85714285714286,
+          66.650390625
+        ],
+        [
+          351.3936170212766,
+          66.650390625
+        ],
+        [
+          351.3936170212766,
+          76.904296875
+        ],
+        [
+          140.85714285714286,
+          76.904296875
+        ]
+      ]
+    },
+    {
+      "title": "11.3.6 The integral phase function",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          167.54296875,
+          308.33770751953125
+        ],
+        [
+          325.8363037109375,
+          308.33770751953125
+        ],
+        [
+          325.8363037109375,
+          319.2976989746094
+        ],
+        [
+          167.54296875,
+          319.2976989746094
+        ]
+      ]
+    },
+    {
+      "title": "11.3.7 The spherical albedo (Bond albedo)",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          149.248046875,
+          104.931640625
+        ],
+        [
+          343.6227722167969,
+          104.931640625
+        ],
+        [
+          343.6227722167969,
+          116.23382568359375
+        ],
+        [
+          149.248046875,
+          116.23382568359375
+        ]
+      ]
+    },
+    {
+      "title": "11.3.8 The bolometric albedo",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          179.33837890625,
+          570.6259002685547
+        ],
+        [
+          313.4743957519531,
+          570.6259002685547
+        ],
+        [
+          313.4743957519531,
+          581.5858993530273
+        ],
+        [
+          179.33837890625,
+          581.5858993530273
+        ]
+      ]
+    },
+    {
+      "title": "11.3.9 The phase integral",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          187.04150390625,
+          173.12451171875
+        ],
+        [
+          304.51983642578125,
+          173.12451171875
+        ],
+        [
+          304.51983642578125,
+          184.08453369140625
+        ],
+        [
+          187.04150390625,
+          184.08453369140625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "Line",
+          26
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          246
+        ],
+        [
+          "Line",
+          56
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Equation",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          397
+        ],
+        [
+          "Line",
+          62
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "Equation",
+          7
+        ],
+        [
+          "PageHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          259
+        ],
+        [
+          "Line",
+          62
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          50
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          35
+        ],
+        [
+          "Span",
+          34
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          47
+        ],
+        [
+          "Span",
+          35
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          293
+        ],
+        [
+          "Line",
+          56
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          258
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Equation",
+          6
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          202
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          43
+        ],
+        [
+          "Span",
+          43
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          43
+        ],
+        [
+          "Span",
+          35
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          204
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          39
+        ],
+        [
+          "Span",
+          28
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          279
+        ],
+        [
+          "Line",
+          66
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          237
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Chapter_11"
+}
