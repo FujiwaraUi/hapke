@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -uo pipefail
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 # ---- 設定 ----
 PROJECT_DIR="/home/fy/user/knowledge/hapke"
@@ -31,7 +32,7 @@ for pdf in "$PDF_DIR"/Chapter_*.pdf; do
     # --disable_multiprocessing: メモリ使用量を抑制
     if marker_single "$pdf" \
 		     --output_dir "$OUT_DIR" \
-		     --layout_batch_size 2 \
+		     --layout_batch_size 1 \
 		     --recognition_batch_size 2 \
 		     --equation_batch_size 2 \
 		     --disable_multiprocessing \
